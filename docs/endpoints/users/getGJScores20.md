@@ -42,7 +42,8 @@ import requests
 data = {
     "secret": "Wmfd2893gb7",
     "type": "top",
-	"count": 20
+	"count": 20,
+	"stat": 0
 }
 
 req = requests.post('http://boomlings.com/database/getGJScores20.php', data=data)
