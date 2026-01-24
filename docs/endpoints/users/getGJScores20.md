@@ -26,7 +26,7 @@ Gets the leaderboard scores.
 
 **count** - Returns the amount of players specified. Limited to 100
 
-**stat** - The type of leaderboard requested. `0` for Star, `1` for Moon, `2` for User Coin, `3` for Demon
+**stat** - The user statistic to use when ordering `top`, `relative` and `friends` leaderboards. `0` - stars, `1` - moons, `2` - demons, `3` - user coins. Default: `0`.
 
 ## Response
 
