@@ -10,27 +10,27 @@ export default [
         "text": "Accounts",
         "items": [
           {
-            "text": "BackupGJAccountNew.Php",
+            "text": "backupGJAccountNew.php",
             "link": "/endpoints/accounts/backupGJAccountNew"
           },
           {
-            "text": "LoginGJAccount.Php",
+            "text": "loginGJAccount.php",
             "link": "/endpoints/accounts/loginGJAccount"
           },
           {
-            "text": "Register.Php",
+            "text": "register.php",
             "link": "/endpoints/accounts/register"
           },
           {
-            "text": "RegisterGJAccount.Php",
+            "text": "registerGJAccount.php",
             "link": "/endpoints/accounts/registerGJAccount"
           },
           {
-            "text": "SyncGJAccountNew.Php",
+            "text": "syncGJAccountNew.php",
             "link": "/endpoints/accounts/syncGJAccountNew"
           },
           {
-            "text": "UpdateGJAccSettings20.Php",
+            "text": "updateGJAccSettings20.php",
             "link": "/endpoints/accounts/updateGJAccSettings20"
           }
         ],
@@ -40,31 +40,31 @@ export default [
         "text": "Comments",
         "items": [
           {
-            "text": "DeleteGJAccComment20.Php",
+            "text": "deleteGJAccComment20.php",
             "link": "/endpoints/comments/deleteGJAccComment20"
           },
           {
-            "text": "DeleteGJComment20.Php",
+            "text": "deleteGJComment20.php",
             "link": "/endpoints/comments/deleteGJComment20"
           },
           {
-            "text": "GetGJAccountComments20.Php",
+            "text": "getGJAccountComments20.php",
             "link": "/endpoints/comments/getGJAccountComments20"
           },
           {
-            "text": "GetGJCommentHistory.Php",
+            "text": "getGJCommentHistory.php",
             "link": "/endpoints/comments/getGJCommentHistory"
           },
           {
-            "text": "GetGJComments21.Php",
+            "text": "getGJComments21.php",
             "link": "/endpoints/comments/getGJComments21"
           },
           {
-            "text": "UploadGJAccComment20.Php",
+            "text": "uploadGJAccComment20.php",
             "link": "/endpoints/comments/uploadGJAccComment20"
           },
           {
-            "text": "UploadGJComment21.Php",
+            "text": "uploadGJComment21.php",
             "link": "/endpoints/comments/uploadGJComment21"
           }
         ],
@@ -74,59 +74,59 @@ export default [
         "text": "Levels",
         "items": [
           {
-            "text": "DeleteGJLevelUser20.Php",
+            "text": "deleteGJLevelUser20.php",
             "link": "/endpoints/levels/deleteGJLevelUser20"
           },
           {
-            "text": "DownloadGJLevel22.Php",
+            "text": "downloadGJLevel22.php",
             "link": "/endpoints/levels/downloadGJLevel22"
           },
           {
-            "text": "GetGJDailyLevel.Php",
+            "text": "getGJDailyLevel.php",
             "link": "/endpoints/levels/getGJDailyLevel"
           },
           {
-            "text": "GetGJGauntlets21.Php",
+            "text": "getGJGauntlets21.php",
             "link": "/endpoints/levels/getGJGauntlets21"
           },
           {
-            "text": "GetGJLevels21.Php",
+            "text": "getGJLevels21.php",
             "link": "/endpoints/levels/getGJLevels21"
           },
           {
-            "text": "GetGJLevelScores211.Php",
+            "text": "getGJLevelScores211.php",
             "link": "/endpoints/levels/getGJLevelScores211"
           },
           {
-            "text": "GetGJLevelScoresPlat.Php",
+            "text": "getGJLevelScoresPlat.php",
             "link": "/endpoints/levels/getGJLevelScoresPlat"
           },
           {
-            "text": "GetGJMapPacks21.Php",
+            "text": "getGJMapPacks21.php",
             "link": "/endpoints/levels/getGJMapPacks21"
           },
           {
-            "text": "RateGJDemon21.Php",
+            "text": "rateGJDemon21.php",
             "link": "/endpoints/levels/rateGJDemon21"
           },
           {
-            "text": "RateGJStars211.Php",
+            "text": "rateGJStars211.php",
             "link": "/endpoints/levels/rateGJStars211"
           },
           {
-            "text": "ReportGJLevel.Php",
+            "text": "reportGJLevel.php",
             "link": "/endpoints/levels/reportGJLevel"
           },
           {
-            "text": "SuggestGJStars20.Php",
+            "text": "suggestGJStars20.php",
             "link": "/endpoints/levels/suggestGJStars"
           },
           {
-            "text": "UpdateGJDesc20.Php",
+            "text": "updateGJDesc20.php",
             "link": "/endpoints/levels/updateGJDesc20"
           },
           {
-            "text": "UploadGJLevel21.Php",
+            "text": "uploadGJLevel21.php",
             "link": "/endpoints/levels/uploadGJLevel21"
           }
         ],
@@ -136,15 +136,15 @@ export default [
         "text": "Lists",
         "items": [
           {
-            "text": "DeleteGJLevelList.Php",
+            "text": "deleteGJLevelList.php",
             "link": "/endpoints/lists/deleteGJLevelList"
           },
           {
-            "text": "GetGJLevelLists.Php",
+            "text": "getGJLevelLists.php",
             "link": "/endpoints/lists/getGJLevelLists"
           },
           {
-            "text": "UploadGJLevel21.Php",
+            "text": "uploadGJLevel21.php",
             "link": "/endpoints/lists/uploadGJLevelList"
           }
         ],
@@ -154,27 +154,27 @@ export default [
         "text": "Misc",
         "items": [
           {
-            "text": "GetAccountURL.Php",
+            "text": "getAccountURL.php",
             "link": "/endpoints/misc/getAccountURL"
           },
           {
-            "text": "GetSaveData.Php",
+            "text": "getSaveData.php",
             "link": "/endpoints/misc/getSaveData"
           },
           {
-            "text": "GetTop1000.Php",
+            "text": "getTop1000.php",
             "link": "/endpoints/misc/getTop1000"
           },
           {
-            "text": "LikeGJItem211.Php",
+            "text": "likeGJItem211.php",
             "link": "/endpoints/misc/likeGJItem211"
           },
           {
-            "text": "RequestUserAccess.Php",
+            "text": "requestUserAccess.php",
             "link": "/endpoints/misc/requestUserAccess"
           },
           {
-            "text": "RestoreGJItems.Php",
+            "text": "restoreGJItems.php",
             "link": "/endpoints/misc/restoreGJItems"
           }
         ],
@@ -184,15 +184,15 @@ export default [
         "text": "Multiplayer",
         "items": [
           {
-            "text": "ExitMPLobby.Php",
+            "text": "exitMPLobby.php",
             "link": "/endpoints/multiplayer/exitMPLobby"
           },
           {
-            "text": "JoinMPLobby.Php",
+            "text": "joinMPLobby.php",
             "link": "/endpoints/multiplayer/joinMPLobby"
           },
           {
-            "text": "UploadMPComment.Php",
+            "text": "uploadMPComment.php",
             "link": "/endpoints/multiplayer/uploadMPComment"
           }
         ],
@@ -202,15 +202,15 @@ export default [
         "text": "Rewards",
         "items": [
           {
-            "text": "GetGJChallenges.Php",
+            "text": "getGJChallenges.php",
             "link": "/endpoints/rewards/getGJChallenges"
           },
           {
-            "text": "GetGJRewards.Php",
+            "text": "getGJRewards.php",
             "link": "/endpoints/rewards/getGJRewards"
           },
           {
-            "text": "GetGJRewards.Php",
+            "text": "getGJRewards.php",
             "link": "/endpoints/rewards/getGJSecretReward"
           }
         ],
@@ -220,55 +220,55 @@ export default [
         "text": "Socials",
         "items": [
           {
-            "text": "AcceptGJFriendRequest20.Php",
+            "text": "acceptGJFriendRequest20.php",
             "link": "/endpoints/socials/acceptGJFriendRequest20"
           },
           {
-            "text": "BlockGJUser20.Php",
+            "text": "blockGJUser20.php",
             "link": "/endpoints/socials/blockGJUser20"
           },
           {
-            "text": "DeleteGJFriendRequests20.Php",
+            "text": "deleteGJFriendRequests20.php",
             "link": "/endpoints/socials/deleteGJFriendRequests20"
           },
           {
-            "text": "DeleteGJMessages20.Php",
+            "text": "deleteGJMessages20.php",
             "link": "/endpoints/socials/deleteGJMessages20"
           },
           {
-            "text": "DownloadGJMessage20.Php",
+            "text": "downloadGJMessage20.php",
             "link": "/endpoints/socials/downloadGJMessage20"
           },
           {
-            "text": "GetGJFriendRequests20.Php",
+            "text": "getGJFriendRequests20.php",
             "link": "/endpoints/socials/getGJFriendRequests20"
           },
           {
-            "text": "GetGJMessages20.Php",
+            "text": "getGJMessages20.php",
             "link": "/endpoints/socials/getGJMessages20"
           },
           {
-            "text": "GetGJUserList20.Php",
+            "text": "getGJUserList20.php",
             "link": "/endpoints/socials/getGJUserList20"
           },
           {
-            "text": "ReadGJFriendRequest20.Php",
+            "text": "readGJFriendRequest20.php",
             "link": "/endpoints/socials/readGJFriendRequest20"
           },
           {
-            "text": "RemoveGJFriend20.Php",
+            "text": "removeGJFriend20.php",
             "link": "/endpoints/socials/removeGJFriend20"
           },
           {
-            "text": "UnblockGJUser20.Php",
+            "text": "unblockGJUser20.php",
             "link": "/endpoints/socials/unblockGJUser20"
           },
           {
-            "text": "UploadFriendRequest20.Php",
+            "text": "uploadFriendRequest20.php",
             "link": "/endpoints/socials/uploadFriendRequest20"
           },
           {
-            "text": "UploadGJMessage20.Php",
+            "text": "uploadGJMessage20.php",
             "link": "/endpoints/socials/uploadGJMessage20"
           }
         ],
@@ -278,27 +278,27 @@ export default [
         "text": "Songs",
         "items": [
           {
-            "text": "GetCustomContentURL.Php",
+            "text": "getCustomContentURL.php",
             "link": "/endpoints/songs/getCustomContentURL"
           },
           {
-            "text": "GetGJSongInfo.Php",
+            "text": "getGJSongInfo.php",
             "link": "/endpoints/songs/getGJSongInfo"
           },
           {
-            "text": "GetGJTopArtists.Php",
+            "text": "getGJTopArtists.php",
             "link": "/endpoints/songs/getGJTopArtists"
           },
           {
-            "text": "Musiclibrary.Dat ",
+            "text": "musiclibrary.dat",
             "link": "/endpoints/songs/musiclibrary"
           },
           {
-            "text": "Sfxlibrary.Dat ",
+            "text": "sfxlibrary.dat",
             "link": "/endpoints/songs/sfxlibrary"
           },
           {
-            "text": "TestSong.Php",
+            "text": "testSong.php",
             "link": "/endpoints/songs/testSong"
           }
         ],
@@ -308,19 +308,19 @@ export default [
         "text": "Users",
         "items": [
           {
-            "text": "GetGJScores20.Php",
+            "text": "getGJScores20.php",
             "link": "/endpoints/users/getGJScores20"
           },
           {
-            "text": "GetGJUserInfo20.Php",
+            "text": "getGJUserInfo20.php",
             "link": "/endpoints/users/getGJUserInfo20"
           },
           {
-            "text": "GetGJUsers20.Php",
+            "text": "getGJUsers20.php",
             "link": "/endpoints/users/getGJUsers20"
           },
           {
-            "text": "UpdateGJUserScore22.Php",
+            "text": "updateGJUserScore22.php",
             "link": "/endpoints/users/updateGJUserScore22"
           }
         ],
@@ -575,7 +575,7 @@ export default [
         "link": "/topics/level_passwords"
       },
       {
-        "text": "Game Files   Encryption And Decryption",
+        "text": "Game Files Encryption And Decryption",
         "link": "/topics/localfiles_encrypt_decrypt"
       },
       {
