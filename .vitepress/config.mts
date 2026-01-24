@@ -34,10 +34,6 @@ function traverseSidebarItem(node: SidebarItem, depth: number) {
     if (node.text)
       node.text = capitalizeEachWord(node.text);
 
-    if (node.text?.startsWith("Endpoints")) {
-      node.collapsed = true;
-    }
-
     node.items.forEach((n) => traverseSidebarItem(n, depth + 1));
   }
 }
