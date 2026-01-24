@@ -36,7 +36,7 @@ Updates a user's account settings
 
 ## Response
 
-1 if the required parameters are passed, regardless of anything is being updated, -1 otherwise
+1 if the required parameters are passed, regardless of whether anything is being updated, -1 otherwise.
 
 ## Example
 
