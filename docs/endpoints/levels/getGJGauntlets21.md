@@ -12,11 +12,13 @@ Gets the gauntlet levels.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 47
 
 **gdw** - 0
 
 **special** - 1 (fetches the 2.2 gauntlets)
+
+**vkey** - equal to binaryVersion (starting with 46, which is 2.2080). Fetches the newer gauntlets
 
 ## Response
 
