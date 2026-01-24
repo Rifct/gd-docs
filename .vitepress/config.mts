@@ -1,50 +1,20 @@
 import { defineConfig } from 'vitepress'
-import type { Sidebar, SidebarItem } from 'vitepress-sidebar/types';
-import { generateSidebar } from 'vitepress-sidebar';
+import sidebar from './sidebar.mts';
+// import type { Sidebar, SidebarItem } from 'vitepress-sidebar/types';
+// import { generateSidebar } from 'vitepress-sidebar';
 
-const sidebar = generateSidebar({
-  documentRootPath: '/docs',
-  collapsed: false,
-  underscoreToSpace: true,
-  hyphenToSpace: true,
-  useTitleFromFileHeading: true,
-  useTitleFromFrontmatter: true,
-  sortFolderTo: "top",
-  useFolderTitleFromIndexFile: true,
-  collapseDepth: 2,
-});
-
-function capitalizeEachWord(text: string): string {
-  // from https://github.com/jooy2/vitepress-sidebar/blob/main/lib/helper.ts#L103
-  let lastChar = '';
-
-  for (let i = 0; i < text.length; i += 1) {
-    if ((i === 0 || !/[a-zA-Z0-9]/.test(lastChar)) && /[a-z]/.test(text[i])) {
-      text = text.slice(0, i) + text[i].toUpperCase() + text.slice(i + 1);
-    }
-
-    lastChar = text[i];
-  }
-
-  return text;
-}
-
-function traverseSidebarItem(node: SidebarItem, depth: number) {
-  if (node.items && node.items.length > 0) {
-    if (node.text)
-      node.text = capitalizeEachWord(node.text);
-
-    node.items.forEach((n) => traverseSidebarItem(n, depth + 1));
-  }
-}
-
-function traverseSidebar(sidebar: Sidebar) {
-  if (Array.isArray(sidebar)) {
-    sidebar.forEach(i => traverseSidebarItem(i, 0));
-  }
-}
-
-traverseSidebar(sidebar);
+// const sidebar = generateSidebar({
+//   documentRootPath: '/docs',
+//   collapsed: false,
+//   underscoreToSpace: true,
+//   hyphenToSpace: true,
+//   useTitleFromFileHeading: true,
+//   useTitleFromFrontmatter: true,
+//   sortFolderTo: "top",
+//   useFolderTitleFromIndexFile: true,
+//   collapseDepth: 2,
+//   capitalizeEachWords: true
+// });
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
