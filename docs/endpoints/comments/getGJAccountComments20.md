@@ -14,13 +14,17 @@ Gets a user's account comments.
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 47
 
 **gdw** - 0
 
+**dvs** - 3
+
 **total** - Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works.
+
+**count** - Amount of account comments that will be returned. Max 20, default 10
 
 ## Response
 
