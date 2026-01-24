@@ -49,4 +49,5 @@ export default defineConfig(withSidebar({
   useTitleFromFileHeading: true,
   useTitleFromFrontmatter: true,
   sortFolderTo: "top",
+  useFolderTitleFromIndexFile: true
 }));

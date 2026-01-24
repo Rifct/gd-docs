@@ -1,3 +1,7 @@
+---
+title: Smart Templates
+---
+
 # Smart Templates (kCEK 10 & 11)
 
 Smart Templates are user-made templates used for the Auto Build feature. They are stored in [GLM_20](/resources/client/gamesave/GLM.md#GLM_20).
