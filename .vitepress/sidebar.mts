@@ -22,10 +22,6 @@ export default [
             "link": "/endpoints/accounts/loginGJAccount"
           },
           {
-            "text": "register.php",
-            "link": "/endpoints/accounts/register"
-          },
-          {
             "text": "registerGJAccount.php",
             "link": "/endpoints/accounts/registerGJAccount"
           },
@@ -561,6 +557,10 @@ export default [
           }
         ],
         "collapsed": true
+      },
+      {
+        "text": "Account Management",
+        "link": "/topics/account_management"
       },
       {
         "text": "CDN Tokens",
