@@ -1,3 +1,7 @@
+<center>
+	<img src="/public/logotext.png" height="500" width="500" alt="logo">
+</center>
+
 # Introduction
 
 Welcome to the Geometry Dash documentation project. On this website, you will find lots of information regarding the popular indie game **Geometry Dash!**
