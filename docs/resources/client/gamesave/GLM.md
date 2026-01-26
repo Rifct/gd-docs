@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # GLM
 
 GLM (Global Levels Manager) are various Dictionaries that contain every bit of information you need to know about online levels
@@ -184,7 +187,7 @@ GLM_19 is a dictionary of the folders for local levels
 |:----|:------|
 | `{folder ID}` | `{Folder Name}` |
 
-## GLM_20 
+## GLM_20
 
 GLM_20 is a dictionary of all the editor smart templates you have saved
 
@@ -192,11 +195,11 @@ GLM_20 is a dictionary of all the editor smart templates you have saved
 |:----|:------------|
 | kCEK 10 | [level data](/resources/client/gamesave/template.md) |
 
-## GLM_21 
+## GLM_21
 
 This GLM is unknown, but it presumably had something to do with lists. It was in 2.200 but is not in 2.206
 
-## GLM_22 
+## GLM_22
 
 GLM_22 is a dictionary of all your favorited lists
 

@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Tags
 
 Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML`. Geometry Dash has 4 primary types of tags:

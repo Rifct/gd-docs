@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Game Files - Encryption and Decryption
 
 Although Geometry Dash's install path is usually inside the user's `steamapps/common` folder (if the game was bought from Steam) the game will actually store all relevant user data inside the `AppData/Local` directory, in which a new folder will be created under the name of `GeometryDash`. This folder contains all custom songs that the user has downloaded but it also contains 2 important files, which are *CCGameManager.dat* and *CCLocalLevels.dat*; the first one contains all the information regarding the player's in-game stats and preferences while the latter contains the data for the game's user created levels.

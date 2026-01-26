@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Level Colors
 This document goes in depth on how colors, copy colors and player color work as base colors or in color/pulse triggers.
 

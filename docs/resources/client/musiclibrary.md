@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Music Library format
 
 The Music Library is stored in your save directory as `musiclibrary.dat`. To learn how to retreive it from the servers, refer to [this page](/endpoints/songs/musiclibrary.md).

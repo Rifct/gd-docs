@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # GS Value
 
 GS values contain Information regarding certain aspects of the game

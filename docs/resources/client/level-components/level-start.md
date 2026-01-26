@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Client Level Start String
 
 The start level string consists of information about the starting state of the level and the objects it contains. It is encoded in base64. Its raw representation is formatted as follows:
@@ -95,7 +98,7 @@ Keys `kS16`-`kS20` used to determine the player color that was being used and th
 | 1     | Player Color 1 |
 | 2     | Player Color 2 |
 
-### Start Pos Object
+## Start Pos Object
 The Start Pos object has the same special properties the level start object has, with a few not working and with a few exclusive ones, listed at the bottom. `kA9` must be set to `1` in the case that the object is indeed a Start Pos.
 
 Specifically, the only functional properties in a Start Pos object are the ones involving gameplay state, thus excluding visual-related ones (BG/ground textures, font, colors, etc.)

@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Capacity String
 
 > The Capacity String (commonly known as the `extra string`) is a long string split up into 54 components each having an Integer assigned to them. The role of the Capacity String is to save the cost of memory re-allocation when rendering levels
@@ -6,7 +9,9 @@
 
 Below is the Capacity String for the level `Bloodlust` by Knobbelboy
 
-    0_2044_1248_57_0_70_1988_963_0_0_4526_6982_465_0_623_995_0_0_0_0_0_0_53_0_0_0_0_0_0_0_0_0_35_105_38_0_0_0_0_0_0_0_0_0_294_1173_38_0_0_0_0_0_0_0_0  
+```
+0_2044_1248_57_0_70_1988_963_0_0_4526_6982_465_0_623_995_0_0_0_0_0_0_53_0_0_0_0_0_0_0_0_0_35_105_38_0_0_0_0_0_0_0_0_0_294_1173_38_0_0_0_0_0_0_0_0
+```
 
 ## Structure
 

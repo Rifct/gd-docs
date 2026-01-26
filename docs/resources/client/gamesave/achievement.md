@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Achievements
 
 Geometry Dash has 581 achievements that you can acquire, 2 of them are exclusive to the Steam version of the game. You can find out how to get all the achievements [here](https://geometry-dash.fandom.com/wiki/Achievements).

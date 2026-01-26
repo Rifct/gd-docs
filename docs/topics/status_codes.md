@@ -1,19 +1,18 @@
+---
+aside: true
+---
 # Status Codes
-
-## Server
 
 Events over the Geometry Dash servers usually send an error code denoting that the server either had an error, or you sent an invalid request.
 
-### Server Status Codes
+## Common Codes
 
 | Code |                Name                                              |                                   Description                                       |
 |------|------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | -1   | Invalid Request                                                  | A parameter in your [HTTP request](/endpoints/generic.md) to the server was invalid.|
 | -2   | [Common](/topics/status_codes#endpoint-specific-status-codes) | This status code is commonly used in multiple endpoints either for `taken` things, or theres none of something. |
 
-### Endpoint-specific Status Codes
-
-#### registerGJAccount
+## registerGJAccount
 
 | Code | Name | Description |
 |:-----|:-----|:------------|
@@ -27,7 +26,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 | `-9` | Too short. Minimum 3 characters | If the name is less than 3 characters long |
 | `-99` | Emails do not match | if emails do not match |
 
-#### loginGJAccount
+## loginGJAccount
 
 | Code | Name | Description |
 |:-----|:-----|:------------|
@@ -38,7 +37,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 | `-12`| Account Disabled | Your account has been disabled |
 | `-13`| Account already linked to a steam account | An unused error code which supposedly only allowed a single account per steam account |
 
-#### syncGJAccount/backupGJAccount
+## syncGJAccount/backupGJAccount
 
 | Code | Name | Description |
 |:-----|:-----|:------------|
@@ -48,13 +47,13 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 | `-6`   | Something went wrong | Something went wrong on the servers' end |
 
 
-#### suggestGJStars/rateGJDemon
+## suggestGJStars/rateGJDemon
 
 | Code | Name | Description |
 |:-----|:-----|:------------|
 | `-2` | Not a Moderator | If you try to send a level despite not being a moderator |
 
-#### uploadGJComment/uploadGJAccComment
+## uploadGJComment/uploadGJAccComment
 
 | Code | Name | Description |
 |:-----|:-----|:------------|

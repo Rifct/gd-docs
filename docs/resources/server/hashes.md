@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Hashes
 
 The hash is a segment commonly sent in requests, which is checked by the GD Client to ensure the validity of the request. This was added in 2.02 to combat GDPSes (GD Private Servers).

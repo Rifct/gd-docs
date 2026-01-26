@@ -1,13 +1,14 @@
+---
+aside: true
+---
 # Server Comment Resource
-
-## Comment
 
 A Comment is a message that the player can create inside of Geometry Dash. There are **Two** types of comments: `Level Comments` and `Account Comments`
 
 > - `Level Comments` can be found after pressing the `i` button which is located on the right side of the level menu which then opens the Comment Menu - you can also view comments by clicking on the comment icon on the player Profile. To Post a comment, the player has to click on the speech bubble icon and they can type their comment. Without any external tools, a comment can be up to **100** Characters in length<br/><br/>
 > - `Account Comments` can be found on a user's profile. `Account Comments` are exactly the same as `Level Comments` however the following keys will not affect it: `10, 11, 12`<br/>To Upload an Account Comment the player must click the speech bubble icon on their profile and they can type their comment. Without any external tools, a comment can be up to **140** Characters in length
 
-### Comment Object
+## Comment Object
 
 A comment object is split into two sections: a `Comment String` and an `Author String`. these two strings are divided by a `:`
 
@@ -19,12 +20,12 @@ The `Comment String` and `User String` are both structured with a `key~value~key
 
 <!-- tabs:start -->
 
-#### **Level Comment Example**
+### Level Comment Example
 ```md
 2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~14~3~15~2~16~9276649       
 ```
 
-#### **Account Comment Example**
+### Account Comment Example
 ```md
 2~R0QgRG9jcyBhcmUgZXBpYw==~4~11~9~3 months~6~18083050
 ```
@@ -34,7 +35,7 @@ The `Comment String` and `User String` are both structured with a `key~value~key
 Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
 A list of all known keys can be found in the table below
 
-### Comment Structure
+## Comment Structure
 
 **Note:** Keys marked with an asterisk `*` do not affect `Account Comments`
 
@@ -67,14 +68,14 @@ A list of all known keys can be found in the table below
 | 15  | glow					  | **Integer**									 | 0 = no glow, 2 = glow
 | 16  | accountID				  | **Integer**									 | Author's account ID. **This is different than the player ID**
 
-### Comment Bans
+## Comment Bans
 
 If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can be banned from posting comments.
 > As of Geometry Dash version 2.11, there are 2 different types of bans<br/>  
 > - Permanent Bans - Only way to recieve one is by RobTop directly. The server response to trigger this is `-10`  
 > - Temporary Bans - Elder Moderators and RobTop are able to enforce these onto people. The server response to trigger temporary bans is split into 3 components `temp_{length}_{reason}`
 
-#### Temporary Ban Structure
+### Temporary Ban Structure
 
 | Component | Description |
 |:----------|:------------|
@@ -82,7 +83,7 @@ If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can
 | `length` | The duration of the ban in seconds |
 | `reason` | The reason the user was banned |
 
-### Trivia
+## Trivia
 
 - The `User String` uses the same response parser that [player profiles](/resources/server/user) use
 

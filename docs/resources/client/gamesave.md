@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Client Gamesave Resource
 
 ## CCGameManager.dat
@@ -85,7 +88,7 @@ These keys were used in old versions of the game but are now obsolete.
 | kEnableTutorial | Bool | unknown |
 | showedFirstTutorial | Bool | unknown |
 
-### GLM 
+## GLM
 
 | Key     | Type | description |
 | :-------| :--- | :-----------|
@@ -109,7 +112,7 @@ These keys were used in old versions of the game but are now obsolete.
 | [GLM_19](/resources/client/gamesave/GLM.md#GLM_19) | Folder | The Folder names for Local Levels |
 | [GLM_20](/resources/client/gamesave/GLM.md#GLM_20) | [Templates](/resources/client/gamesave/template.md) | Your Smart Templates |
 
-### GS
+## GS
 
 | Key     | Type |
 | :-------| :--- |
@@ -142,7 +145,7 @@ These keys were used in old versions of the game but are now obsolete.
 | [GS_28](/resources/client/gamesave/GS_Value#GS_28)| Your enabled items (animations) |
 | [GS_29](/resources/client/gamesave/GS_Value#GS_29)| Unknown (boolean) |
 
-### GJA
+## GJA
 
 | Key | Value|
 | :-- |:-----------|
@@ -152,7 +155,7 @@ These keys were used in old versions of the game but are now obsolete.
 | GJA_004 | Session ID (unused) |
 | GJA_005 | Your password with [GJP2](/topics/gjp.md) Encryption|
 
-### LLM
+## LLM
 
 | Key | Value|
 | :-- |:-----------|
@@ -160,7 +163,7 @@ These keys were used in old versions of the game but are now obsolete.
 | LLM_02 | Hardcoded to `binaryVersion`|
 | LLM_03 | Local [Lists](/resources/client/gamesave/list.md) |
 
-### MDLM
+## MDLM
 
 | Key | Value |
 |:----|:------|
@@ -168,7 +171,7 @@ These keys were used in old versions of the game but are now obsolete.
 | MDLM_002 | Song Priority of a song |
 | MDLM_003 | Unknown (dict) |
 
-### KBM
+## KBM
 
 | Key | Value |
 |:----|:------|

@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # CHK
 
 CHK is a common parameter in requests, which is intended to improve security.

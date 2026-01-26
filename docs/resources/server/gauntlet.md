@@ -1,6 +1,7 @@
+---
+aside: true
+---
 # Server Gauntlet Resource
-
-## Gauntlet Info
 
 Gauntlets are a collection of themed levels created by the users of Geometry Dash which were hand-picked by RobTop.
 
@@ -10,7 +11,7 @@ Gauntlets are a collection of themed levels created by the users of Geometry Das
 A typical gauntlet server response is structured with a `key:value:key:value` pairing and is then split with a `|`
 <!-- tabs:start -->
 
-#### **Gauntlet Example Response**
+#### **Example Response**
 ```md
 1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
 ```
@@ -19,14 +20,14 @@ A typical gauntlet server response is structured with a `key:value:key:value` pa
 Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
 A list of all known keys can be found in the table below
 
-### Gauntlet Structure
+## Structure
 
 | Key | Name/Value | Type       | Description                           |
 | --- | ---------- | ---------- | ------------------------------------- |
 | 1   | gauntletID | **Integer**| the Gauntlet ID, starting at 1        |
 | 3   | levels     | **String** | List of gauntlet level IDs seperated by `,`|
 
-### Gauntlet names
+## Names
 
 Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
 
@@ -95,7 +96,7 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
 | 59 | Cinema |
 | 60 | Love |
 
-### Trivia
+## Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
 - The **Spike Gauntlet** used to be improperly capitalized in 2.1 as **spike Gauntlet**

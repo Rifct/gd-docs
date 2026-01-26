@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # Enumerations (Enums)
 
 Here you will find the enumerations that are related to the level string.

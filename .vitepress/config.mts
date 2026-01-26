@@ -49,7 +49,9 @@ export default defineConfig({
     docFooter: {
       prev: false,
       next: false,
-    }
+    },
+
+    aside: false
   },
 
   head: [
