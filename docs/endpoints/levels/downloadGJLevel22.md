@@ -45,6 +45,7 @@ where:
 - `{hash1}` and `{hash2}` are integrity [hashes](/resources/server/hashes.md#downloadgjlevel) the GD client uses to validate the response
 - `{user}` is the user that uploaded the level, in the format `userID:username:accountID` - only returned when requesting level ID `-1` (daily), `-2` (weekly) or `-3` (event)
 - `{songs}` is the list of song objects that the level uses
+
 The last 2 segments are only returned when `binaryVersion` >= 42, else it's just `{level}#{hash1}#{hash2}`
 
 ## Example
