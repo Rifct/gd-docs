@@ -4,29 +4,19 @@ Gets the leaderboard scores.
 
 ## Parameters
 
-### Required Parameters
 
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**udid** - The player's user ID / UDID
-
-**accountID** - The account ID of the user viewing the leaderboards
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**type** - Can be `top`, `relative`, `friends`, or `creators`. If left out it defaults to `top`
-
-**count** - Returns the amount of players specified. Limited to 100
-
-**stat** - The user statistic to use when ordering `top`, `relative` and `friends` leaderboards. `0` - stars, `1` - moons, `2` - demons, `3` - user coins. Default: `0`.
+| Parameter       | Explanation                                                                                                                                                   | Required |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `secret`        | Wmfd2893gb7                                                                                                                                                   | Yes      |
+| `gameVersion`   | 22                                                                                                                                                            |          |
+| `binaryVersion` | 42                                                                                                                                                            |          |
+| `gdw`           | 0                                                                                                                                                             |          |
+| `udid`          | The player's user ID / UDID                                                                                                                                   |          |
+| `accountID`     | The account ID of the user viewing the leaderboards                                                                                                           |          |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                                                             |          |
+| `type`          | Can be `top`, `relative`, `friends`, or `creators`. If left out it defaults to `top`                                                                          |          |
+| `count`         | Returns the amount of players specified. Limited to 100                                                                                                       |          |
+| `stat`          | The user statistic to use when ordering `top`, `relative` and `friends` leaderboards. `0` - stars, `1` - moons, `2` - demons, `3` - user coins. Default: `0`. |          | <!-- TODO: create table for values -->
 
 ## Response
 

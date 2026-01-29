@@ -4,89 +4,48 @@ Updates a user's data
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - Account ID of the user updating their profile
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user updating their profile
-
-**stars** - The amount of stars the user has
-
-**moons** - The amount of moons the user has
-
-**demons** - The amount of demons the user has, including official levels
-
-**diamonds** - The amount of diamonds the user has
-
-**icon** - Which icon the iconType has selected, for example if iconType is 0 (cube), then it's the selected cube
-
-**iconType** - Which gamemode the player has last selected when changing their icons, 0 for cube, 1 for ship, 2 for ball, 3 for ufo, 4 for wave, 5 for robot, 6 for spider
-
-**coins** - The amount of secret coins the user has
-
-**userCoins** - The amount of user coins the user has
-
-**accIcon** - The ID of the user's selected icon.
-
-**accShip** - The ID of the user's selected ship.
-
-**accBall** - The ID of the user's selected ball.
-
-**accBird** - The ID of the user's selected UFO.
-
-**accDart** - The ID of the user's selected wave.
-
-**accRobot** - The ID of the user's selected robot.
-
-**accGlow** - Whether the user has glow enabled.
-
-**accSpider** - The ID of the user's selected spider.
-
-**accExplosion** - The ID of the user's selected death effect.
-
-**accSwing** - The ID of the user's selected swing.
-
-**accJetpack** - The ID of the user's selected jetpack.
-
-**seed2** - [See here](/topics/encryption/chk#user-profile)
-
-**sinfo** - List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`
-
-**sinfod** - Amount of completed dailies
-
-**sinfog** - Amount of completed gauntlet non-demon levels
-
-**sinfoe** - Amount of completed event non-demon levels
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**userName** - The username of the player
-
-**color1** - Color 1 of the player. Defaults to the default primary color when left out
-
-**color2** - Color 2 of the player. Defaults to the default secondary color when left out
-
-**color3** - Glow color of the player. Defaults to secondary color when left out
-
-**special** - Glow (2 if enabled)
-
-**dinfo** - List of all completed demons (level IDs separated by `,`). Does not include official, weekly, gauntlet and event levels. Not sent if empty
-
-**dinfow** - Amount of completed weeklies. Sent only together with dinfo
-
-**dinfog** - Amount of completed gauntlet demons. Sent only together with dinfo
-
-**dinfoe** - Amount of completed event demons. Sent only together with dinfo
-
-**seed** - A random set of 10 numbers and letters in A-Za-z0-9
+| Parameter       | Explanation                                                                                                                                                                                                                                                                                                                                              | Required |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | Account ID of the user updating their profile                                                                                                                                                                                                                                                                                                            | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the user updating their profile                                                                                                                                                                                                                                                                                            | Yes      |
+| `stars`         | The amount of stars the user has                                                                                                                                                                                                                                                                                                                         | Yes      |
+| `moons`         | The amount of moons the user has                                                                                                                                                                                                                                                                                                                         | Yes      |
+| `demons`        | The amount of demons the user has, including official levels                                                                                                                                                                                                                                                                                             | Yes      |
+| `diamonds`      | The amount of diamonds the user has                                                                                                                                                                                                                                                                                                                      | Yes      |
+| `icon`          | Which icon the iconType has selected, for example if iconType is 0 (cube), then it's the selected cube                                                                                                                                                                                                                                                   | Yes      |
+| `iconType`      | Which gamemode the player has last selected when changing their icons, 0 for cube, 1 for ship, 2 for ball, 3 for ufo, 4 for wave, 5 for robot, 6 for spider                                                                                                                                                                                              | Yes      |
+| `coins`         | The amount of secret coins the user has                                                                                                                                                                                                                                                                                                                  | Yes      |
+| `userCoins`     | The amount of user coins the user has                                                                                                                                                                                                                                                                                                                    | Yes      |
+| `accIcon`       | The ID of the user's selected icon.                                                                                                                                                                                                                                                                                                                      | Yes      |
+| `accShip`       | The ID of the user's selected ship.                                                                                                                                                                                                                                                                                                                      | Yes      |
+| `accBall`       | The ID of the user's selected ball.                                                                                                                                                                                                                                                                                                                      | Yes      |
+| `accBird`       | The ID of the user's selected UFO.                                                                                                                                                                                                                                                                                                                       | Yes      |
+| `accDart`       | The ID of the user's selected wave.                                                                                                                                                                                                                                                                                                                      | Yes      |
+| `accRobot`      | The ID of the user's selected robot.                                                                                                                                                                                                                                                                                                                     | Yes      |
+| `accGlow`       | Whether the user has glow enabled.                                                                                                                                                                                                                                                                                                                       | Yes      |
+| `accSpider`     | The ID of the user's selected spider.                                                                                                                                                                                                                                                                                                                    | Yes      |
+| `accExplosion`  | The ID of the user's selected death effect.                                                                                                                                                                                                                                                                                                              | Yes      |
+| `accSwing`      | The ID of the user's selected swing.                                                                                                                                                                                                                                                                                                                     | Yes      |
+| `accJetpack`    | The ID of the user's selected jetpack.                                                                                                                                                                                                                                                                                                                   | Yes      |
+| `seed2`         | [See here](/topics/encryption/chk#user-profile)                                                                                                                                                                                                                                                                                                          | Yes      |
+| `sinfo`         | List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}` | Yes      | <!-- TODO: add example below -->
+| `sinfod`        | Amount of completed dailies                                                                                                                                                                                                                                                                                                                              | Yes      |
+| `sinfog`        | Amount of completed gauntlet non-demon levels                                                                                                                                                                                                                                                                                                            | Yes      |
+| `sinfoe`        | Amount of completed event non-demon levels                                                                                                                                                                                                                                                                                                               | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                                                                                                                                                                                                                                                              | Yes      |
+| `gameVersion`   | 22                                                                                                                                                                                                                                                                                                                                                       |          |
+| `binaryVersion` | 42                                                                                                                                                                                                                                                                                                                                                       |          |
+| `gdw`           | 0                                                                                                                                                                                                                                                                                                                                                        |          |
+| `userName`      | The username of the player                                                                                                                                                                                                                                                                                                                               |          |
+| `color1`        | Color 1 of the player. Defaults to the default primary color when left out                                                                                                                                                                                                                                                                               |          |
+| `color2`        | Color 2 of the player. Defaults to the default secondary color when left out                                                                                                                                                                                                                                                                             |          |
+| `color3`        | Glow color of the player. Defaults to secondary color when left out                                                                                                                                                                                                                                                                                      |          |
+| `special`       | Glow (2 if enabled)                                                                                                                                                                                                                                                                                                                                      |          |
+| `dinfo`         | List of all completed demons (level IDs separated by `,`). Does not include official, weekly, gauntlet and event levels. Not sent if empty                                                                                                                                                                                                               |          |
+| `dinfow`        | Amount of completed weeklies. Sent only together with dinfo                                                                                                                                                                                                                                                                                              |          |
+| `dinfog`        | Amount of completed gauntlet demons. Sent only together with dinfo                                                                                                                                                                                                                                                                                       |          |
+| `dinfoe`        | Amount of completed event demons. Sent only together with dinfo                                                                                                                                                                                                                                                                                          |          |
+| `seed`          | A random set of 10 numbers and letters in A-Za-z0-9                                                                                                                                                                                                                                                                                                      |          |
 
 ## Response
 
