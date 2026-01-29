@@ -4,23 +4,15 @@
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - Account ID of the user deleting the comment
-
-**gjp** - The [GJP](/topics/gjp.md) of the user deleting the comment
-
-**commentID** - The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md))
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Parameter       | Explanation                                                                                                           | Required |
+| --------------- | --------------------------------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | Account ID of the user deleting the comment                                                                           | Yes      |
+| `gjp`           | The [GJP](/topics/gjp.md) of the user deleting the comment                                                            | Yes      |
+| `commentID`     | The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)) | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                           | Yes      |
+| `gameVersion`   | 21                                                                                                                    |          |
+| `binaryVersion` | 35                                                                                                                    |          |
+| `gdw`           | 0                                                                                                                     |          |
 
 ## Response
 

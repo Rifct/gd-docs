@@ -4,27 +4,17 @@ Posts an account comment
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - Account ID of the user posting the comment
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user posting the comment
-
-**comment** - The comment's text, converted to [URL-safe base64](/topics/encryption/base64).
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**cType** - The comment type, 0 for level, 1 for user
-
-[**chk**](/topics/encryption/chk#comment) - Unsure
+| Parameter                               | Explanation                                                                    | Required |
+| --------------------------------------- | ------------------------------------------------------------------------------ | -------- |
+| `accountID`                             | Account ID of the user posting the comment                                     | Yes      |
+| `gjp2`                                  | The [GJP2](/topics/gjp.md) of the user posting the comment                     | Yes      |
+| `comment`                               | The comment's text, converted to [URL-safe base64](/topics/encryption/base64). | Yes      |
+| `secret`                                | Wmfd2893gb7                                                                    |          |
+| `gameVersion`                           | 22                                                                             |          |
+| `binaryVersion`                         | 42                                                                             |          |
+| `gdw`                                   | 0                                                                              |          |
+| `cType`                                 | The comment type, 0 for level, 1 for user                                      |          |
+| [`chk`](/topics/encryption/chk#comment) | Unsure                                                                         |          |
 
 ## Response
 

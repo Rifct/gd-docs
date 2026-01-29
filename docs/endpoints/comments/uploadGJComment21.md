@@ -4,31 +4,19 @@ Uploads a comment to a user level.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The commenter's account ID
-
-**gjp2** - The commenter's [GJP2](/topics/gjp.md)
-
-**userName** - The commenter's username
-
-**comment** - The comment, converted to [URL-safe base64](/topics/encryption/base64)
-
-**secret** - Wmfd2893gb7
-
-**levelID** - The ID of the level to comment on. If commenting on a list, the ID should be negative
-
-**percent** - The level percentage shown on the comment
-
-[**chk**](/topics/encryption/chk) - `userName` + `comment` + `levelID` + `percent`
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter                       | Explanation                                                                           | Required |
+| ------------------------------- | ------------------------------------------------------------------------------------- | -------- |
+| `accountID`                     | The commenter's account ID                                                            | Yes      |
+| `gjp2`                          | The commenter's [GJP2](/topics/gjp.md)                                                | Yes      |
+| `userName`                      | The commenter's username                                                              | Yes      |
+| `comment`                       | The comment, converted to [URL-safe base64](/topics/encryption/base64)                | Yes      |
+| `secret`                        | Wmfd2893gb7                                                                           | Yes      |
+| `levelID`                       | The ID of the level to comment on. If commenting on a list, the ID should be negative | Yes      |
+| `percent`                       | The level percentage shown on the comment                                             | Yes      |
+| [`chk`](/topics/encryption/chk) | `userName` + `comment` + `levelID` + `percent`                                        | Yes      |
+| `gameVersion`                   | 22                                                                                    |          |
+| `binaryVersion`                 | 42                                                                                    |          |
+| `gdw`                           | 0                                                                                     |          |
 
 ## Response
 

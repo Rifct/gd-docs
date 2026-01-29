@@ -4,25 +4,16 @@ Deletes a level comment.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The account ID of the user who is deleting the comment
-
-**gjp** - The [GJP](/topics/gjp.md) of the user who is deleting the comment
-
-**commentID** - ID of the comment
-
-**levelID** - ID of the level the comment is on
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Parameter       | Explanation                                                       | Required |
+| --------------- | ----------------------------------------------------------------- | -------- |
+| `accountID`     | The account ID of the user who is deleting the comment            | Yes      |
+| `gjp`           | The [GJP](/topics/gjp.md) of the user who is deleting the comment | Yes      |
+| `commentID`     | ID of the comment                                                 | Yes      |
+| `levelID`       | ID of the level the comment is on                                 | Yes      |
+| `secret`        | Wmfd2893gb7                                                       | Yes      |
+| `gameVersion`   | 21                                                                |          |
+| `binaryVersion` | 35                                                                |          |
+| `gdw`           | 0                                                                 |          |
 
 ## Response
 

@@ -4,27 +4,17 @@ Gets a user's account comments.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The ID of the account whose comments you're getting
-
-**page** - Which page of comments you want to see
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 47
-
-**gdw** - 0
-
-**dvs** - 3
-
-**total** - Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works.
-
-**count** - Amount of account comments that will be returned. Max 20, default 10
+| Parameter       | Explanation                                                                                         | Required |
+| --------------- | --------------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The ID of the account whose comments you're getting                                                 | Yes      |
+| `page`          | Which page of comments you want to see                                                              | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                         | Yes      |
+| `gameVersion`   | 22                                                                                                  |          |
+| `binaryVersion` | 47                                                                                                  |          |
+| `gdw`           | 0                                                                                                   |          |
+| `dvs`           | 3                                                                                                   |          |
+| `total`         | Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works. |          |
+| `count`         | Amount of account comments that will be returned. Max 20, default 10                                |          |
 
 ## Response
 
