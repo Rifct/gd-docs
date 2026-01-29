@@ -6,23 +6,15 @@ Saves account data
 
 ## Parameters
 
-### Required Parameters
-
-**userName** - The username of the account to be added
-
-**password** - The password of the account to be added
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**saveData** - The save data for CCGameManager.dat compressed with gzip, then a semicolon `;` and the save data for CCLocalLevels.dat compressed with gzip.
-
-**secret** - Wmfv3899gc9
-
-### Optional Parameters
-
-**gdw** - 0
+| Parameter       | Explanation                                                                                                                                  | Required |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `userName`      | The username of the account to be added                                                                                                      | Yes      |
+| `password`      | The password of the account to be added                                                                                                      | Yes      |
+| `gameVersion`   | 22                                                                                                                                           | Yes      |
+| `binaryVersion` | 42                                                                                                                                           | Yes      |
+| `saveData`      | The save data for CCGameManager.dat compressed with gzip, then a semicolon `;` and the save data for CCLocalLevels.dat compressed with gzip. | Yes      |
+| `secret`        | Wmfv3899gc9                                                                                                                                  | Yes      |
+| `gdw`           | 0                                                                                                                                            |          |
 
 ## Response
 

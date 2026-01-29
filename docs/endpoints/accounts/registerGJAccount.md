@@ -7,12 +7,12 @@ This endpoint is used to register an account. In 2.2, this was replaced with [re
 
 ## Parameters
 
-| Parameter | Explanation | Optional |
-| --- | --- | --- |
-| `userName` | The username of the account to create | `False` |
-| `password` | The password of the account to create | `False` |
-| `email` | The email of the account to create | `False` |
-| `secret` | Account Secret: `Wmfv3899gc9` | `False` |
+| Parameter  | Explanation                           | Required |
+| ---------- | ------------------------------------- | -------- |
+| `userName` | The username of the account to create | True     |
+| `password` | The password of the account to create | True     |
+| `email`    | The email of the account to create    | True     |
+| `secret`   | Account Secret: `Wmfv3899gc9`         | True     |
 
 ## Response
 
@@ -24,15 +24,15 @@ This endpoint is used to register an account. In 2.2, this was replaced with [re
 
 **Failed Request**
 
-| Error Code | Meaning |
-| --- | --- |
-| -1 | Generic Error |
-| -2 | Username taken |
-| -3 | Email taken |
-| -4 | Username is longer than 20 characters |
-| -5 | Invalid Password |
-| -6 | Invalid Email |
-| -7 | Password confirmation does not match (only used internally, not sent by servers) |
-| -8 | Password too short (under 6 characters) |
-| -9 | Username too short (under 3 characters) |
-| -99 | Email confirmation does not match (only used internally, not sent by servers) |
+| Error Code | Meaning                                                                          |
+| ---------- | -------------------------------------------------------------------------------- |
+| `-1`       | Generic Error                                                                    |
+| `-2`       | Username taken                                                                   |
+| `-3`       | Email taken                                                                      |
+| `-4`       | Username is longer than 20 characters                                            |
+| `-5`       | Invalid Password                                                                 |
+| `-6`       | Invalid Email                                                                    |
+| `-7`       | Password confirmation does not match (only used internally, not sent by servers) |
+| `-8`       | Password too short (under 6 characters)                                          |
+| `-9`       | Username too short (under 3 characters)                                          |
+| `-99`      | Email confirmation does not match (only used internally, not sent by servers)    |
