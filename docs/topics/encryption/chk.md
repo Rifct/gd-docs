@@ -222,7 +222,7 @@ For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 ## Salts
 
 | Value        | Type              |
-|--------------|-------------------|
+| ------------ | ----------------- |
 | xI25fpAapCQg | Level             |
 | xPT6iUrtws0J | Comment           |
 | ysg6pUrtjn0J | Like or Rate      |

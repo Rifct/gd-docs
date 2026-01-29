@@ -28,23 +28,23 @@ The IDs for Music Library songs start at 10,000,000
 
 #### Song Structure
 
-| Key | Name/Value                | Type                                         | Description                                                              
-|-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | ID						  | **Integer**									 | The ID of the song on Newgrounds
-| 2   | name					  | **String**									 | The name of the song
-| 3   | artistID				  | **Integer**									 | Newgrounds ArtistID  
-| 4   | artistName				  | **String**									 | The name of the artist who made the song
-| 5   | size					  | **Integer**									 | Size of the song in MB, rounded to two decimal places
-| 6   | videoID 			      | **String**									 | the Video ID for the songs YouTube Video
-| 7   | youtubeURL				  | **String**									 | The URL of the newgrounds user's youtube channel
-| 8   | isVerified				  | **Bool**									 | if the song artist is scouted on newgrounds
-| 9   | songPriority              | **Integer**                                  | priority over the song list
-| 10  | link					  | **String**									 | Link to the song's mp3
-| 11  | nongEnum        | **Integer** | Type of NONG. 0 for none, 1 for NCS, 2 for CHOMPO.
-| 12  | extraArtistIDs  | **Array\[Integer]** | IDs of extra artists, separated by `.`
-| 13  | new             | **Boolean** | Whether the NEW icon shows up or not
-| 14  | newType         | **Integer** | Type of NEW icon. 0 for Yellow, 1 for Blue
-| 15  | extraArtistNames | **Array** | Artist names in this format: `{id},{name},{id},{name}`
+| Key | Name/Value       | Type                | Description                                            |
+| --- | ---------------- | ------------------- | ------------------------------------------------------ |
+| 1   | ID               | **Integer**         | The ID of the song on Newgrounds                       |
+| 2   | name             | **String**          | The name of the song                                   |
+| 3   | artistID         | **Integer**         | Newgrounds ArtistID                                    |
+| 4   | artistName       | **String**          | The name of the artist who made the song               |
+| 5   | size             | **Integer**         | Size of the song in MB, rounded to two decimal places  |
+| 6   | videoID          | **String**          | the Video ID for the songs YouTube Video               |
+| 7   | youtubeURL       | **String**          | The URL of the newgrounds user's youtube channel       |
+| 8   | isVerified       | **Bool**            | if the song artist is scouted on newgrounds            |
+| 9   | songPriority     | **Integer**         | priority over the song list                            |
+| 10  | link             | **String**          | Link to the song's mp3                                 |
+| 11  | nongEnum         | **Integer**         | Type of NONG. 0 for none, 1 for NCS, 2 for CHOMPO.     |
+| 12  | extraArtistIDs   | **Array\[Integer]** | IDs of extra artists, separated by `.`                 |
+| 13  | new              | **Boolean**         | Whether the NEW icon shows up or not                   |
+| 14  | newType          | **Integer**         | Type of NEW icon. 0 for Yellow, 1 for Blue             |
+| 15  | extraArtistNames | **Array**           | Artist names in this format: `{id},{name},{id},{name}` |
 
 #### **Trivia**
 - The savefile song structure uses the exact same keys as the server response

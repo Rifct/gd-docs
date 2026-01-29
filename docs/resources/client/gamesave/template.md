@@ -8,15 +8,15 @@ Smart Templates are user-made templates used for the Auto Build feature. They ar
 
 ## kCEK 10
 
-| Key | Value              | Type      |
-|-----|--------------------|-----------|
-| 1   | Smart Template ID  | integer   |
-| 2   | Name               | string    |
-| 3   | Template Variations| dict      |
-| 4   | Unknown            | integer   |
-| 5   | Unknown            | integer   |
-| 6   | Unknown            | integer   |
-| 7   | Unknown            | integer   |
+| Key | Value               | Type    |
+| --- | ------------------- | ------- |
+| 1   | Smart Template ID   | integer |
+| 2   | Name                | string  |
+| 3   | Template Variations | dict    |
+| 4   | Unknown             | integer |
+| 5   | Unknown             | integer |
+| 6   | Unknown             | integer |
+| 7   | Unknown             | integer |
 
 ## kCEK 11
 
@@ -44,13 +44,13 @@ kCEK 11 key 1 is the [object string](/resources/client/level-components/level-st
 
 The keys of the dictionary are 9-bit bitfields (binary numbers) representing the exact type of template variation. The first bit is reserved and is always set to `1`. Other bits represent:
 
-| Bit   | Position     |
-|-------|--------------|
-| 2     | Top Middle   |
-| 3     | Bottom Middle|
-| 4     | Center Left  |
-| 5     | Center Right |
-| 6     | Top Left     |
-| 7     | Top Right    |
-| 8     | Bottom Left  |
-| 9     | Bottom Right |
+| Bit | Position      |
+| --- | ------------- |
+| 2   | Top Middle    |
+| 3   | Bottom Middle |
+| 4   | Center Left   |
+| 5   | Center Right  |
+| 6   | Top Left      |
+| 7   | Top Right     |
+| 8   | Bottom Left   |
+| 9   | Bottom Right  |

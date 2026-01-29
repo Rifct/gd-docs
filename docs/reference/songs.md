@@ -7,8 +7,8 @@
 
 > **Note**: *In the tables below, ID refers to the level ID the level would be if uploaded to the servers and the Server ID refers to an ID within the Song Enum.*
 
-|  ID  | Server ID |       Track Name         | Track Author |
-|------|-----------|--------------------------|--------------|
+| ID   | Server ID | Track Name               | Track Author |
+| ---- | --------- | ------------------------ | ------------ |
 | -    | -1        | Practice: Stay Inside Me | OcularNebula |
 | 1    | 0         | Stereo Madness           | Foreverbound |
 | 2    | 1         | Back on Track            | DJVI         |

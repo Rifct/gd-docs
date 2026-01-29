@@ -16,14 +16,14 @@ The SFX library is split into 2 parts:
 
 `{id},{name},{isFolder},{parentFolder},{filesize},{duration}`
 
-| Key          | Type      | Description                                                      |
-| ------------ | --------- | ---------------------------------------------------------------- |
-| id           | `integer` | The sound effect/folder ID                                       |
-| name         | `string`  | The sound effect/folder name                                     |
-| isFolder     | `boolean` | Whether this is a sound effect or folder                         |
-| parentFolder | `integer` | The parent folder                                                |
-| filesize     | `integer` | The sound effect file size in bytes                              |
-| duration     | `integer` | The duration of the sound effect, in `seconds * 100`             |
+| Key          | Type      | Description                                          |
+| ------------ | --------- | ---------------------------------------------------- |
+| id           | `integer` | The sound effect/folder ID                           |
+| name         | `string`  | The sound effect/folder name                         |
+| isFolder     | `boolean` | Whether this is a sound effect or folder             |
+| parentFolder | `integer` | The parent folder                                    |
+| filesize     | `integer` | The sound effect file size in bytes                  |
+| duration     | `integer` | The duration of the sound effect, in `seconds * 100` |
  
 The first "folder" is a special case: it has an ID of 1 and its name corresponds to the SFX library version.
 

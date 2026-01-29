@@ -39,34 +39,34 @@ A list of all known keys can be found in the table below
 
 **Note:** Keys marked with an asterisk `*` do not affect `Account Comments`
 
-| Key | Name/Value                | Type                                         | Description                                                              
-|-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | levelID                   | **Integer**                                  | The levelID linked to the comment. This ID is negative if the comment is on a list
-| 2	  | comment					  | **String**									 | The comment left by the user, encoded in [base64](/topics/encryption/base64.md)
-| 3   | authorPlayerID					  | **Integer**									 | The player ID of the comment author |
-| 4   | likes					  | **Integer**									 | The amount of likes the comment has
-| 5   | dislikes                  | **Integer**                                  | The amount of dislikes the comment has -> unused
-| 6   | messageID				  | **Integer**									 | The message ID. Account comments have different IDs than level comments
-| 7   | spam                      | **Bool**                                     | If a comment has been flagged as spam
-| 8   | authorAccountID | **Integer** | The accountID of the comment author |
-| 9   | age						  | **String**									 | How long ago the comment was posted (e.g. "2 months")
-| 10  | percent*				  | **Integer**									 | The percent the player put in their comment. Also doesn't apply to List Comments
-| 11  | modBadge*                 | **Integer**                                  | The Mod Badge of a moderator commenting
-| 12  | moderatorChatColor*       | **String**									 | Comma separated list of the RGB values of the moderator's chat color - only appears if the players `modBadge > 0`
+| Key | Name/Value          | Type        | Description                                                                                                       |
+| --- | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1   | levelID             | **Integer** | The levelID linked to the comment. This ID is negative if the comment is on a list                                |
+| 2   | comment             | **String**  | The comment left by the user, encoded in [base64](/topics/encryption/base64.md)                                   |
+| 3   | authorPlayerID      | **Integer** | The player ID of the comment author                                                                               |
+| 4   | likes               | **Integer** | The amount of likes the comment has                                                                               |
+| 5   | dislikes            | **Integer** | The amount of dislikes the comment has -> unused                                                                  |
+| 6   | messageID           | **Integer** | The message ID. Account comments have different IDs than level comments                                           |
+| 7   | spam                | **Bool**    | If a comment has been flagged as spam                                                                             |
+| 8   | authorAccountID     | **Integer** | The accountID of the comment author                                                                               |
+| 9   | age                 | **String**  | How long ago the comment was posted (e.g. "2 months")                                                             |
+| 10  | percent*            | **Integer** | The percent the player put in their comment. Also doesn't apply to List Comments                                  |
+| 11  | modBadge*           | **Integer** | The Mod Badge of a moderator commenting                                                                           |
+| 12  | moderatorChatColor* | **String**  | Comma separated list of the RGB values of the moderator's chat color - only appears if the players `modBadge > 0` |
 
 ### User Structure
   
 **Note:** These values are only returned through `Level Comments`
 
-| Key | Name/Value                | Type                                         | Description                                                              
-|-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | userName				  | **String**									 | Author's username
-| 9   | icon					  | **Integer**									 | Which icon the player is using, starting with 1 as the first icon
-| 10  | playerColor 			  | **Integer**									 | Author's primary player color, presumably ordered cronologically from left to right per update
-| 11  | playerColor2			  | **Integer**									 | Author's secondary player color, presumably ordered cronologically from left to right per update
-| 14  | iconType				  | **Integer**									 | Author's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
-| 15  | glow					  | **Integer**									 | 0 = no glow, 2 = glow
-| 16  | accountID				  | **Integer**									 | Author's account ID. **This is different than the player ID**
+| Key | Name/Value   | Type        | Description                                                                                      |
+| --- | ------------ | ----------- | ------------------------------------------------------------------------------------------------ |
+| 1   | userName     | **String**  | Author's username                                                                                |
+| 9   | icon         | **Integer** | Which icon the player is using, starting with 1 as the first icon                                |
+| 10  | playerColor  | **Integer** | Author's primary player color, presumably ordered cronologically from left to right per update   |
+| 11  | playerColor2 | **Integer** | Author's secondary player color, presumably ordered cronologically from left to right per update |
+| 14  | iconType     | **Integer** | Author's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`             |
+| 15  | glow         | **Integer** | 0 = no glow, 2 = glow                                                                            |
+| 16  | accountID    | **Integer** | Author's account ID. **This is different than the player ID**                                    |
 
 ## Comment Bans
 
@@ -77,11 +77,11 @@ If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can
 
 ### Temporary Ban Structure
 
-| Component | Description |
-|-----------|-------------|
-| `temp` | is used for the game to identify if the user is banned |
-| `length` | The duration of the ban in seconds |
-| `reason` | The reason the user was banned |
+| Component | Description                                            |
+| --------- | ------------------------------------------------------ |
+| `temp`    | is used for the game to identify if the user is banned |
+| `length`  | The duration of the ban in seconds                     |
+| `reason`  | The reason the user was banned                         |
 
 ## Trivia
 

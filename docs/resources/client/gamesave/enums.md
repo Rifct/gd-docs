@@ -5,7 +5,7 @@
 This enum represents the quality of the game's textures.
 
 | Value | Name   |
-| ------|------- |
+| ----- | ------ |
 | 0     | Auto   |
 | 1     | Low    |
 | 2     | Medium |
@@ -16,7 +16,7 @@ This enum represents the quality of the game's textures.
 This enum represents the game window's resolution.
 
 | Value | Width | Height | Aspect Ratio |
-|-------|-------|--------|--------------|
+| ----- | ----- | ------ | ------------ |
 | 1     | 640   | 480    | 4:3          |
 | 2     | 720   | 480    | 3:2          |
 | 3     | 720   | 576    | 5:4          |
