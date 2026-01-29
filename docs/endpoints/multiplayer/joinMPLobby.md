@@ -6,25 +6,16 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The player's account ID
-
-**gjp2** - The player's [GJP2](/topics/gjp.md)
-
-**secret** - Wmfv3899gc9
-
-**gameID** - The ID of the multiplayer lobby
-
-**lastCommentID** - Your last multiplayer comment ID. It's unknown what the initial value is
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                                                              | Required |
+| --------------- | ------------------------------------------------------------------------ | -------- |
+| `accountID`     | The player's account ID                                                  | Yes      |
+| `gjp2`          | The player's [GJP2](/topics/gjp.md)                                      | Yes      |
+| `secret`        | Wmfv3899gc9                                                              | Yes      |
+| `gameID`        | The ID of the multiplayer lobby                                          | Yes      |
+| `lastCommentID` | Your last multiplayer comment ID. It's unknown what the initial value is | Yes      |
+| `gameVersion`   | 22                                                                       |          |
+| `binaryVersion` | 42                                                                       |          |
+| `gdw`           | 0                                                                        |          |
 
 ## Response
 
