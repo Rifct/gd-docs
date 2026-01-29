@@ -4,27 +4,17 @@ Gets the rewards from the Secret Room ("Wraith") vault depending on the entered 
 
 ## Parameters
 
-### Required Parameters
-
-**udid** - A unique identifier for the user's device. You can put anything here
-
-**secret** - Wmfd2893gb7
-
-**chk** - [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**accountID** - Account ID of the user
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**uuid** - Seemingly a random number also used for identifying someone
+| Parameter       | Explanation                                                                                                   | Required |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
+| `udid`          | A unique identifier for the user's device. You can put anything here                                          | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                   | Yes      |
+| `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | Yes      |
+| `gameVersion`   | 22                                                                                                            |          |
+| `binaryVersion` | 42                                                                                                            |          |
+| `gdw`           | 0                                                                                                             |          |
+| `accountID`     | Account ID of the user                                                                                        |          |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                             |          |
+| `uuid`          | Seemingly a random number also used for identifying someone                                                   |          |
 
 ## Response
 
@@ -33,46 +23,46 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 - The number used to verify the `chk`
 - The rewardID
 - The chest type (1 small, 2 large)
-- comma separated chest reward in the format `{itemid},{total1}{itemid2}{total2}...`
+- comma separated chest reward in the format `{itemid},{total1},{itemid2},{total2},...`
 
 
 Where each itemID is as follows:
-| itemID | Type        |
-|--------|-------------|
-| 1      | Fire Shard        |
-| 2      | Ice Shard         |
-| 3      | Poison Shard      |
-| 4      | Shadow Shard      |
-| 5      | Lava Shard        |
-| 6      | Demon Key         |
-| 7 | Orbs |
-| 8 | Diamonds |
-| 10     | Earth Shard       |
-| 11     | Blood Shard       |
-| 12     | Metal Shard       |
-| 13     | Light Shard       |
-| 14     | Soul Shard        |
-| 15     | Gold Key          |
+| itemID | Type         |
+| ------ | ------------ |
+| `1`    | Fire Shard   |
+| `2`    | Ice Shard    |
+| `3`    | Poison Shard |
+| `4`    | Shadow Shard |
+| `5`    | Lava Shard   |
+| `6`    | Demon Key    |
+| `7`    | Orbs         |
+| `8`    | Diamonds     |
+| `10`   | Earth Shard  |
+| `11`   | Blood Shard  |
+| `12`   | Metal Shard  |
+| `13`   | Light Shard  |
+| `14`   | Soul Shard   |
+| `15`   | Gold Key     |
 
 If the itemID is greater than 1000, it seems to be treated as a special reward (unlock type), where
 
 | itemID - 1000 | Unlock Type |
-|---------------|-------------|
-| 1             | Cube        |
-| 2             | Col1        |
-| 3             | Col2        |
-| 4             | Ship        |
-| 5             | Ball        |
-| 6             | Bird        |
-| 7             | Dart        |
-| 8             | Robot       |
-| 9             | Spider      |
-| 10            | Streak      |
-| 11            | Death       |
-| 12            | GJItem      |
-| 13            | Swing       |
-| 14            | Jetpack     |
-| 15            | ShipFire    |
+| ------------- | ----------- |
+| `1`           | Cube        |
+| `2`           | Col1        |
+| `3`           | Col2        |
+| `4`           | Ship        |
+| `5`           | Ball        |
+| `6`           | Bird        |
+| `7`           | Dart        |
+| `8`           | Robot       |
+| `9`           | Spider      |
+| `10`          | Streak      |
+| `11`          | Death       |
+| `12`          | GJItem      |
+| `13`          | Swing       |
+| `14`          | Jetpack     |
+| `15`          | ShipFire    |
 
 
 

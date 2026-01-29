@@ -4,29 +4,18 @@ Gets a user's quests.
 
 ## Parameters
 
-### Required Parameters
-
-**udid** - A unique identifier for the user's device, can be replaced with anything
-
-**secret** - Wmfd2893gb7
-
-**chk** - [Rewards CHK](/topics/encryption/rewards_chk) using the [daily challenges](/topics/encryption/xor.html#keys) key
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**accountID** - Account ID of the user
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**uuid** - Seemingly a random number also used for identifying someone
-
-**world** - Effectively `gdw`
+| Parameter       | Explanation                                                                                                      | Required |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | -------- |
+| `udid`          | A unique identifier for the user's device, can be replaced with anything                                         | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                      | Yes      |
+| `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [daily challenges](/topics/encryption/xor.html#keys) key | Yes      |
+| `gameVersion`   | 22                                                                                                               |          |
+| `binaryVersion` | 42                                                                                                               |          |
+| `gdw`           | 0                                                                                                                |          |
+| `accountID`     | Account ID of the user                                                                                           |          |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                |          |
+| `uuid`          | Seemingly a random number also used for identifying someone                                                      |          |
+| `world`         | Effectively `gdw`                                                                                                |          |
 
 ## Response
 

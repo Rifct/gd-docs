@@ -4,33 +4,20 @@ Gets the rewards from the chests.
 
 ## Parameters
 
-### Required Parameters
-
-**udid** - A unique identifier for the user's device. You can put anything here
-
-**secret** - Wmfd2893gb7
-
-**chk** - [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**accountID** - Account ID of the user
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**uuid** - Seemingly a random number also used for identifying someone
-
-**rewardType** - 0 for getting info about the chests, 1 for small chest, 2 for large chest. Defaults to 0 if left out
-
-**r1** - A random 3-5 digit number
-
-**r2** - A random 3-5 digit number
+| Parameter       | Explanation                                                                                                   | Required |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
+| `udid`          | A unique identifier for the user's device. You can put anything here                                          | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                   | Yes      |
+| `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | Yes      |
+| `gameVersion`   | 22                                                                                                            |          |
+| `binaryVersion` | 42                                                                                                            |          |
+| `gdw`           | 0                                                                                                             |          |
+| `accountID`     | Account ID of the user                                                                                        |          |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                             |          |
+| `uuid`          | Seemingly a random number also used for identifying someone                                                   |          |
+| `rewardType`    | 0 for getting info about the chests, 1 for small chest, 2 for large chest. Defaults to 0 if left out          | Yes      |
+| `r1`            | A random 3-5 digit number                                                                                     |          |
+| `r2`            | A random 3-5 digit number                                                                                     |          |
 
 ## Response
 
