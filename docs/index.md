@@ -31,6 +31,12 @@ Private Server Implementation for Geometry Dash's Servers
 - **[Geode](https://geode-sdk.org/) by [Geode Team](https://github.com/geode-sdk)**  
 Cross Platform Mod loader and Modding framework
 
+- **[g.js](https://g-js-api.github.io/G.js/) by [bestgamer08](https://github.com/RealSput)**  
+Create Geometry Dash levels (with a SPWN-like syntax) in JavaScript
+
+- **[Nedit](https://github.com/Boris-Filin/NeditGD) by [Nemo](https://github.com/Boris-Filin)**  
+Lightweight Geometry Dash level scripting tool based on Python
+
 ### Client Modifications
 
 - **[Megahack](https://absolllute.com/store/view_mega_hack_pro) by [Absolute](https://github.com/absoIute)**  
@@ -40,13 +46,7 @@ Modded client for Windows and Android which includes hundreds of mods
 Modded client for iOS which includes 30+ mods
 
 - **[BetterEdit](https://github.com/HJfod/BetterEdit) by [HJFod](https://github.com/HJfod/)**  
-An extension to the GD editor with many Quality of life enhancements
-
-- **[g.js](https://g-js-api.github.io/G.js/) by [bestgamer08](https://github.com/RealSput)**  
-Create Geometry Dash levels (with a SPWN-like syntax) in JavaScript
-
-- **[Nedit](https://github.com/Boris-Filin/NeditGD) by [Nemo](https://github.com/Boris-Filin)**  
-Lightweight Geometry Dash level scripting tool 
+An extension to the GD editor with many Quality of life enhancements 
 
 
 ### Historic Links
