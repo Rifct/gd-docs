@@ -10,7 +10,7 @@
 | `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
 | `binaryVersion`   | [Binary Version](#), 47 on 2.2081                                                                             |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
-| `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
+| `str`             | Search query, user ID or level list depending on `type`                                                       | Only on [types 5 and 10](#type)       |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
 | `gjp`             | The [GJP](/topics/gjp.md) for the `accountID`. Not present in 2.2                                             |                                       |
@@ -35,8 +35,8 @@
 | `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
 | `song`            | Official (or custom) song ID, not sent when off                                                               |                                       |
 | `customSong`      | Newgrounds song, 1 when on and uses `song` as the ID, not sent when off                                       |                                       |
-| `followed`        | Comma separated list of the followed user IDs                                                                 | Only on type 12                       |
-| `local`           | Whether to fetch "My Levels", either 0 or 1                                                                   | Only on type 5                        |
+| `followed`        | Comma separated list of the followed user IDs                                                                 | Only on [type 12](#type)              |
+| `local`           | Whether to fetch "My Levels", either 0 or 1                                                                   | Only on [type 5](#type)               |
 | `udid`            | Your [UDID](/topics/encryption/id.md)                                                                         |                                       |
 | `uuid`            | Your [UUID](/topics/encryption/id.md)                                                                         |                                       |
 
@@ -45,31 +45,31 @@
 
 | Type | Description                                                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-|  0   | Search query                                                                                                                    |
-|  1   | Most downloaded                                                                                                                 |
-|  2   | Most liked                                                                                                                      |
-|  3   | Trending                                                                                                                        |
-|  4   | Recent                                                                                                                          |
-|  5   | User's levels, uses `str` as the **user ID**                                                                                    |
-|  6   | Featured                                                                                                                        |
-|  7   | Magic                                                                                                                           |
-|  8   | Moderator sent levels                                                                                                           |
-|  10  | List of levels (not to be confused with type 25, which is for in-game lists), uses `str` as a comma separated list of level IDs |
-|  11  | Awarded                                                                                                                         |
-|  12  | Followed (see `followed` parameter)                                                                                             |
-|  13  | Friends (login required)                                                                                                        |
-|  15  | Most liked in GD World                                                                                                          |
-|  16  | Hall of fame                                                                                                                    |
-|  17  | Featured in GD World                                                                                                            |
-|  18  | Unknown (always empty, perhaps robtop only?)                                                                                    |
-|  19  | Unknown (same as type 10 but this type has pagination and no star rate filter)                                                  |
-|  21  | Daily history                                                                                                                   |
-|  22  | Weekly history                                                                                                                  |
-|  25  | Level list, uses `str` as the list ID                                                                                           |
-|  26  | Local level list (same as type 19 but can return up to 100 levels)                                                              |
-|  27  | Sent                                                                                                                            |
-|  28  | GD Lite weekly levels                                                                                                           |
-|  29  | GD Lite bonus levels (platformer)                                                                                               |
+| 0    | Search query                                                                                                                    |
+| 1    | Most downloaded                                                                                                                 |
+| 2    | Most liked                                                                                                                      |
+| 3    | Trending                                                                                                                        |
+| 4    | Recent                                                                                                                          |
+| 5    | User's levels, uses `str` as the **user ID**                                                                                    |
+| 6    | Featured                                                                                                                        |
+| 7    | Magic                                                                                                                           |
+| 8    | Moderator sent levels                                                                                                           |
+| 10   | List of levels (not to be confused with type 25, which is for in-game lists), uses `str` as a comma separated list of level IDs |
+| 11   | Awarded                                                                                                                         |
+| 12   | Followed (see `followed` parameter)                                                                                             |
+| 13   | Friends (login required)                                                                                                        |
+| 15   | Most liked in GD World                                                                                                          |
+| 16   | Hall of fame                                                                                                                    |
+| 17   | Featured in GD World                                                                                                            |
+| 18   | Unknown (always empty, perhaps robtop only?)                                                                                    |
+| 19   | Unknown (same as type 10 but this type has pagination and no star rate filter)                                                  |
+| 21   | Daily history                                                                                                                   |
+| 22   | Weekly history                                                                                                                  |
+| 25   | Level list, uses `str` as the list ID                                                                                           |
+| 26   | Local level list (same as type 19 but can return up to 100 levels)                                                              |
+| 27   | Sent                                                                                                                            |
+| 28   | GD Lite weekly levels                                                                                                           |
+| 29   | GD Lite bonus levels (platformer)                                                                                               |
 
 </details>
 
@@ -78,13 +78,13 @@
 
 | diff | Description                                                |
 | ---- | ---------------------------------------------------------- |
-|  -1  | N/A                                                        |
-|  -2  | Demons (see `demonFilter` for specifying demon difficulty) |
-|  1   | Easy                                                       |
-|  2   | Normal                                                     |
-|  3   | Hard                                                       |
-|  4   | Harder                                                     |
-|  5   | Insane                                                     |
+| -1   | N/A                                                        |
+| -2   | Demons (see `demonFilter` for specifying demon difficulty) |
+| 1    | Easy                                                       |
+| 2    | Normal                                                     |
+| 3    | Hard                                                       |
+| 4    | Harder                                                     |
+| 5    | Insane                                                     |
 
 </details>
 
@@ -93,11 +93,11 @@
 
 | demonFilter | Description   |
 | ----------- | ------------- |
-|      1      | Easy demon    |
-|      2      | Medium demon  |
-|      3      | Hard demon    |
-|      4      | Insane demon  |
-|      5      | Extreme demon |
+| 1           | Easy demon    |
+| 2           | Medium demon  |
+| 3           | Hard demon    |
+| 4           | Insane demon  |
+| 5           | Extreme demon |
 
 </details>
 
@@ -106,12 +106,12 @@
 
 | len | Value      |
 | --- | ---------- |
-|  0  | Tiny       |
-|  1  | Short      |
-|  2  | Medium     |
-|  3  | Long       |
-|  4  | XL         |
-|  5  | Platformer |
+| 0   | Tiny       |
+| 1   | Short      |
+| 2   | Medium     |
+| 3   | Long       |
+| 4   | XL         |
+| 5   | Platformer |
 
 </details>
 

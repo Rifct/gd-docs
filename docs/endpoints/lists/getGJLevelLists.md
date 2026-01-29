@@ -4,81 +4,82 @@
 
 ## Parameters
 
-| Parameter         | Description                                                                                                   | Required                              |
-| ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
-| `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
-| `binaryVersion`   | [Binary Version](#), 42 on 2.206                                                                              |                                       |
-| `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
-| `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
-| `page`            | Which page to request, defaults to 0                                                                          |                                       |
-| `gjp2`            | The [GJP2](/topics/gjp.md) for the `accountID`.                                                    |                                       |
-| `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
-| `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
-| `demonFilter`     | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                       |
-| `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
-| `followed`        | Comma separated list of the followed user IDs                                                                 | Only on type 12                       |
-| `udid`            | Your [UDID](/topics/encryption/id.md)                                                                         |                                       |
-| `uuid`            | Your [UUID](/topics/encryption/id.md)                                                                         |                                       |
-<details open id="type">
-    <summary><code>type</code></summary>
+| Parameter       | Description                                                                                                   | Required                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| `secret`        | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                             |
+| `gameVersion`   | [Game Version](#), 22 on 2.2                                                                                  |                                 |
+| `binaryVersion` | [Binary Version](#), 42 on 2.206                                                                              |                                 |
+| `type`          | Search type, [see values](#type). Defaults to most liked                                                      |                                 |
+| `str`           | Search query, user ID or level list depending on `type`                                                       | Only on [types 5 and 10](#type) |
+| `page`          | Which page to request, defaults to 0                                                                          |                                 |
+| `gjp2`          | The [GJP2](/topics/gjp.md) for the `accountID`.                                                               |                                 |
+| `accountID`     | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                 |
+| `diff`          | Difficulty filter, [see values](#diff)                                                                        |                                 |
+| `demonFilter`   | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                 |
+| `star`          | Rated filter, either 0 or 1                                                                                   |                                 |
+| `followed`      | Comma separated list of the followed user IDs                                                                 | Only on [type 12](#type)        |
+| `udid`          | Your [UDID](/topics/encryption/id.md)                                                                         |                                 |
+| `uuid`          | Your [UUID](/topics/encryption/id.md)                                                                         |                                 |
 
-| Type | Description                                                                       |
-| ---- | --------------------------------------------------------------------------------- |
-|  0   | Search query                                                                      |
-|  1   | Most downloaded                                                                   |
-|  2   | Most liked                                                                        |
-|  3   | Trending                                                                          |
-|  4   | Recent                                                                            |
-|  5   | User's lists, uses `str` as the **account ID**                                    |
-|  6   | Lists button                                                                      |
-|  7   | Magic (returns the same levels as most liked)                                     |
-|  11  | Awarded                                                                           |
-|  12  | Followed (see `followed` parameter)                                               |
-|  13  | Friends (login required)                                                          |
-|  27  | Sent lists                                                                        |
+<details open id="type">
+<summary><code>type</code></summary>
+
+| Type | Description                                    |
+| ---- | ---------------------------------------------- |
+| `0`  | Search query                                   |
+| `1`  | Most downloaded                                |
+| `2`  | Most liked                                     |
+| `3`  | Trending                                       |
+| `4`  | Recent                                         |
+| `5`  | User's lists, uses `str` as the **account ID** |
+| `6`  | Lists button                                   |
+| `7`  | Magic (returns the same levels as most liked)  |
+| `11` | Awarded                                        |
+| `12` | Followed (see `followed` parameter)            |
+| `13` | Friends (login required)                       |
+| `27` | Sent lists                                     |
 
 </details>
 
-<details id="diff">
-    <summary><code>diff</code></summary>
+<details open id="diff">
+<summary><code>diff</code></summary>
 
 | diff | Description                                                |
 | ---- | ---------------------------------------------------------- |
-|  -1  | N/A                                                        |
-|  -2  | Demons (see `demonFilter` for specifying demon difficulty) |
-|  1   | Easy                                                       |
-|  2   | Normal                                                     |
-|  3   | Hard                                                       |
-|  4   | Harder                                                     |
-|  5   | Insane                                                     |
+| `-1` | N/A                                                        |
+| `-2` | Demons (see `demonFilter` for specifying demon difficulty) |
+| `1`  | Easy                                                       |
+| `2`  | Normal                                                     |
+| `3`  | Hard                                                       |
+| `4`  | Harder                                                     |
+| `5`  | Insane                                                     |
 
 </details>
 
-<details id="demonFilter">
-    <summary><code>demonFilter</code></summary>
+<details open id="demonFilter">
+<summary><code>demonFilter</code></summary>
 
 | demonFilter | Description   |
 | ----------- | ------------- |
-|      1      | Easy demon    |
-|      2      | Medium demon  |
-|      3      | Hard demon    |
-|      4      | Insane demon  |
-|      5      | Extreme demon |
+| `1`         | Easy demon    |
+| `2`         | Medium demon  |
+| `3`         | Hard demon    |
+| `4`         | Insane demon  |
+| `5`         | Extreme demon |
 
 </details>
 
-<details id="len">
-    <summary><code>len</code></summary>
+<details open id="len">
+<summary><code>len</code></summary>
 
-| len | Value  |
-| --- | ------ |
-|  0  | Tiny   |
-|  1  | Short  |
-|  2  | Medium |
-|  3  | Long   |
-|  4  | XL     |
-|  5  | Platformer     |
+| len | Value      |
+| --- | ---------- |
+| `0` | Tiny       |
+| `1` | Short      |
+| `2` | Medium     |
+| `3` | Long       |
+| `4` | XL         |
+| `5` | Platformer |
 
 </details>
 
