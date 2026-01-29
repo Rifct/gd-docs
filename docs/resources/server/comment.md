@@ -78,7 +78,7 @@ If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can
 ### Temporary Ban Structure
 
 | Component | Description |
-|:----------|:------------|
+|-----------|-------------|
 | `temp` | is used for the game to identify if the user is banned |
 | `length` | The duration of the ban in seconds |
 | `reason` | The reason the user was banned |

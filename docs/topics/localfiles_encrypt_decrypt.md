@@ -92,7 +92,7 @@ from Crypto.Cipher import AES
 def remove_pad(data: bytes) -> bytes:
     last = data[-1]
     if last < 16:
-        data = data[:-last]
+        data = data[--last]
     return data
 
 

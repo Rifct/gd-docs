@@ -4,23 +4,12 @@ Deletes a level from the server.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The level author's account ID
-
-**gjp** - The level author's [GJP](/topics/gjp.md)
-
-**levelID** - The ID of the level being deleted
-
-**secret** - Wmfv2898gc9
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter   | Explanation                              | Required |
+| ----------- | ---------------------------------------- | -------- |
+| `accountID` | The level author's account ID            | Yes      |
+| `gjp`       | The level author's [GJP](/topics/gjp.md) | Yes      |
+| `levelID`   | The ID of the level being deleted        | Yes      |
+| `secret`    | Wmfv2898gc9                              | Yes      |
 
 ## Response
 

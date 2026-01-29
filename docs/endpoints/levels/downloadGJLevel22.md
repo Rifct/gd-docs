@@ -4,35 +4,21 @@ Downloads a user level and info so it can be played.
 
 ## Parameters
 
-### Required Parameters
-
-**levelID** - The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level.
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 47
-
-**dvs** - 3
-
-**accountID** - The account ID of the user who is downloading the level
-
-**gjp** - The [GJP](/topics/gjp.md) of the user who is downloading the level
-
-**udid** - The [udid](/topics/encryption/id#udid) of the user who is downloading the level
-
-**uuid** - The [uuid](/topics/encryption/id#uuid) of the user who is downloading the level
-
-**inc** - Whether the amount of downloads should be incremented on the level (requires proper authentication)
-
-**extras** - Used to return some extra data when set to 1, but was disabled sometime in 2022
-
-**rs** - [See here](/topics/encryption/id#rs)
-
-**chk** - [See here](/topics/encryption/chk#download-level)
+| Parameter       | Explanation                                                                                                | Required |
+| --------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
+| `levelID`       | The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level. | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                | Yes      |
+| `gameVersion`   | 22                                                                                                         |          |
+| `binaryVersion` | 47                                                                                                         |          |
+| `dvs`           | 3                                                                                                          |          |
+| `accountID`     | The account ID of the user who is downloading the level                                                    |          |
+| `gjp`           | The [GJP](/topics/gjp.md) of the user who is downloading the level                                         |          |
+| `udid`          | The [udid](/topics/encryption/id#udid) of the user who is downloading the level                            |          |
+| `uuid`          | The [uuid](/topics/encryption/id#uuid) of the user who is downloading the level                            |          |
+| `inc`           | Whether the amount of downloads should be incremented on the level (requires proper authentication)        |          |
+| `extras`        | Used to return some extra data when set to 1, but was disabled sometime in 2022                            |          |
+| `rs`            | [See here](/topics/encryption/id#rs)                                                                       |          |
+| `chk`           | [See here](/topics/encryption/chk#download-level)                                                          |          |
 
 ## Response
 

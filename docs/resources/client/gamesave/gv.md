@@ -5,7 +5,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 ## GV Structure
 
 | Key | Value|
-| :-- |:-----------|
+| --- |------------|
 | gv_0001 | Follow PLayer (editor) |
 | gv_0002 | play Music (editor) |
 | gv_0003 | Swipe (editor) |
@@ -173,7 +173,7 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 ## UGV Structure
 
 | Key | Value|
-| :-- |:-----------|
+| --- |------------|
 | ugv_1 | Unlocked the challenge |
 | ugv_2 | Gubflub hint |
 | ugv_3 | Gubflub hint 2 |
@@ -215,7 +215,7 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 ### Undiscovered/unknown GV's
 
 | GV_ID | Existance Proven | notes |
-|:------|:-------|:------|
+|-------|--------|-------|
 | 0017  | **False** | |
 | 0020  | **False** | |
 | 0021  | **False** | |

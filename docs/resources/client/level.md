@@ -9,7 +9,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 **Level Structure**
 
 | Key | Name/Value                     | Type                                                             | Description                                                                      |
-| :--- | :----------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| ---- | ------------------------------ | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | k1   | Level ID                       | **integer**                                                      | the id of the level                                                              |
 | k2   | Level Name                     | **string**                                                       | the name of the level                                                            |
 | k3   | Description                    | **string**                                                       | the level description, encoded in [base64](https://en.wikipedia.org/wiki/Base64) |
@@ -125,7 +125,7 @@ def generatePlatformerHash(bestTime, bestPoints):
 The last editor state key/value pairs contain a few values that indicate the last state of the editor before exiting the editor on that level.
 
 | Key | Name/Value               | Type           | Description                              |
-| :-- | :----------------------- | :------------- | :--------------------------------------- |
+| --- | ------------------------ | -------------- | ---------------------------------------- |
 | kI1 | Editor Camera X Position | **float**      | the X position of the editor camera      |
 | kI2 | Editor Camera Y Position | **float**      | the Y position of the editor camera      |
 | kI3 | Editor Camera Zoom       | **float**      | the zoom level of the editor camera      |
@@ -145,7 +145,7 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 **Current Unknown Values**
 
 | Key | Type        | Info                                                     |
-| :-- | :---------- | :------------------------------------------------------- |
+| --- | ----------- | -------------------------------------------------------- |
 | k91 | **string** | |
 | k92 | **integer** | |
 | k93 | **Bool** | unlimited Objects? |

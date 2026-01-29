@@ -22,7 +22,7 @@ There are `5` different types of batchNodes. `4` of which the Capacity string us
 **Note: BatchID 4 isn't used in the Capacity String**
 
 | BatchID | Type | Description |
-|:--------|:-----|:------------|
+|---------|------|-------------|
 | 1 | BatchNodePlayer | |
 | 2 | BatchNodeText | All text GameObjects |
 | 3 | EffectBatchNode | All animated GameObjects |
@@ -35,7 +35,7 @@ Each of these BatchNodeTypes are then divided into sub-categories based on certa
 The names for each BatchNode were provided by [RobTop himself](https://twitter.com/RobTopGames/status/1415783982621413376?s=20)
 
 | Index | BatchNode | Properties | zOrder |
-|:------|:----------|:-----------|:-------|
+|-------|-----------|------------|--------|
 | 0 | BatchNodeAddTop2 | Blending, zLayer T2 | 16 |
 | 1 | BatchNode | zLayer T1 | 10 |
 | 2 | BatchNodeAdd | Blending, zLayer T1 | 9 |
@@ -96,7 +96,7 @@ The names for each BatchNode were provided by [RobTop himself](https://twitter.c
 There are other types of Capacity Strings from older versions of the game. The total number of Nodes is used to identify them
 
 | Update | Node count |
-|:-------|:-----------|
+|--------|------------|
 | 1.9 | 4 |
 | 2.0 | 16 |
 
@@ -106,7 +106,7 @@ The capacity string in 2.0 is quite easy to understand as it only contains the f
 > Refer to the [Structure](/resources/client/level-components/capacity-string#structure) section for the properties of the batchNodes
 
 | Index | BatchNode(s) |
-|:------|:-------------|
+|-------|--------------|
 | 0 | BatchNode |
 | 1 | BatchNodeAdd</br> BatchNodeAddGlow |
 | 2 | BatchNodeBottom</br> BatchNodeBottom2 |
@@ -117,7 +117,7 @@ The capacity string in 2.0 is quite easy to understand as it only contains the f
 In the game options, there is a option the player can toggle called `High Capacity Mode`. when enabled, the Capacity for each BatchNode is set to a hardcoded value. There are 3 capacity sizes
 
 | size | Batch Type |
-|:-----|:-----------|
+|------|------------|
 | 999 | BatchNode |
 | 200 | EffectBatchNode |
 | 100 | BatchNodeText |

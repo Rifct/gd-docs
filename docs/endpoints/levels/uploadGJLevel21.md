@@ -4,38 +4,38 @@ Uploads a created level to the servers.
 
 ## Parameters
 
-| Parameter        | Explanation                                                                                                                   | Optional |
-| :--------------- | :---------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `gameVersion`    | The game version. Currently 22                                                                                                | `False`  |
-| `accountID`      | The uploader's account ID                                                                                                     | `False`  |
-| `gjp2`           | The uploader's [GJP2](/topics/gjp.md)                                                                                         | `False`  |
-| `userName`       | The uploader's username                                                                                                       | `False`  |
-| `levelID`        | The ID of the level if updating to a newer version, otherwise 0                                                               | `False`  |
-| `levelName`      | The name of the level, in plain text                                                                                          | `False`  |
-| `levelDesc`      | The description of the level, in [URL-safe base64](/topics/encryption/base64.md)                                              | `False`  |
-| `levelVersion`   | The version number of the level                                                                                               | `False`  |
-| `levelLength`    | The length of the level as a number, where 0 is tiny, 4 is XL and 5 is Platformer                                             | `False`  |
-| `audioTrack`     | The [official song number](/reference/songs#table-of-official-songs) used in the level. Set to 0 if a newgrounds song is used | `False`  |
-| `auto`           | Unknown (0)                                                                                                                   | `False`  |
-| `password`       | The level's copy password. Set to 0 for no copy or 1 for free copy                                                            | `False`  |
-| `original`       | The ID of the original level if the level was copied, otherwise 0                                                             | `False`  |
-| `twoPlayer`      | Set to 1 if the level utilizes two player mode                                                                                | `False`  |
-| `songID`         | The ID of the custom Newgrounds song used in the level. Set to 0 if an official song is used                                  | `False`  |
-| `objects`        | The number of objects in the level                                                                                            | `False`  |
-| `coins`          | The number of user coins in the level                                                                                         | `False`  |
-| `requestedStars` | The requested star rating for the level. The number is not limited to 10                                                      | `False`  |
-| `unlisted`       | Set to 2 if the level should be unlisted and to 1 if the level should be only viewable by friends                             | `False`  |
-| `ldm`            | Set to 1 if the level should have a low detail checkbox                                                                       | `False`  |
-| `levelString`    | The actual level data. Must be gzip compressed and then converted to [URL-safe base64](/topics/encryption/base64.md)          | `False`  |
-| `seed2`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the **_compressed_** level data  | `False`  |
-| `secret`         | The common secret: `Wmfd2893gb7`                                                                                              | `False`  |
-| `wt`             | The amount of time spent in the editor of a level (local copy)                                                                | `True`   |
-| `wt2`            | The amount of time spent in the editor of a level (previous copies)                                                           | `True`   |
-| `seed`           | A random string                                                                                                               | `True`   |
-| `extraString`    | A list of underscore seperated numbers. apparently used for rendering levels                                                  | `True`   |
-| `levelInfo`      | A random gzip compressed string                                                                                               | `True`   |
-| `binaryVersion`  | 42                                                                                                                            | `True`   |
-| `gdw`            | 0                                                                                                                             | `True`   |
+| Parameter        | Explanation                                                                                                                   | Required |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `gameVersion`    | The game version. Currently 22                                                                                                | Yes      |
+| `accountID`      | The uploader's account ID                                                                                                     | Yes      |
+| `gjp2`           | The uploader's [GJP2](/topics/gjp.md)                                                                                         | Yes      |
+| `userName`       | The uploader's username                                                                                                       | Yes      |
+| `levelID`        | The ID of the level if updating to a newer version, otherwise 0                                                               | Yes      |
+| `levelName`      | The name of the level, in plain text                                                                                          | Yes      |
+| `levelDesc`      | The description of the level, in [URL-safe base64](/topics/encryption/base64.md)                                              | Yes      |
+| `levelVersion`   | The version number of the level                                                                                               | Yes      |
+| `levelLength`    | The length of the level as a number, where 0 is tiny, 4 is XL and 5 is Platformer                                             | Yes      |
+| `audioTrack`     | The [official song number](/reference/songs#table-of-official-songs) used in the level. Set to 0 if a newgrounds song is used | Yes      |
+| `auto`           | Unknown (0)                                                                                                                   | Yes      |
+| `password`       | The level's copy password. Set to 0 for no copy or 1 for free copy                                                            | Yes      |
+| `original`       | The ID of the original level if the level was copied, otherwise 0                                                             | Yes      |
+| `twoPlayer`      | Set to 1 if the level utilizes two player mode                                                                                | Yes      |
+| `songID`         | The ID of the custom Newgrounds song used in the level. Set to 0 if an official song is used                                  | Yes      |
+| `objects`        | The number of objects in the level                                                                                            | Yes      |
+| `coins`          | The number of user coins in the level                                                                                         | Yes      |
+| `requestedStars` | The requested star rating for the level. The number is not limited to 10                                                      | Yes      |
+| `unlisted`       | Set to 2 if the level should be unlisted and to 1 if the level should be only viewable by friends                             | Yes      |
+| `ldm`            | Set to 1 if the level should have a low detail checkbox                                                                       | Yes      |
+| `levelString`    | The actual level data. Must be gzip compressed and then converted to [URL-safe base64](/topics/encryption/base64.md)          | Yes      |
+| `seed2`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the **_compressed_** level data  | Yes      |
+| `secret`         | The common secret: `Wmfd2893gb7`                                                                                              | Yes      |
+| `wt`             | The amount of time spent in the editor of a level (local copy)                                                                |          |
+| `wt2`            | The amount of time spent in the editor of a level (previous copies)                                                           |          |
+| `seed`           | A random string                                                                                                               |          |
+| `extraString`    | A list of underscore seperated numbers. apparently used for rendering levels                                                  |          |
+| `levelInfo`      | A random gzip compressed string                                                                                               |          |
+| `binaryVersion`  | 42                                                                                                                            |          |
+| `gdw`            | 0                                                                                                                             |          |
 
 ## Response
 

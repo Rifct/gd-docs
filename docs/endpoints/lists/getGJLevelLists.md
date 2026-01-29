@@ -24,7 +24,7 @@
     <summary><code>type</code></summary>
 
 | Type | Description                                                                       |
-| :--: | --------------------------------------------------------------------------------- |
+| ---- | --------------------------------------------------------------------------------- |
 |  0   | Search query                                                                      |
 |  1   | Most downloaded                                                                   |
 |  2   | Most liked                                                                        |
@@ -44,7 +44,7 @@
     <summary><code>diff</code></summary>
 
 | diff | Description                                                |
-| :--: | ---------------------------------------------------------- |
+| ---- | ---------------------------------------------------------- |
 |  -1  | N/A                                                        |
 |  -2  | Demons (see `demonFilter` for specifying demon difficulty) |
 |  1   | Easy                                                       |
@@ -59,7 +59,7 @@
     <summary><code>demonFilter</code></summary>
 
 | demonFilter | Description   |
-| :---------: | ------------- |
+| ----------- | ------------- |
 |      1      | Easy demon    |
 |      2      | Medium demon  |
 |      3      | Hard demon    |
@@ -72,7 +72,7 @@
     <summary><code>len</code></summary>
 
 | len | Value  |
-| :-: | ------ |
+| --- | ------ |
 |  0  | Tiny   |
 |  1  | Short  |
 |  2  | Medium |

@@ -40,7 +40,7 @@ A list of all known keys can be found in the table below
 #### Difficulty possible values
 
 | Value | Difficulty |
-|:------|:-----------|
+|-------|------------|
 | 0 |  auto | 
 | 1 |  easy | 
 | 2 |  normal | 

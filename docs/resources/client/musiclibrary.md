@@ -44,7 +44,7 @@ Meanwhile the old music library has each song in this format:
 Here's an explanation for each key:
 
 | Name          | Type      | Description                                                                                                 |
-| :------------ | :-------- | :---------------------------------------------------------------------------------------------------------- |
+| ------------- | --------- | ----------------------------------------------------------------------------------------------------------- |
 | id            | integer   | The song ID                                                                                                 |
 | name          | string    | The song name                                                                                               |
 | artistID      | integer   | The primary artist ID                                                                                       |

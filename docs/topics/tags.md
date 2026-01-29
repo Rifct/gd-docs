@@ -19,7 +19,7 @@ Colour Tags are used to style areas of text with colour. They contain both a sta
 **Usage:** `<cl>Coloured Text!</c>`
 
 | Tag    | Colour code | Example (website only)         |
-| :----- | :---------- | :----------------------------- |
+| ------ | ----------- | ------------------------------ |
 | `<cb>` | `0x4A52E1`  | <gdfmt><cb>Sample</cb></gdfmt> |
 | `<cg>` | `0x40E348`  | <gdfmt><cg>Sample</cg></gdfmt> |
 | `<cl>` | `0x60ABEF`  | <gdfmt><cl>Sample</cl></gdfmt> |

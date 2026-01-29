@@ -5,7 +5,7 @@
 ## XOR Keys
 
 | Key     | Usage                       | XOR Type |
-| :------ | :-------------------------- | :------- |
+| ------- | --------------------------- | -------- |
 | `11`    | Player Save Data            | Singular |
 | `14251` | Player Messages             | Cycled   |
 | `19283` | Vault Codes                 | Cycled   |

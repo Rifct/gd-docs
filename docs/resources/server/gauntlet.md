@@ -35,7 +35,7 @@ Here is a table which shows which `gauntletID` corresponds to a specific gauntle
 Note: Bolded gauntlet names are the ones that are added in-game, and the rest are yet to be added
 
 | ID | Name |
-|:---|:-----|
+|----|------|
 | 1  | **Fire** |
 | 2  | **Ice** |
 | 3  | **Poison** |

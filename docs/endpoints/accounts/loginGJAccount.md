@@ -8,7 +8,7 @@ This endpoint is used to log into a players Geometry Dash account.
 ## Parameters
 
 | Parameter  | Explanation                                                                                           | Optional |
-| :--------- | :---------------------------------------------------------------------------------------------------- | :------- |
+| ---------- | ----------------------------------------------------------------------------------------------------- | -------- |
 | `udid`     | [The user's Universal Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier) | `False`  |
 | `userName` | The username for the account the player is trying to log into                                         | `False`  |
 | `password` | The plaintext password for the account the player is trying to log into                               | `False`  |
@@ -30,7 +30,7 @@ accountID, playerID = response.split(",")
 If the request was not successful, there are 7 different error codes that can be returned
 
 | Error Code | Meaning                                                                                                   |
-| :--------- | :-------------------------------------------------------------------------------------------------------- |
+| ---------- | --------------------------------------------------------------------------------------------------------- |
 | `-1`       | Generic Error                                                                                             |
 | `-8`       | If the user's password is less than 6 characters long                                                     |
 | `-9`       | If the user's Username is less than 3 characters long                                                     |

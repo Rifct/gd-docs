@@ -5,7 +5,7 @@ Secrets are 11 character strings used to validate if requests to the server were
 ### Table of Secrets
 
 |     Secret    |  Type                |
-|:--------------|:---------------------|
+|---------------|----------------------|
 | `Wmfd2893gb7` | Common               |
 | `Wmfv3899gc9` | Account, Multiplayer |
 | `Wmfv2898gc9` | Level                |
@@ -28,7 +28,7 @@ There are 4 *publicly* known secrets:
 <summary><u>Endpoints</u></summary>
 
 | <center>Endpoint</center> |
-|:--------------------------|
+|---------------------------|
 | [https://www.boomlings.com/database/**getAccountURL**.php](/#/endpoints/account/getAccountURL) |
 | [https://www.boomlings.com/database/**acceptGJFriendRequest20**.php](/#/endpoints/social/acceptGJFriendRequest20) |
 | [https://www.boomlings.com/database/**blockGJUser20**.php](/#/endpoints/social/blockGJUser20) |
@@ -85,7 +85,7 @@ There are 4 *publicly* known secrets:
 <summary><u>Endpoints</u></summary>
 
 | <center>Endpoint</center> |
-|:--------------------------|
+|---------------------------|
 | [http://www.boomlings.com/database/accounts/**registerGJAccount**.php](/#/endpoints/account/registerGJAccount) |
 | [http://www.boomlings.com/database/accounts/**loginGJAccount**.php](/#/endpoints/account/loginGJAccount) |
 | [http://geometrydash.com/database/accounts/**syncGJAccountNew**.php](/#/endpoints/account/syncGJAccountNew) |
@@ -98,7 +98,7 @@ There are 4 *publicly* known secrets:
 <summary><u>Known Multiplayer Endpoints</u></summary>
 
 | <center>Endpoint</center> |
-|:--------------------------|
+|---------------------------|
 | [http://www.boomlings.com/database/**exitMPLobby**.php](/#/endpoints/multiplayer/exitMPLobby) |
 | [http://www.boomlings.com/database/**joinMPLobby**.php](/#/endpoints/multiplayer/joinMPLobby) |
 | [http://www.boomlings.com/database/**uploadMPComment**.php](/#/endpoints/multiplayer/uploadMPComment) |
@@ -113,7 +113,7 @@ There are 4 *publicly* known secrets:
 <summary><u>Endpoints</u></summary>
 
 | <center>Endpoint</center> |
-|:--------------------------|
+|---------------------------|
 | [http://www.boomlings.com/database/**deleteGJLevelUser20**.php](/#/endpoints/level/deleteGJLevelUser20) |
 | [http://www.boomlings.com/database/**deleteGJLevelList**.php](/#/endpoints/lists/deleteGJLevelList) |
 
@@ -127,7 +127,7 @@ There are 4 *publicly* known secrets:
 <summary><u>Endpoints</u></summary>
 
 | <center>Endpoint</center> |
-|:--------------------------|
+|---------------------------|
 | [http://www.boomlings.com/database/**rateGJDemon21**.php](#/endpoints/level/rateGJDemon21) |
 | [http://www.boomlings.com/database/**suggestGJStars20**.php](/#/endpoints/level/suggestGJStars20) |
 

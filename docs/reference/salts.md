@@ -5,7 +5,7 @@
 ## List of known Salts
 
 | Salt           | Usage                                    |
-| :------------- | :--------------------------------------- |
+| -------------- | ---------------------------------------- |
 | `xI25fpAapCQg` | Level Upload Seed                        |
 | `xPT6iUrtws0J` | Comment Chk                              |
 | `ysg6pUrtjn0J` | Like and Rate Chk                        |

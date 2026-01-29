@@ -13,7 +13,7 @@ This class contains a static color along with opacity and blending.
 These are the properties that are important for a BaseColor:
 
 | Name     | Type        | Description           |
-|:---------|:------------|:----------------------|
+|----------|-------------|-----------------------|
 | Red      | **integer** | The red component of the BaseColor. Goes from `0` to `255` |
 | Green    | **integer** | The green component of the BaseColor. Goes from `0` to `255` |
 | Blue     | **integer** | The blue component of the BaseColor. Goes from `0` to `255` |
@@ -28,7 +28,7 @@ This class contains a static color refering to one of the player's icon color al
 These are the properties that are important for a PlayerColor:
 
 | Name         | Type        | Description           |
-|:-------------|:------------|:----------------------|
+|--------------|-------------|-----------------------|
 | Player Color | **integer** | This determines which of the player's color is getting used. The actual values are not documented here yet. |
 | Opacity      | **float**   | The alpha component of the PlayerColor. Goes from `0` to `1` |
 | Blending     | **bool**    | The blending property of the PlayerColor |
@@ -37,7 +37,7 @@ These are the properties that are important for a PlayerColor:
 This class contains a dynamic color copied from another color channel. This color changes according to the current color of the channel that is being copied.
 
 | Name            | Type        | Description           |
-|:----------------|:------------|:----------------------|
+|-----------------|-------------|-----------------------|
 | Copy Channel ID | **integer** | The color channel ID that the CopyColor is copying the color from |
 | Copy Opacity    | **bool**    | This determines whenever CopyColor should also copy the opacity belonging to the color channel in `Copy Color ID` |
 | Opacity         | **float**   | The alpha component of the Copy Color. If `Copy Opacity` is true. This property is ignored. |
@@ -63,7 +63,7 @@ function getColorClass(color) {
 Here are all of the different color id's:
 
 | Interval  | Name              | Description           |
-|:----------|:------------------|:----------------------|
+|-----------|-------------------|-----------------------|
 | `1 - 999` | **Custom colors** | These are the colors that are avalible for the creator to use |
 | `1000`    | **BG**            | This is the color of the background |
 | `1001`    | **G1**            | This is the primary color of the ground |
@@ -84,7 +84,7 @@ Here are all of the different color id's:
 ### 1.9 color channel ID's
 GD's 1.9 version used a different ID scheme to identify color channels. In 2.0+, these IDs are still present, but only used in the legacy `1.9 Color Channel ID` property of 1.9 objects. They are as follows:
 | 1.9 Channel ID | Name | Corresponding 2.0+ ID |
-|:----|:---------|:-----------------------------|
+|-----|----------|------------------------------|
 | `1` | **P1**    | `1005`
 | `2` | **P2**    | `1006`
 | `3` | **COL 1** | `1`

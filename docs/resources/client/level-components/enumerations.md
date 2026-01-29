@@ -8,7 +8,7 @@ Here you will find the enumerations that are related to the level string.
 ## Gamemode
 
 | Key  | Name   |
-|:-----|:-------|
+|------|--------|
 | 0    | Cube   | 
 | 1    | Ship   | 
 | 2    | Ball   | 
@@ -21,7 +21,7 @@ Here you will find the enumerations that are related to the level string.
 ## Speed
 
 | Key  | Name   | Actual Speed (in Units/s) |
-|:-----|:-------|:--------------------------|
+|------|--------|---------------------------|
 | 0    | 1x     | 311.58                    |
 | 1    | 0.5x   | 251.16                    |
 | 2    | 2x     | 387.42                    |
@@ -31,7 +31,7 @@ Here you will find the enumerations that are related to the level string.
 ## Easing
 
 | Key  | Name                |
-|:-----|:--------------------|
+|------|---------------------|
 | 0    | None                | 
 | 1    | Ease In Out         | 
 | 2    | Ease In             | 
@@ -55,21 +55,21 @@ Here you will find the enumerations that are related to the level string.
 ## Pulse Mode
 
 | Key  | Name   |
-|:-----|:-------|
+|------|--------|
 | 0    | Color  | 
 | 1    | HSV    | 
 
 ## Pulse Target Type
 
 | Key  | Name     |
-|:-----|:---------|
+|------|----------|
 | 0    | Channel  | 
 | 1    | Group    | 
 
 ## Touch Toggle Mode
 
 | Key  | Name       |
-|:-----|:-----------|
+|------|------------|
 | 0    | None       | 
 | 1    | Toggle On  | 
 | 2    | Toggle Off | 
@@ -77,7 +77,7 @@ Here you will find the enumerations that are related to the level string.
 ## Instant Count Comparison
 
 | Key  | Name       |
-|:-----|:-----------|
+|------|------------|
 | 0    | Equals     | 
 | 1    | Larger     | 
 | 2    | Smaller    | 

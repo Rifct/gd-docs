@@ -24,7 +24,7 @@ E.g.:
 The valid supported color values are the following:
 
 | Value | Color  |
-|:------|:-------|
+|-------|--------|
 | 0     | orange |
 | 0.9   | yellow |
 | 1.0   | green  |

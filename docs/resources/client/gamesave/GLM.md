@@ -10,7 +10,7 @@ GLM (Global Levels Manager) are various Dictionaries that contain every bit of i
 GLM_01 is used to store all progress the player has made on official levels
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | kCEK 4 | [level data](/resources/client/level.md) |
 
 ## GLM_02
@@ -18,7 +18,7 @@ GLM_01 is used to store all progress the player has made on official levels
 GLM_02 was used in the earliest versions of the game back when your local levels were stored in CCGameManager.dat instead of being separated to CCLocalLevels.dat, currently unused
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | k_{Num} | what place the level is placed in your level list |
 | kCEK 4 | [level data](/resources/client/level.md) |
 
@@ -27,7 +27,7 @@ GLM_02 was used in the earliest versions of the game back when your local levels
 GLM_03 is used to store progress the player has done on all online levels
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | kCEK 4 | [level data](/resources/client/level.md) |
 
 ## GLM_04
@@ -35,7 +35,7 @@ GLM_03 is used to store progress the player has done on all online levels
 GLM_04 contains all the difficulty ratings you have given levels, currently unused
 
 | key | value |
-|:----|:------------|
+|-----|-------------|
 | `{levelID}`| `{diffID}` | 
 
 
@@ -44,7 +44,7 @@ GLM_04 contains all the difficulty ratings you have given levels, currently unus
 GLM_06 contains all of the creators you follow in game
 
 | key | value | description |
-|:----|:------|:------------|
+|-----|-------|-------------|
 | AccountID | 1 | Doing this would place the creators levels in the followed tab |
 
 ## GLM_07
@@ -52,7 +52,7 @@ GLM_06 contains all of the creators you follow in game
 GLM_07 contains the levels you played in the last session
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | levelID | accompanied with a 1 |
 
 ## GLM_08
@@ -60,7 +60,7 @@ GLM_07 contains the levels you played in the last session
 GLM_08 are the states of search filters
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | Diff0 | NA |
 | Diff1 | Auto |
 | Diff2 | Easy |
@@ -95,7 +95,7 @@ GLM_08 are the states of search filters
 GLM_09 shows all search filters available
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | Diff0 | NA |
 | Diff1 | Auto |
 | Diff2 | Easy |
@@ -130,7 +130,7 @@ GLM_09 shows all search filters available
 GLM_10 contains every daily level you have ever had progress on
 
 | Key | Description |
-|:----|:------------|
+|-----|-------------|
 | {timelyID} | A dictionary which contains the Encoder key for levels |
 | kCEK 4 | The Encoder key which contains [level data](/resources/client/level.md)
 
@@ -143,7 +143,7 @@ GLM_11 is the current Daily ID
 GLM_12 contains likes given to a level
 
 | key | Description |
-|:----|:------------|
+|-----|-------------|
 | `like_{LikeType}_{LevelID}_{like/dislike}_{ID}` | needs investigating more |
 
 ## GLM_13
@@ -163,7 +163,7 @@ GLM_15 Contains all the levelIDs of Demons you have rated
 GLM_16 contains every Gauntlet level you have ever had progress on
 
 | Key | Description |
-|:----|:------------|
+|-----|-------------|
 | {timelyID} | A dictionary which contains the Encoder key for levels |
 | kCEK 4 | The Encoder key which contains [level data](/resources/client/level.md)
 
@@ -176,7 +176,7 @@ GLM_17 is the current WeeklyID
 GLM_18 is a dictionary of the Saved Levels folder for online levels
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | `{folder ID}` | `{Folder Name}` |
 
 ## GLM_19
@@ -184,7 +184,7 @@ GLM_18 is a dictionary of the Saved Levels folder for online levels
 GLM_19 is a dictionary of the folders for local levels
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | `{folder ID}` | `{Folder Name}` |
 
 ## GLM_20
@@ -192,7 +192,7 @@ GLM_19 is a dictionary of the folders for local levels
 GLM_20 is a dictionary of all the editor smart templates you have saved
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | kCEK 10 | [level data](/resources/client/gamesave/template.md) |
 
 ## GLM_21
@@ -204,5 +204,5 @@ This GLM is unknown, but it presumably had something to do with lists. It was in
 GLM_22 is a dictionary of all your favorited lists
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | kCEK 12 | [level data](/resources/client/gamesave/list.md) |

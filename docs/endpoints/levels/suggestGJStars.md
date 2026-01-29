@@ -4,25 +4,17 @@ Endpoint used by moderators to send levels to RobTop
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - accountID of the user
-
-**gjp** - The [GJP](/topics/gjp.md) of the user
-
-**levelID** - the ID of the level
-
-**stars** - how many stars that are requested
-
-**secret** - Wmfp3879gc3
-
-**gameVersion** - the game version
-
-**binaryVersion** - the binary version
-
-**feature** - 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic
-
-**gdw** - 0
+| Parameter       | Explanation                                                               | Required |
+| --------------- | ------------------------------------------------------------------------- | -------- |
+| `accountID`     | accountID of the user                                                     | Yes      |
+| `gjp`           | The [GJP](/topics/gjp.md) of the user                                     | Yes      |
+| `levelID`       | The ID of the level                                                       | Yes      |
+| `stars`         | How many stars that are requested                                         | Yes      |
+| `secret`        | The moderator secret: `Wmfp3879gc3`                                       | Yes      |
+| `gameVersion`   | the game version                                                          | Yes      |
+| `binaryVersion` | the binary version                                                        | Yes      |
+| `feature`       | 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic | Yes      |
+| `gdw`           | 0                                                                         | Yes      |
 
 ## Response
 

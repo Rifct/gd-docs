@@ -16,7 +16,7 @@ Theoretically, the start level string in its entirety is the object string, howe
 The level start object has the following properties, formatted as `{key},{value},{key},{value}`
 
 | Key  | Name                   | Type                                        | Description                                                                                                    |
-|:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+|------|------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | kA1  | AudioTrack             | **Integer**                                 | The audio track which the level uses |
 | kA2  | Gamemode               | **[Gamemode](/resources/client/level-components/enumerations#gamemode)**             | the gamemode the player starts with                                                                            |
 | kA3  | Mini Mode              | **bool**                                    | determines whether the player starts off as mini Mode                                                          |
@@ -62,7 +62,7 @@ The level start object has the following properties, formatted as `{key},{value}
 The following keys were valid prior to 2.0 and are deprecated, since they are included in the new `kS38` key. They all represented a color channel that is now indexed through the respective color channel ID.
 
 | Key  | Name         | Color Channel ID |
-|:-----|:-------------|:-----------------|
+|------|--------------|------------------|
 | kS29 | BG Color     | 1000             |
 | kS30 | Ground Color | 1001             |
 | kS31 | Line Color   | 1002             |
@@ -78,7 +78,7 @@ The following keys were valid prior to 2.0 and are deprecated, since they are in
 The following keys were valid prior to 1.9 and were deprecated as of 1.9, since they were included in the keys `kS29`-`kS33`. Each color, instead of using one key, used 3 keys to represent Red, Green, and Blue values, respectively. In 1.7 and 1.8, the game used a fourth key to determine if a color channel used a player color, and which player color it would use.
 
 | Key(s)    | Name                | Key in 1.9 |
-|:----------|:--------------------|:-----------|
+|-----------|---------------------|------------|
 | kS1-kS3   | BG Color            | kS29       |
 | kS4-kS6   | Ground Color        | kS30       |
 | kS7-kS9   | Line Color          | kS31       |
@@ -93,7 +93,7 @@ The following keys were valid prior to 1.9 and were deprecated as of 1.9, since 
 Keys `kS16`-`kS20` used to determine the player color that was being used and their values were interpreted according to the following table:
 
 | Value | Color          |
-|:------|:---------------|
+|-------|----------------|
 | 0     | Neither        |
 | 1     | Player Color 1 |
 | 2     | Player Color 2 |
@@ -106,7 +106,7 @@ Specifically, the only functional properties in a Start Pos object are the ones 
 Confirmed properties that do not work in the Start Pos:
 
 | Key  |
-|:-----|
+|------|
 | kA5  |
 | kA6  |
 | kA7  |
@@ -121,7 +121,7 @@ Confirmed properties that do not work in the Start Pos:
 Since 2.2, the Start Pos object has its own unique properties that do not work in the Level Start object. This is a table of all of them:
 
 | Key  | Name                   | Type                                        | Description                                                                                                    |
-|:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+|------|------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | kA19 | Target Order           | **Integer**                                 | The Target Order property of the Start Pos                                                                     |
 | kA21 | Disable                | **bool**                                    | Whether the Start Pos is disabled                                                                              |
 | kA26 | Target Order           | **Integer**                                 | The Target Channel property of the Start Pos                                                                   |

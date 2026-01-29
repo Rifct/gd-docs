@@ -4,21 +4,14 @@ Gets the gauntlet levels.
 
 ## Parameters
 
-### Required Parameters
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 47
-
-**gdw** - 0
-
-**special** - 1 (fetches the 2.2 gauntlets)
-
-**vkey** - equal to binaryVersion (starting with 46, which is 2.2080)
+| Parameter       | Explanation                                                | Required |
+| --------------- | ---------------------------------------------------------- | -------- |
+| `secret`        | Wmfd2893gb7                                                | Yes      |
+| `gameVersion`   | 22                                                         |          |
+| `binaryVersion` | 47                                                         |          |
+| `gdw`           | 0                                                          |          |
+| `special`       | 1 (fetches the 2.2 gauntlets)                              |          |
+| `vkey`          | equal to binaryVersion (starting with 46, which is 2.2080) |          |
 
 ## Response
 

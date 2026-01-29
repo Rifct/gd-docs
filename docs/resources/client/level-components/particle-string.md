@@ -11,7 +11,7 @@ The particle string is a long string of values separated by the `a` character th
 ## The Values
 
 | Index | Name                     | Description                                                              |
-| :-----| :------------------------| :------------------------------------------------------------------------|
+| ------| -------------------------| -------------------------------------------------------------------------|
 | 1     | Max Particles            | The maximum number of particles to be generated                          |
 | 2     | Duration                 | The animation duration. `-1` for indefinite                              |
 | 3     | Lifetime                 | How long the particles last. `-1` for indefinite                         |

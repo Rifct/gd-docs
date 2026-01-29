@@ -10,7 +10,7 @@ The color string contains the information for the initial state of the colors be
 The color entries have the following properties:
 
 | Key | Name                | Type                                | Description                                |
-|:----|:--------------------|:------------------------------------|:-------------------------------------------|
+|-----|---------------------|-------------------------------------|--------------------------------------------|
 | 1   | FromColourRed       | **Integer**                         | the Red component of the color             |
 | 2   | FromColourGreen     | **Integer**                         | the Green component of the color           |
 | 3   | FromColourBlue      | **Integer**                         | the Blue component of the color            |
@@ -32,5 +32,5 @@ The color entries have the following properties:
 ***Undiscovered properties***
 
 | Key | Type        | Proven Existence | Common Value |
-|:----|:------------|:-----------------|:-------------|
+|-----|-------------|------------------|--------------|
 | 18  | **bool**(?) | yes              | 0            |

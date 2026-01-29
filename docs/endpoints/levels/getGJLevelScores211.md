@@ -4,68 +4,41 @@ Fetches the leaderboard for a level and submits your level stats to the server
 
 ## Parameters
 
-### Required Parameters
+| Parameter       | Explanation                                                                                                                                                                        | Required |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The user's account ID                                                                                                                                                              | Yes      |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                                                                                  | Yes      |
+| `levelID`       | The ID of the level                                                                                                                                                                | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                                                                                                        | Yes      |
+| `gameVersion`   | 22                                                                                                                                                                                 |          |
+| `binaryVersion` | 42                                                                                                                                                                                 |          |
+| `gdw`           | 0                                                                                                                                                                                  |          |
+| `time`          | Your time in milliseconds. Always 0 for this endpoint                                                                                                                              |          |
+| `points`        | Your points. Always 0 for this endpoint                                                                                                                                            |          |
+| `plat`          | Always 0 for this endpoint                                                                                                                                                         |          |
+| `percent`       | The percent the user has on the level. Will not update if left out, but still retrieves data                                                                                       |          |
+| `type`          | 0 for Friends, 1 for Top, 2 for Week. Defaults to 0 if left out                                                                                                                    |          |
+| `s1`            | User's attempts + 8354                                                                                                                                                             |          |
+| `s2`            | User's clicks + 3991                                                                                                                                                               |          |
+| `s3`            | User's attempt time in seconds + 4085                                                                                                                                              |          |
+| `s4`            | [levelSeed](#levelseed)                                                                                                                                                            |          |
+| `s5`            | Random number -> `(((GJGameLevel->0x1B8 ? 2000.0 : 0) + rand()) * 4.6566e-10) * 1999.0`                                                                                            |          |
+| `s6`            | List of PB differences (For example from 0 to 50, then 69, it would be `50,19`) [XOR'd](/topics/encryption/xor.md) with `41274` and [Base64](/topics/encryption/base64.md) encoded |          |
+| `s7`            | Randomly Generated 10 character string                                                                                                                                             |          |
+| `s8`            | Attempt Count                                                                                                                                                                      |          |
+| `s9`            | The amount of coins the user got + 5819                                                                                                                                            |          |
+| `s10`           | Timely ID -> for dailies and weeklies                                                                                                                                              |          |
+| `chk`           | [See here](/topics/encryption/chk#level-leaderboard)                                                                                                                               |          |
 
-**accountID** - The user's account ID
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**levelID** - The ID of the level
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**time** - Your time in milliseconds. Always 0 for this endpoint
-
-**points** - Your points. Always 0 for this endpoint
-
-**plat** - Always 0 for this endpoint
-
-**percent** - The percent the user has on the level. Will not update if left out, but still retrieves data
-
-**type** - 0 for Friends, 1 for Top, 2 for Week. Defaults to 0 if left out
-
-**s1** - User's attempts + 8354
-
-**s2** - User's clicks + 3991
-
-**s3** - User's attempt time in seconds + 4085
-
-**s4** - levelSeed
-
- - it can be generated like this
+## levelSeed
+the levelSeed can be generated like this:
 ```py
-def generate_leaderboard_seed(
-    clicks: int, percentage: int, seconds: int, has_played: bool = True
-) -> int:
+def generate_leaderboard_seed(clicks: int, percentage: int, seconds: int, has_played: bool = True) -> int:
+    return (1482) * (2 if has_played else 1) + (clicks + 3991) * (percentage + 8354) + pow(seconds + 4085, 2) - (50028039)
 
-    return (
-        1482 * (has_played + 1)
-        + (clicks + 3991) * (percentage + 8354)
-        + ((seconds + 4085) ** 2) - 50028039
-    )
+generate_leaderboard_seed(20, 100, 243, True)   # 2615503
+generate_leaderboard_seed(78432, 37, 104, True) # 659134039
 ```
-
-**s5** - Random number -> `(((GJGameLevel->0x1B8 ? 2000.0 : 0) + rand()) * 4.6566e-10) * 1999.0`
-
-**s6** - List of PB differences (For example from 0 to 50, then 69, it would be `50,19`) [XOR'd](/topics/encryption/xor.md) with `41274` and [Base64](/topics/encryption/base64.md) encoded
-
-**s7** - Randomly Generated 10 character string
-
-**s8** - Attempt Count
-
-**s9** - The amount of coins the user got + 5819
-
-**s10** - Timely ID -> for dailies and weeklies
-
-**chk** - [See here](/topics/encryption/chk#level-leaderboard)
 
 ## Response
 

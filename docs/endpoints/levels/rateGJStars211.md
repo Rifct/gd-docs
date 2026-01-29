@@ -4,33 +4,20 @@ Sends a star suggestion for a level
 
 ## Parameters
 
-### Required Parameters
-
-**secret** - Wmfd2893gb7
-
-**levelID** - The ID of the level receiving the star suggestion
-
-**stars** - The amount of stars being suggested
-
-**rs** - 10 randomly generated characters from `[A-Za-z0-9]`
-
-**accountID** - Your account ID
-
-**gjp2** - Your password, encrypted with [GJP2](/topics/gjp.md)
-
-**udid** - Your UDID
-
-**uuid** - Your player ID (different from account ID)
-
-**chk** - [See here](/topics/encryption/chk.md#rate)
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                                          | Required |
+| --------------- | ---------------------------------------------------- | -------- |
+| `secret`        | Wmfd2893gb7                                          | Yes      |
+| `levelID`       | The ID of the level receiving the star suggestion    | Yes      |
+| `stars`         | The amount of stars being suggested                  | Yes      |
+| `rs`            | 10 randomly generated characters from `[A-Za-z0-9]`  | Yes      |
+| `accountID`     | Your account ID                                      | Yes      |
+| `gjp2`          | Your password, encrypted with [GJP2](/topics/gjp.md) | Yes      |
+| `udid`          | Your UDID                                            | Yes      |
+| `uuid`          | Your player ID (different from account ID)           | Yes      |
+| `chk`           | [See here](/topics/encryption/chk.md#rate)           | Yes      |
+| `gameVersion`   | 22                                                   |          |
+| `binaryVersion` | 42                                                   |          |
+| `gdw`           | 0                                                    |          |
 
 ## Response
 

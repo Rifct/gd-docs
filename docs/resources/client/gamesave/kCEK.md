@@ -1,7 +1,7 @@
 # kCEK Encoder Keys
 
 | Key | Name/Value                     | description |
-| :-- | :----------------------------- | :-----------|
+| --- | ------------------------------ | ------------|
 | 4   | [GJGameLevel](/resources/client/level.md) | Contains Keys for levels you played in the past |
 | 6   | [SongInfoObject](/resources/server/song#song-structure) | Contains Keys for songs downloaded |
 | 7   | [GJChallengeItem](/resources/client/gamesave/quests.md) | Contains Keys that the game uses to show quests when offline |
@@ -16,7 +16,7 @@
 `GJRewardItem` is a dictionary which contains `GJRewardObject` 
 
 | key | encoder Key | use/description |
-|:----|:------------|:------------|
+|-----|-------------|-------------|
 | 1 | 8 | Depends on the [GS_Value](/resources/client/gamesave/GS_Value) it is inside of |
 | 2 | 8 | Depends on the [GS_Value](/resources/client/gamesave/GS_Value) it is inside of |
 | 3 | 8 | GJRewardObject |
@@ -28,7 +28,7 @@
 ### ItemIDs
 
 | key | value |
-|:----|:------|
+|-----|-------|
 | 1 | Fire Shard |
 | 2 | Ice Shard |
 | 3 | Poison Shard |
@@ -50,13 +50,13 @@
 #### GS_11
 
 | key | value |
-|:----|:------------|
+|-----|-------------|
 | 1 | ChestID | 
 | 2 | ChestType | 
 
 ##### Chest Types
 
 | ID | type |
-|:---|:-----|
+|----|------|
 | 1 | 4 hour chest |
 | 2 | 24 hour chest |

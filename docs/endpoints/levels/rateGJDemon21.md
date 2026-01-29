@@ -4,25 +4,16 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 ## Parameters
 
-### Required Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**secret** - Wmfp3897gc3
-
-**accountID** - The accountID of the user who's rating the demon's difficulty
-
-**gjp** - The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty
-
-**levelID** - The ID of the demon being rated
-
-**rating** - 1 for Easy Demon, 2 for Medium Demon, 3 for Hard Demon, 4 for Insane Demon and 5 for Extreme Demon
-
-### Optional Parameters
-
-**gdw** - 0 
+| Parameter       | Explanation                                                                                        | Required |
+| --------------- | -------------------------------------------------------------------------------------------------- | -------- |
+| `gameVersion`   | 22                                                                                                 | Yes      |
+| `binaryVersion` | 42                                                                                                 | Yes      |
+| `secret`        | Wmfp3897gc3                                                                                        | Yes      |
+| `accountID`     | The accountID of the user who's rating the demon's difficulty                                      | Yes      |
+| `gjp`           | The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty                          | Yes      |
+| `levelID`       | The ID of the demon being rated                                                                    | Yes      |
+| `rating`        | 1 for Easy Demon, 2 for Medium Demon, 3 for Hard Demon, 4 for Insane Demon and 5 for Extreme Demon | Yes      |
+| `gdw`           | 0                                                                                                  |          |
 
 ## Response
 

@@ -17,7 +17,7 @@ The SFX library is split into 2 parts:
 `{id},{name},{isFolder},{parentFolder},{filesize},{duration}`
 
 | Key          | Type      | Description                                                      |
-| :----------- | :-------- | :--------------------------------------------------------------- |
+| ------------ | --------- | ---------------------------------------------------------------- |
 | id           | `integer` | The sound effect/folder ID                                       |
 | name         | `string`  | The sound effect/folder name                                     |
 | isFolder     | `boolean` | Whether this is a sound effect or folder                         |

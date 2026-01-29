@@ -32,7 +32,7 @@ Notice that every single objects contains at least 3 properties, `1`, `2`, `3`, 
 Property keys reflect the keys found in the following table, whereas property values are formatted as follows
 
 | Type                | Formatting                                                                                  |
-|:--------------------|:--------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------------------------------------------------|
 | **integer**         | decimal numerical value string (e.g. `421`)                                                 |
 | **bool**            | `1` if true, `0` if false                                                                   |
 | **float**           | decimal numerical value string, using `.` as the decimal point separator (e.g. `12.41`)     |
@@ -47,7 +47,7 @@ Property keys reflect the keys found in the following table, whereas property va
 You can access the old table of object properties (with all 2.1 properties and a few 2.2 properties) below if you need it for whatever reason.
 
 | Key | Name/Value                           | Type                                            | Description                                                                        |
-|:----|:-------------------------------------|:------------------------------------------------|:-----------------------------------------------------------------------------------|
+|-----|--------------------------------------|-------------------------------------------------|------------------------------------------------------------------------------------|
 | 1   | Object ID                            | **integer**                                     | the ID of the object                                                               |
 | 2   | X Position                           | **float**                                       | the X position of the object                                                       |
 | 3   | Y Position                           | **float**                                       | the Y position of the object                                                       |
@@ -166,7 +166,7 @@ You can access the old table of object properties (with all 2.1 properties and a
 The following features are discovered in current local save files, however their purpose is undisclosed.
 
 | Key | Type        | Info                                                                                               |
-|:----|:------------|:---------------------------------------------------------------------------------------------------|
+|-----|-------------|----------------------------------------------------------------------------------------------------|
 | 36  | **bool**    | suspected to be handling whether an object's X position is locked and unaffected by a Move trigger |
 | 74  | **bool**(?) | only found in the Follow Player Y trigger                                                          |
 | 155 | **integer** | Suspected to be something related to optimizing colors. Appears on all objects                     |
@@ -177,7 +177,7 @@ The following features are discovered in current local save files, however their
 The following key ranges are potentially discarded features, whose appearance in earlier versions of the game is unknown and untested.
 
 | Key(s) |
-|:------:|
+|--------|
 | 18     |
 | 26-27  |
 | 37-40  |

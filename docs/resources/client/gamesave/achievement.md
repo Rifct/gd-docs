@@ -17,7 +17,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 ## Internal Names
 
 | Internal name | How it's acquired |
-| :-------------| :-------------- |
+| --------------| --------------- |
 | geometry.ach.level01b | Beat Stereo Madness in normal Mode |
 | geometry.ach.level01a | Beat Stereo Madness in practice Mode |
 | geometry.ach.level02b | Beat Back On Track in normal Mode |
@@ -558,7 +558,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 
 ## GD Meltdown Achievements
 | Internal name | How it's acquired |
-| :-------------| :-------------- |
+| --------------| --------------- |
 | geometry.ach.mdlevel01b | Beat The Seven Seas in normal mode |
 | geometry.ach.mdlevel02b | Beat Viking Arena in normal mode |
 | geometry.ach.mdlevel03b | Beat Airborne Robots in normal mode |
@@ -569,7 +569,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 
 ## GD World Achievements
 | Internal name | How it's acquired |
-| :-------------| :-------------- |
+| --------------| --------------- |
 | geometry.ach.world.level001b | Beat Payload in normal mode |
 | geometry.ach.world.level002b | Beat Beast Mode in normal mode |
 | geometry.ach.world.level003b | Beat Machina in normal mode |
@@ -583,7 +583,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 
 ## GD Subzero Achievements
 | Internal name | How it's acquired |
-| :-------------| :-------------- |
+| --------------| --------------- |
 | geometry.ach.subzero.level001 | Beat Press Start in normal mode |
 | geometry.ach.subzero.level002 | Beat Nock Em in normal mode |
 | geometry.ach.subzero.level003 | Beat Power Trip in normal mode |

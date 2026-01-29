@@ -4,13 +4,10 @@ Reports a level
 
 ## Parameters
 
-### Required Parameters
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**levelID** - The ID of the level being reported
+| Parameter | Explanation                        | Required |
+| --------- | ---------------------------------- | -------- |
+| `secret`  | The common secret: `Wmfd2893gb7`   | Yes      |
+| `levelID` | The ID of the level being reported |          |
 
 ## Response
 

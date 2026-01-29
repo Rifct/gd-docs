@@ -5,7 +5,7 @@ There are 3 different shops in Geometry Dash which allow the player to purchase 
 **Note:** ItemID refers to the ID of the item Type. 
 
 | listingID | itemID | Item Type | cost | Shop Type |
-|:-------|:-------|:----------|:-----|:----------|
+|--------|--------|-----------|------|-----------|
 | 34 | 79 | Cube | 500 | Shopkeeper |
 | 1 | 77 | Cube | 1000 | Shopkeeper |
 | 2 | 86 | Cube | 1000 | Shopkeeper |

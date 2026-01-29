@@ -7,7 +7,7 @@ After you click on the quest button when playing Geometry Dash, information abou
 ## Quest Key structure
 
 | Key | Name/Value                     | type |Description                                                      |
-| :-- | :----------------------------- |:-----|:--------------------------------------------------------------- |
+| --- | ------------------------------ |------|---------------------------------------------------------------- |
 | 1   | Quest Type                     | [quest](/resources/client/level-components/enumerations.md) |This is used to diffrenciate the type of quest needs to be completed: 1 = Orbs, 2 = Coins, 3 = Stars |
 | 2   | Progress                       | integer | How many of the required stats have been gained since you started the quest|
 | 3   | Goal                           | integer | How many of the required stats you need to gain to complete the quest|

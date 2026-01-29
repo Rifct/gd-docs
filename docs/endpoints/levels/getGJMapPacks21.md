@@ -4,19 +4,13 @@ Gets the map packs.
 
 ## Parameters
 
-### Required Parameters
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**page** - Denotes which page of map packs you want to retrieve, starting with 0
+| Parameter       | Explanation                                                           | Required |
+| --------------- | --------------------------------------------------------------------- | -------- |
+| `secret`        | Wmfd2893gb7                                                           | Yes      |
+| `gameVersion`   | 22                                                                    |          |
+| `binaryVersion` | 42                                                                    |          |
+| `gdw`           | 0                                                                     |          |
+| `page`          | Denotes which page of map packs you want to retrieve, starting with 0 |          |
 
 ## Response
 

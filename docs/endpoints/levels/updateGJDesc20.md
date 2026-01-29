@@ -4,17 +4,16 @@ Updates the description of a level
 
 ## Parameters
 
-
-| Parameter       | Explanation                                                                                 | Optional |
-| :-------------- | :------------------------------------------------------------------------------------------ | -------- |
-| `accountID`     | The account ID of the level's author                                                        | `False`  |
-| `gjp2`          | The [GJP2](/topics/gjp.md) of the level's author                                            | `False`  |
-| `levelID`       | The ID of the level                                                                         | `False`  |
-| `levelDesc`     | The new description of the level, converted to [URL-safe base64](/topics/encryption/base64) | `False`  |
-| `secret`        | Wmfd2893gb7                                                                                 | `False`  |
-| `gameVersion`   | 22                                                                                          | `True`   |
-| `binaryVersion` | 42                                                                                          | `True`   |
-| `gdw`           | 0                                                                                           | `True`   |
+| Parameter       | Explanation                                                                                 | Required |
+| --------------- | ------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The account ID of the level's author                                                        | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the level's author                                            | Yes      |
+| `levelID`       | The ID of the level                                                                         | Yes      |
+| `levelDesc`     | The new description of the level, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
+| `secret`        | The common secret: `Wmfd2893gb7`                                                            | Yes      |
+| `gameVersion`   | 22                                                                                          |          |
+| `binaryVersion` | 42                                                                                          |          |
+| `gdw`           | 0                                                                                           |          |
 
 ## Response
 

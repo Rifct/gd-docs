@@ -15,7 +15,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 ## registerGJAccount
 
 | Code | Name | Description |
-|:-----|:-----|:------------|
+|------|------|-------------|
 | `-2` | Taken UserName | If the username you are trying to register with is taken |
 | `-3` | Email is in use | If an account with that already email exists |
 | `-4` | Username is invalid | If the username is invalid |
@@ -29,7 +29,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 ## loginGJAccount
 
 | Code | Name | Description |
-|:-----|:-----|:------------|
+|------|------|-------------|
 | `-8` | Too short. Minimum 6 characters | If the password is less than 6 characters long |
 | `-9` | Too short. Minimum 3 characters | If the name is less than 3 characters long |
 | `-10`| Already linked to a different account | If you are already logged into a different account (refresh login) |
@@ -40,7 +40,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 ## syncGJAccount/backupGJAccount
 
 | Code | Name | Description |
-|:-----|:-----|:------------|
+|------|------|-------------|
 | `-2`   | Login Failed | Your login credentials were wrong and you need to log back in |
 | `-4`   | Request is too large | Your request to the server was too large |
 | `-5`   | Bad login info | Invalid login info was provided  |
@@ -50,17 +50,17 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 ## suggestGJStars/rateGJDemon
 
 | Code | Name | Description |
-|:-----|:-----|:------------|
+|------|------|-------------|
 | `-2` | Not a Moderator | If you try to send a level despite not being a moderator |
 
 ## uploadGJComment/uploadGJAccComment
 
 | Code | Name | Description |
-|:-----|:-----|:------------|
+|------|------|-------------|
 | `-10` | Permanent comment ban | If Robtop has deemed you worthy of a permanent comment ban |
 | `temp_{time}_{reason}` | Temporary Comment Ban | If you have recieved a temporary ban from Robtop or an Elder Moderator
 
 | Key | description |
-|:----|:------------|
+|-----|-------------|
 | `{time}` | The duration of your ban left in seconds |
 | `{reason}` | The reason behind your ban |

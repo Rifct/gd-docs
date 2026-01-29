@@ -5,7 +5,7 @@ The Platformer UI object is formatted as follows:
 `{width},{height},{scale},{opacity},{xPos},{yPos},{modeB},{deadzone},{radius},{snap},{split}`
 
 | Key               | Type       | Description                                                             |
-| :-----------------| :----------| :-----------------------------------------------------------------------|
+| ------------------| -----------| ------------------------------------------------------------------------|
 | width             | integer    | The width of the button hitbox                                          |
 | height            | integer    | The height of the button hitbox                                         |
 | scale             | float      | The scale of the buttons                                                |

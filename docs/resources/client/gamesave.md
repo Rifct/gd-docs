@@ -10,7 +10,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 ## Gamesave Key structure
 
 | Key     | Type | description |
-| :-------| :--- | :-----------|
+| --------| ---- | ------------|
 | bgVolume| Float| any value between 0 - 1 |
 | sfxVolume| Float| any value between 0 - 1 |
 | playerUDID| [UDID](/topics/encryption/id#udid)| The UDID of the user |
@@ -70,7 +70,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 These keys were used in old versions of the game but are now obsolete.
 
 | Key     | Type | description |
-| :-------| :--- | :-----------|
+| --------| ---- | ------------|
 | musicEnabled | Bool | Whether music is enabled or not. Moved to bgVolume |
 | fxEnabled | Bool | Whether sound effects are enabled or not. Moved to sfxVolume |
 | moreGamesString | String | The contents of the More Games button. It was a list of values separated by `_`. The values were: `gj` for GD Lite, `boom` for Boomlings, `mu` for Boomlings MatchUp and `mm` for Memory Mastermind. The game allowed repeated values |
@@ -91,7 +91,7 @@ These keys were used in old versions of the game but are now obsolete.
 ## GLM
 
 | Key     | Type | description |
-| :-------| :--- | :-----------|
+| --------| ---- | ------------|
 | [GLM_01](/resources/client/gamesave/GLM.md#GLM_01) | [Level](/resources/client/level.md)| All Official Levels you have progress on are stored here |
 | [GLM_02](/resources/client/gamesave/GLM.md#GLM_02) | [level](/resources/client/level.md) | Local levels - before 1.1, when they were moved from CCGameManager.dat to a new file: CCLocalLevels.dat |
 | [GLM_03](/resources/client/gamesave/GLM.md#GLM_03) | [Level](/resources/client/level.md)| online levels played|
@@ -115,7 +115,7 @@ These keys were used in old versions of the game but are now obsolete.
 ## GS
 
 | Key     | Type |
-| :-------| :--- |
+| --------| ---- |
 | [GS_value](/resources/client/gamesave/GS_Value#gs-value-structure)| Player Stats  |
 | [GS_completed](/resources/client/gamesave/GS_Value#gs_completed)| Completed Levels  |
 | [GS_3](/resources/client/gamesave/GS_Value#gs_3)| Completed levels with coins `{levelID}_{number of coins aquired from level}` |
@@ -148,7 +148,7 @@ These keys were used in old versions of the game but are now obsolete.
 ## GJA
 
 | Key | Value|
-| :-- |:-----------|
+| --- |------------|
 | GJA_001 | Username|
 | GJA_002 | Password (in plaintext) (2.1 and below)|
 | GJA_003 | AccountID |
@@ -158,7 +158,7 @@ These keys were used in old versions of the game but are now obsolete.
 ## LLM
 
 | Key | Value|
-| :-- |:-----------|
+| --- |------------|
 | LLM_01 | Local [Levels](/resources/client/level.md) |
 | LLM_02 | Hardcoded to `binaryVersion`|
 | LLM_03 | Local [Lists](/resources/client/gamesave/list.md) |
@@ -166,7 +166,7 @@ These keys were used in old versions of the game but are now obsolete.
 ## MDLM
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | MDLM_001 | Dictionary of [SongInfoObject](/resources/server/song.md) |
 | MDLM_002 | Song Priority of a song |
 | MDLM_003 | Unknown (dict) |
@@ -174,6 +174,6 @@ These keys were used in old versions of the game but are now obsolete.
 ## KBM
 
 | Key | Value |
-|:----|:------|
+|-----|-------|
 | KBM_001 | Keybindings |
 | KBM_002 | Keybindings |
