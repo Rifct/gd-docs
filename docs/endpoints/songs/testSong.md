@@ -6,9 +6,9 @@ Gets whitelist/artist info about a song. **THIS IS A GET REQUEST.**
 
 ## Parameters
 
-### Required Parameters
-
-**songID** - The ID of the song on newgrounds
+| Parameter | Explanation                      | Required |
+| --------- | -------------------------------- | -------- |
+| `songID`  | The ID of the song on newgrounds | Yes      |
 
 ## Response
 

@@ -4,21 +4,14 @@ Gets RobTop's handpicked top artists.
 
 ## Parameters
 
-### Required Parameters
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**page** - Which page of the artists you want to see
-
-**total** - Current use is unknown, defaults to the amount of artists there are, but leaving it as 0 works.
+| Parameter       | Explanation                                                                                     | Required |
+| --------------- | ----------------------------------------------------------------------------------------------- | -------- |
+| `secret`        | Wmfd2893gb7                                                                                     | Yes      |
+| `gameVersion`   | 22                                                                                              |          |
+| `binaryVersion` | 42                                                                                              |          |
+| `gdw`           | 0                                                                                               |          |
+| `page`          | Which page of the artists you want to see                                                       |          |
+| `total`         | Current use is unknown, defaults to the amount of artists there are, but leaving it as 0 works. |          |
 
 ## Response
 

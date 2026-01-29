@@ -4,27 +4,18 @@ Gets info about a newgrounds song.
 
 ## Parameters
 
-### Required Parameters
-
-**songID** - The newgrounds ID of the song you want information about
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**accountID**
-
-**binaryVersion** - 45
-
-**gameVersion** - 22
-
-**gjp2**
-
-**secret**
-
-**udid**
-
-**uuid**
+<!-- TODO: fill out explanations -->
+| Parameter       | Explanation                                              | Required |
+| --------------- | -------------------------------------------------------- | -------- |
+| `songID`        | The newgrounds ID of the song you want information about | Yes      |
+| `secret`        | Wmfd2893gb7                                              | Yes      |
+| `accountID`     |                                                          |          |
+| `binaryVersion` | 45                                                       |          |
+| `gameVersion`   | 22                                                       |          |
+| `gjp2`          |                                                          |          |
+| `secret`        |                                                          |          |
+| `udid`          |                                                          |          |
+| `uuid`          |                                                          |          |
 
 
 ## Response
