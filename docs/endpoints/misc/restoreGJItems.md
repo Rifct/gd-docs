@@ -4,11 +4,10 @@ Restores user's data; defunct as of the new save system
 
 ## Parameters
 
-### Required Parameters
-
-**udid** - A unique identifier for the user's device, can be replaced with anything
-
-**secret** - Wmfd2893gb7
+| Parameter | Explanation                                                              | Required |
+| --------- | ------------------------------------------------------------------------ | -------- |
+| `udid`    | A unique identifier for the user's device, can be replaced with anything | Yes      |
+| `secret`  | Wmfd2893gb7                                                              | Yes      |
 
 ## Response
 

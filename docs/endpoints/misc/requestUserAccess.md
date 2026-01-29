@@ -4,21 +4,14 @@ Requests moderator access.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The accountID of the user requesting mod access
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user requesting mod access
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                                                  | Required |
+| --------------- | ------------------------------------------------------------ | -------- |
+| `accountID`     | The accountID of the user requesting mod access              | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the user requesting mod access | Yes      |
+| `secret`        | Wmfd2893gb7                                                  | Yes      |
+| `gameVersion`   | 22                                                           |          |
+| `binaryVersion` | 42                                                           |          |
+| `gdw`           | 0                                                            |          |
 
 ## Response
 
