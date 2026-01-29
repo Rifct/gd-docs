@@ -4,25 +4,16 @@ Deletes a message between two users.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The account ID of the user who is deleting the message
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user who is deleting the message
-
-**messageID** - ID of the message being deleted
-
-**isSender** - 1 if the user who deleted the message is the sender, otherwise this parameter isn't sent
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                                                                              | Required |
+| --------------- | ---------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The account ID of the user who is deleting the message                                   | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the user who is deleting the message                       | Yes      |
+| `messageID`     | ID of the message being deleted                                                          | Yes      |
+| `isSender`      | 1 if the user who deleted the message is the sender, otherwise this parameter isn't sent | Yes      |
+| `secret`        | Wmfd2893gb7                                                                              | Yes      |
+| `gameVersion`   | 22                                                                                       |          |
+| `binaryVersion` | 42                                                                                       |          |
+| `gdw`           | 0                                                                                        |          |
 
 ## Response
 

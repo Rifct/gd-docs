@@ -4,23 +4,15 @@ Download a message.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The person's account ID
-
-**gjp2** - The person's [GJP2](/topics/gjp.md)
-
-**messageID** - The ID of the message to read
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                         | Required |
+| --------------- | ----------------------------------- | -------- |
+| `accountID`     | The person's account ID             | Yes      |
+| `gjp2`          | The person's [GJP2](/topics/gjp.md) | Yes      |
+| `messageID`     | The ID of the message to read       | Yes      |
+| `secret`        | Wmfd2893gb7                         | Yes      |
+| `gameVersion`   | 22                                  |          |
+| `binaryVersion` | 42                                  |          |
+| `gdw`           | 0                                   |          |
 
 ## Response
 

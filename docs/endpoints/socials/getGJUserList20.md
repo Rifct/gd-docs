@@ -4,23 +4,15 @@ Gets either your friend list or your blocked list
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The account ID of the user you want to get the friends/blocklist of
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**type** - 0 for friends, 1 for blocklist. Defaults to 0 if left out
+| Parameter       | Explanation                                                                     | Required |
+| --------------- | ------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The account ID of the user you want to get the friends/blocklist of             | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of | Yes      |
+| `secret`        | Wmfd2893gb7                                                                     | Yes      |
+| `gameVersion`   | 22                                                                              |          |
+| `binaryVersion` | 42                                                                              |          |
+| `gdw`           | 0                                                                               |          |
+| `type`          | 0 for friends, 1 for blocklist. Defaults to 0 if left out                       |          |
 
 ## Response
 

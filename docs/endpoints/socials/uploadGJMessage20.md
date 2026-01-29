@@ -4,27 +4,17 @@ Sends a message to a user
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - Account ID of the user sending the message
-
-**gjp2** - The [GJP2](/topics/gjp.md) of the user sending the message
-
-**toAccountID** - Account ID of the user retrieving the message
-
-**subject** - The subject of the message, converted to [URL-safe base64](/topics/encryption/base64)
-
-**body** - The body of the message, converted to [URL-safe base64](/topics/encryption/base64)
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter       | Explanation                                                                           | Required |
+| --------------- | ------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | Account ID of the user sending the message                                            | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp.md) of the user sending the message                            | Yes      |
+| `toAccountID`   | Account ID of the user retrieving the message                                         | Yes      |
+| `subject`       | The subject of the message, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
+| `body`          | The body of the message, converted to [URL-safe base64](/topics/encryption/base64)    | Yes      |
+| `secret`        | Wmfd2893gb7                                                                           | Yes      |
+| `gameVersion`   | 22                                                                                    |          |
+| `binaryVersion` | 42                                                                                    |          |
+| `gdw`           | 0                                                                                     |          |
 
 ## Response
 

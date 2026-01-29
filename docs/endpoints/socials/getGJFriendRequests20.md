@@ -4,17 +4,17 @@
 
 ## Parameters
 
-| Parameter       | Explanation                                                | Optional |
-| --------------- | ---------------------------------------------------------- | -------- |
-| `gameVersion`   | The Game Version the player is playing on. 22 for 2.2      | `True`   |
-| `binaryVersion` | The current build the player playing on. 42 for 2.206      | `True`   |
-| `gdw`           | If the player is using Geometry Dash World                 | `True`   |
-| `page`          | The page currently being viewed                            | `True`   |
-| `total`         | The total friend requests recieved                         | `True`   |
-| `getSent`       | If the server should fetch requests sent by the player     | `True`   |
-| `accountID`     | The player's account ID                                    | `False`  |
-| `gjp2`          | The player's [GJP2](/topics/gjp.md)             | `False`  |
-| `secret`        | The common secret: `Wmfd2893gb7`                           | `False`  |
+| Parameter       | Explanation                                            | Required |
+| --------------- | ------------------------------------------------------ | -------- |
+| `accountID`     | The player's account ID                                | Yes      |
+| `gjp2`          | The player's [GJP2](/topics/gjp.md)                    | Yes      |
+| `secret`        | The common secret: `Wmfd2893gb7`                       | Yes      |
+| `gameVersion`   | The Game Version the player is playing on. 22 for 2.2  |          |
+| `binaryVersion` | The current build the player playing on. 42 for 2.206  |          |
+| `gdw`           | If the player is using Geometry Dash World             |          |
+| `page`          | The page currently being viewed                        |          |
+| `total`         | The total friend requests recieved                     |          |
+| `getSent`       | If the server should fetch requests sent by the player |          |
 
 ## Response
 

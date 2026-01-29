@@ -4,23 +4,15 @@ Unblocks a user.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The unblocking person's account ID
-
-**gjp2** - The unblocking person's [GJP2](/topics/gjp.md)
-
-**targetAccountID** - The account ID of the person getting unblocked
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
+| Parameter         | Explanation                                    | Required |
+| ----------------- | ---------------------------------------------- | -------- |
+| `accountID`       | The unblocking person's account ID             | Yes      |
+| `gjp2`            | The unblocking person's [GJP2](/topics/gjp.md) | Yes      |
+| `targetAccountID` | The account ID of the person getting unblocked | Yes      |
+| `secret`          | Wmfd2893gb7                                    | Yes      |
+| `gameVersion`     | 22                                             |          |
+| `binaryVersion`   | 42                                             |          |
+| `gdw`             | 0                                              |          |
 
 ## Response
 

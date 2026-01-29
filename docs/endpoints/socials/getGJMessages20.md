@@ -4,27 +4,17 @@ Gets a user's DMs.
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The user's account ID
-
-**gjp2** - The user's [GJP2](/topics/gjp.md)
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 22
-
-**binaryVersion** - 42
-
-**gdw** - 0
-
-**page** - Which page of messages you want, starting at 0. Defaults to the first if left out.
-
-**total** - Current use is unknown, defaults to the amount of message the user has, but leaving it as 0 works.
-
-**getSent** - 0 for the messages the user has received, 1 for the messages they sent. If left out defaults to 0
+| Parameter       | Explanation                                                                                        | Required |
+| --------------- | -------------------------------------------------------------------------------------------------- | -------- |
+| `accountID`     | The user's account ID                                                                              | Yes      |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                  | Yes      |
+| `secret`        | Wmfd2893gb7                                                                                        | Yes      |
+| `gameVersion`   | 22                                                                                                 |          |
+| `binaryVersion` | 42                                                                                                 |          |
+| `gdw`           | 0                                                                                                  |          |
+| `page`          | Which page of messages you want, starting at 0. Defaults to the first if left out.                 |          |
+| `total`         | Current use is unknown, defaults to the amount of message the user has, but leaving it as 0 works. |          |
+| `getSent`       | 0 for the messages the user has received, 1 for the messages they sent. If left out defaults to 0  |          |
 
 ## Response
 

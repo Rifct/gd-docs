@@ -4,23 +4,15 @@ Removes someone from a user's friend list
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The accountID of the user removing the friend
-
-**gjp** - The [GJP](/topics/gjp.md) of the user removing the friend
-
-**targetAccountID** - The accountID of the user being removed
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Parameter         | Explanation                                               | Required |
+| ----------------- | --------------------------------------------------------- | -------- |
+| `accountID`       | The accountID of the user removing the friend             | Yes      |
+| `gjp`             | The [GJP](/topics/gjp.md) of the user removing the friend | Yes      |
+| `targetAccountID` | The accountID of the user being removed                   | Yes      |
+| `secret`          | Wmfd2893gb7                                               | Yes      |
+| `gameVersion`     | 21                                                        |          |
+| `binaryVersion`   | 35                                                        |          |
+| `gdw`             | 0                                                         |          |
 
 ## Response
 
