@@ -4,10 +4,10 @@ Reports a level
 
 ## Parameters
 
-| Parameter | Explanation                        | Required |
-| --------- | ---------------------------------- | -------- |
-| `secret`  | The common secret: `Wmfd2893gb7`   | Yes      |
-| `levelID` | The ID of the level being reported |          |
+| Parameter | Explanation                                          | Required |
+| --------- | ---------------------------------------------------- | -------- |
+| `secret`  | [Common Secret]((/reference/secrets)): `Wmfd2893gb7` | Yes      |
+| `levelID` | The ID of the level being reported                   |          |
 
 ## Response
 

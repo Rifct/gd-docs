@@ -8,7 +8,7 @@ Requests moderator access.
 | --------------- | ------------------------------------------------------------ | -------- |
 | `accountID`     | The accountID of the user requesting mod access              | Yes      |
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user requesting mod access | Yes      |
-| `secret`        | Wmfd2893gb7                                                  | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`           | Yes      |
 | `gameVersion`   | 22                                                           |          |
 | `binaryVersion` | 42                                                           |          |
 | `gdw`           | 0                                                            |          |

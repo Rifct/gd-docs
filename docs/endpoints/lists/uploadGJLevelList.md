@@ -19,7 +19,7 @@ Uploads a created list to the servers.
 | `listLevels`    | All level IDs included in the list. Each ID is separated by `,`                                                                                   | Yes      |
 | `seed`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID. | Yes      | <!-- TODO: Write example -->
 | `seed2`         | 5 randomly generated characters from \[A-Za-z0-9]                                                                                                 | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                                                       | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                                                                | Yes      |
 | `binaryVersion` | Currently 42                                                                                                                                      |          |
 
 ## Response

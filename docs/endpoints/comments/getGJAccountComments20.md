@@ -8,7 +8,7 @@ Gets a user's account comments.
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
 | `accountID`     | The ID of the account whose comments you're getting                                                 | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                         | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                  | Yes      |
 | `gameVersion`   | 22                                                                                                  |          |
 | `binaryVersion` | 47                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |

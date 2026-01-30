@@ -4,15 +4,15 @@ Blocks a user.
 
 ## Parameters
 
-| Parameter         | Explanation                                  | Required |
-| ----------------- | -------------------------------------------- | -------- |
-| `accountID`       | The blocking person's account ID             | Yes      |
-| `gjp2`            | The blocking person's [GJP2](/topics/gjp.md) | Yes      |
-| `targetAccountID` | The account ID of the person being blocked   | Yes      |
-| `secret`          | Wmfd2893gb7                                  | Yes      |
-| `gameVersion`     | 22                                           |          |
-| `binaryVersion`   | 42                                           |          |
-| `gdw`             | 0                                            |          |
+| Parameter         | Explanation                                        | Required |
+| ----------------- | -------------------------------------------------- | -------- |
+| `accountID`       | The blocking person's account ID                   | Yes      |
+| `gjp2`            | The blocking person's [GJP2](/topics/gjp.md)       | Yes      |
+| `targetAccountID` | The account ID of the person being blocked         | Yes      |
+| `secret`          | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
+| `gameVersion`     | 22                                                 |          |
+| `binaryVersion`   | 42                                                 |          |
+| `gdw`             | 0                                                  |          |
 
 ## Response
 

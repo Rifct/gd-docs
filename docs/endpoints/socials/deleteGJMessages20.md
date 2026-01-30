@@ -10,7 +10,7 @@ Deletes a message between two users.
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user who is deleting the message                       | Yes      |
 | `messageID`     | ID of the message being deleted                                                          | Yes      |
 | `isSender`      | 1 if the user who deleted the message is the sender, otherwise this parameter isn't sent | Yes      |
-| `secret`        | Wmfd2893gb7                                                                              | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                       | Yes      |
 | `gameVersion`   | 22                                                                                       |          |
 | `binaryVersion` | 42                                                                                       |          |
 | `gdw`           | 0                                                                                        |          |

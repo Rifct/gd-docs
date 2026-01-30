@@ -9,7 +9,7 @@ Fetches the leaderboard for a level and submits your level stats to the server
 | `accountID`     | The user's account ID                                                                                                                                                              | Yes      |
 | `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                                                                                  | Yes      |
 | `levelID`       | The ID of the level                                                                                                                                                                | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                                                                                        | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                                                                                                 | Yes      |
 | `gameVersion`   | 22                                                                                                                                                                                 |          |
 | `binaryVersion` | 42                                                                                                                                                                                 |          |
 | `gdw`           | 0                                                                                                                                                                                  |          |

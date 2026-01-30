@@ -8,7 +8,7 @@ Gets the URL for the data server.
 | ----------- | ----------------------------------------------------------------------------------------------------- | -------- |
 | `accountID` | Any valid account ID                                                                                  | Yes      |
 | `type`      | used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data | Yes      |
-| `secret`    | Wmfd2893gb7                                                                                           | Yes      |
+| `secret`    | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                    | Yes      |
 
 ## Response
 

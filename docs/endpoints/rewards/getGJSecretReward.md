@@ -7,7 +7,7 @@ Gets the rewards from the Secret Room ("Wraith") vault depending on the entered 
 | Parameter       | Explanation                                                                                                   | Required |
 | --------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
 | `udid`          | A unique identifier for the user's device. You can put anything here                                          | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                   | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                            | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                            |          |
 | `binaryVersion` | 42                                                                                                            |          |

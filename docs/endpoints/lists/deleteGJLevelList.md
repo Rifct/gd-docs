@@ -4,16 +4,16 @@ Deletes a list from the server.
 
 ## Parameters
 
-| Parameter       | Explanation                               | Required |
-| --------------- | ----------------------------------------- | -------- |
-| `accountID`     | The list author's account ID              | Yes      |
-| `udid`          | The list author's UDID                    | Yes      |
-| `uuid`          | The list author's UUID                    | Yes      |
-| `gjp2`          | The level author's [GJP2](/topics/gjp.md) | Yes      |
-| `listID`        | The ID of the level being deleted         | Yes      |
-| `secret`        | Wmfv2898gc9                               | Yes      |
-| `gameVersion`   | 22                                        |          |
-| `binaryVersion` | 42                                        |          |
+| Parameter       | Explanation                                       | Required |
+| --------------- | ------------------------------------------------- | -------- |
+| `accountID`     | The list author's account ID                      | Yes      |
+| `udid`          | The list author's UDID                            | Yes      |
+| `uuid`          | The list author's UUID                            | Yes      |
+| `gjp2`          | The level author's [GJP2](/topics/gjp.md)         | Yes      |
+| `listID`        | The ID of the level being deleted                 | Yes      |
+| `secret`        | [Level Secret](/reference/secrets): `Wmfv2898gc9` | Yes      |
+| `gameVersion`   | 22                                                |          |
+| `binaryVersion` | 42                                                |          |
 
 ## Response
 

@@ -7,7 +7,7 @@ Downloads a user level and info so it can be played.
 | Parameter       | Explanation                                                                                                | Required |
 | --------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
 | `levelID`       | The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level. | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                         | Yes      |
 | `gameVersion`   | 22                                                                                                         |          |
 | `binaryVersion` | 47                                                                                                         |          |
 | `dvs`           | 3                                                                                                          |          |

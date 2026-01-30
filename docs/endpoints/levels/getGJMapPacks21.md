@@ -6,7 +6,7 @@ Gets the map packs.
 
 | Parameter       | Explanation                                                           | Required |
 | --------------- | --------------------------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                                           | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                    | Yes      |
 | `gameVersion`   | 22                                                                    |          |
 | `binaryVersion` | 42                                                                    |          |
 | `gdw`           | 0                                                                     |          |

@@ -10,7 +10,7 @@ Endpoint used by moderators to send levels to RobTop
 | `gjp`           | The [GJP](/topics/gjp.md) of the user                                     | Yes      |
 | `levelID`       | The ID of the level                                                       | Yes      |
 | `stars`         | How many stars that are requested                                         | Yes      |
-| `secret`        | The moderator secret: `Wmfp3879gc3`                                       | Yes      |
+| `secret`        | [Moderator Secret](/reference/secrets): `Wmfp3879gc3`                     | Yes      |
 | `gameVersion`   | the game version                                                          | Yes      |
 | `binaryVersion` | the binary version                                                        | Yes      |
 | `feature`       | 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic | Yes      |

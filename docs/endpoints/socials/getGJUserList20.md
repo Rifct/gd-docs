@@ -8,7 +8,7 @@ Gets either your friend list or your blocked list
 | --------------- | ------------------------------------------------------------------------------- | -------- |
 | `accountID`     | The account ID of the user you want to get the friends/blocklist of             | Yes      |
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of | Yes      |
-| `secret`        | Wmfd2893gb7                                                                     | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                              | Yes      |
 | `gameVersion`   | 22                                                                              |          |
 | `binaryVersion` | 42                                                                              |          |
 | `gdw`           | 0                                                                               |          |

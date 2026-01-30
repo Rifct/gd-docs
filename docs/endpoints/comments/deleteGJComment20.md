@@ -10,7 +10,7 @@ Deletes a level comment.
 | `gjp`           | The [GJP](/topics/gjp.md) of the user who is deleting the comment | Yes      |
 | `commentID`     | ID of the comment                                                 | Yes      |
 | `levelID`       | ID of the level the comment is on                                 | Yes      |
-| `secret`        | Wmfd2893gb7                                                       | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                | Yes      |
 | `gameVersion`   | 21                                                                |          |
 | `binaryVersion` | 35                                                                |          |
 | `gdw`           | 0                                                                 |          |

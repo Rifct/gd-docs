@@ -18,6 +18,7 @@ print(req.text)
 
 ## Response Structure
 
+<!-- TODO: fix this, this is misleading information. -->
 This endpoint returns an HTML response with a table in the following format:
 
 `{Rank},{AccountID},{Username},{Stars},{Diamonds},{Demons},{UserCoins},{Coins}`

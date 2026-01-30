@@ -9,7 +9,7 @@
 | `accountID`     | The player's account ID                                  | Yes      |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                      | Yes      |
 | `requestID`     | The ID for the friend request recieved                   | Yes      |
-| `secret`        | The common secret: `Wmfd2893gb7`                         | Yes      |
+| `secret`        | [Common Secret]((/reference/secrets)): `Wmfd2893gb7`     | Yes      |
 | `gameVersion`   | The Game Version the player is playing on. 22 for 2.2    |          |
 | `binaryVersion` | The current build the player is playing on. 42 for 2.206 |          |
 | `gdw`           | If the player is using Geometry Dash World               |          |

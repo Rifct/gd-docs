@@ -18,7 +18,7 @@ There are 4 *publicly* known secrets:
 - Common Secret
 - Account Secret
 - Level Secret
-- Mod Secret
+- Moderator Secret
 
 ### Common Secret
 
@@ -119,9 +119,9 @@ There are 4 *publicly* known secrets:
 
 </details>
 
-### Mod Secret
+### Moderator Secret
 
-> There are only 2 endpoints which use the `Mod Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
+> There are only 3 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -130,6 +130,7 @@ There are 4 *publicly* known secrets:
 | ------------------------------------------------------------------------------------------------- |
 | [http://www.boomlings.com/database/**rateGJDemon21**.php](#/endpoints/level/rateGJDemon21)        |
 | [http://www.boomlings.com/database/**suggestGJStars20**.php](/#/endpoints/level/suggestGJStars20) |
+| [http://www.boomlings.com/database/**rateGJDemon21**.php](/#/endpoints/level/rateGJDemon21) |
 
 </details>
 
