@@ -10,7 +10,7 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 | --------------- | ------------------------------------------------------------------------ | -------- |
 | `accountID`     | The player's account ID                                                  | Yes      |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                                      | Yes      |
-| `secret`        | Wmfv3899gc9                                                              | Yes      |
+| `secret`        | [Account Secret](/reference/secrets): `Wmfv3899gc9`                      | Yes      |
 | `gameID`        | The ID of the multiplayer lobby                                          | Yes      |
 | `lastCommentID` | Your last multiplayer comment ID. It's unknown what the initial value is | Yes      |
 | `gameVersion`   | 22                                                                       |          |

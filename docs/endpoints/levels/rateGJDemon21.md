@@ -8,7 +8,7 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 | --------------- | -------------------------------------------------------------------------------------------------- | -------- |
 | `gameVersion`   | 22                                                                                                 | Yes      |
 | `binaryVersion` | 42                                                                                                 | Yes      |
-| `secret`        | Wmfp3897gc3                                                                                        | Yes      |
+| `secret`        | [Moderator Secret](/reference/secrets): Wmfp3879gc3                                                | Yes      |
 | `accountID`     | The accountID of the user who's rating the demon's difficulty                                      | Yes      |
 | `gjp`           | The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty                          | Yes      |
 | `levelID`       | The ID of the demon being rated                                                                    | Yes      |

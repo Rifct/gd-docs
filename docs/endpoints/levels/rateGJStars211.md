@@ -6,7 +6,7 @@ Sends a star suggestion for a level
 
 | Parameter       | Explanation                                          | Required |
 | --------------- | ---------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                          | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`   | Yes      |
 | `levelID`       | The ID of the level receiving the star suggestion    | Yes      |
 | `stars`         | The amount of stars being suggested                  | Yes      |
 | `rs`            | 10 randomly generated characters from `[A-Za-z0-9]`  | Yes      |

@@ -4,12 +4,12 @@ Unknown
 
 ## Parameters
 
-| Parameter       | Explanation | Required |
-| --------------- | ----------- | -------- |
-| `secret`        | Wmfd2893gb7 | Yes      |
-| `gameVersion`   | 22          |          |
-| `binaryVersion` | 42          |          |
-| `gdw`           | 0           |          |
+| Parameter       | Explanation                                        | Required |
+| --------------- | -------------------------------------------------- | -------- |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
+| `gameVersion`   | 22                                                 |          |
+| `binaryVersion` | 42                                                 |          |
+| `gdw`           | 0                                                  |          |
 
 ## Response
 

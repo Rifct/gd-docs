@@ -8,7 +8,7 @@ Gets a level's comments.
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
 | `levelID`       | The ID of the account whose comments you're getting                                                 | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                         | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                  | Yes      |
 | `binaryVersion` | 35                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
 | `mode`          | Set to 0 for most recent, and 1 for most liked                                                      |          |

@@ -10,7 +10,7 @@ Uploads a comment to a user level.
 | `gjp2`                          | The commenter's [GJP2](/topics/gjp.md)                                                | Yes      |
 | `userName`                      | The commenter's username                                                              | Yes      |
 | `comment`                       | The comment, converted to [URL-safe base64](/topics/encryption/base64)                | Yes      |
-| `secret`                        | Wmfd2893gb7                                                                           | Yes      |
+| `secret`                        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                    | Yes      |
 | `levelID`                       | The ID of the level to comment on. If commenting on a list, the ID should be negative | Yes      |
 | `percent`                       | The level percentage shown on the comment                                             | Yes      |
 | [`chk`](/topics/encryption/chk) | `userName` + `comment` + `levelID` + `percent`                                        | Yes      |

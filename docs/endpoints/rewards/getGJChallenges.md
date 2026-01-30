@@ -7,7 +7,7 @@ Gets a user's quests.
 | Parameter       | Explanation                                                                                                      | Required |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- | -------- |
 | `udid`          | A unique identifier for the user's device, can be replaced with anything                                         | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                      | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                               | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [daily challenges](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                               |          |
 | `binaryVersion` | 42                                                                                                               |          |

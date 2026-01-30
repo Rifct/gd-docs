@@ -9,7 +9,7 @@ Posts an account comment
 | `accountID`                             | Account ID of the user posting the comment                                     | Yes      |
 | `gjp2`                                  | The [GJP2](/topics/gjp.md) of the user posting the comment                     | Yes      |
 | `comment`                               | The comment's text, converted to [URL-safe base64](/topics/encryption/base64). | Yes      |
-| `secret`                                | Wmfd2893gb7                                                                    |          |
+| `secret`                                | [Common Secret](/reference/secrets): `Wmfd2893gb7`                             | Yes      |
 | `gameVersion`                           | 22                                                                             |          |
 | `binaryVersion`                         | 42                                                                             |          |
 | `gdw`                                   | 0                                                                              |          |

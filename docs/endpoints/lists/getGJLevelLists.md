@@ -6,7 +6,7 @@
 
 | Parameter       | Description                                                                                                   | Required                        |
 | --------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| `secret`        | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                             |
+| `secret`        | [Common Secret]((/reference/secrets)): `Wmfd2893gb7`                                                          | Yes                             |
 | `gameVersion`   | [Game Version](#), 22 on 2.2                                                                                  |                                 |
 | `binaryVersion` | [Binary Version](#), 42 on 2.206                                                                              |                                 |
 | `type`          | Search type, [see values](#type). Defaults to most liked                                                      |                                 |

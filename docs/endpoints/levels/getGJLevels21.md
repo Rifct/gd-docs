@@ -4,9 +4,11 @@
 
 ## Parameters
 
+<!-- TODO: should probably add references for gameVersion and binaryVersion in some page, as well as gdw/world, I will work on this later. (KontrollFreek)-->
+
 | Parameter         | Description                                                                                                   | Required                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
+| `secret`          | [Common Secret]((/reference/secrets)): `Wmfd2893gb7`                                                          | Yes                                   |
 | `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
 | `binaryVersion`   | [Binary Version](#), 47 on 2.2081                                                                             |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |

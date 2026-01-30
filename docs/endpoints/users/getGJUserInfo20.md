@@ -4,15 +4,15 @@ Gets info about a user
 
 ## Parameters
 
-| Parameter         | Explanation                                       | Required |
-| ----------------- | ------------------------------------------------- | -------- |
-| `targetAccountID` | The account ID of the person you want the info of | Yes      |
-| `secret`          | Wmfd2893gb7                                       | Yes      |
-| `gameVersion`     | 22                                                |          |
-| `binaryVersion`   | 35                                                |          |
-| `gdw`             | 0                                                 |          |
-| `accountID`       | Your accountID                                    |          |
-| `gjp2`            | Your [GJP](/topics/gjp.md)                        |          |
+| Parameter         | Explanation                                        | Required |
+| ----------------- | -------------------------------------------------- | -------- |
+| `targetAccountID` | The account ID of the person you want the info of  | Yes      |
+| `secret`          | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
+| `gameVersion`     | 22                                                 |          |
+| `binaryVersion`   | 35                                                 |          |
+| `gdw`             | 0                                                  |          |
+| `accountID`       | Your accountID                                     |          |
+| `gjp2`            | Your [GJP](/topics/gjp.md)                         |          |
 
 ## Response
 

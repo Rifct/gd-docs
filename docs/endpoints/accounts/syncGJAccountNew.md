@@ -10,7 +10,7 @@ Loads account data
 | --------------- | ------------------------------------------------------------------------------ | -------- |
 | `accountID`     | The account ID of the account to be added                                      | Yes      |
 | `gjp2`          | The password of the account to be added with [GJP2](/topics/gjp.md) encryption | Yes      |
-| `secret`        | Wmfv3899gc9                                                                    | Yes      |
+| `secret`        | [Account Secret](/reference/secrets): `Wmfv3899gc9`                            | Yes      |
 | `gameVersion`   | 22                                                                             |          |
 | `binaryVersion` | 42                                                                             |          |
 | `gdw`           | 0                                                                              |          |

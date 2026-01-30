@@ -11,7 +11,7 @@ Sends a message to a user
 | `toAccountID`   | Account ID of the user retrieving the message                                         | Yes      |
 | `subject`       | The subject of the message, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
 | `body`          | The body of the message, converted to [URL-safe base64](/topics/encryption/base64)    | Yes      |
-| `secret`        | Wmfd2893gb7                                                                           | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                    | Yes      |
 | `gameVersion`   | 22                                                                                    |          |
 | `binaryVersion` | 42                                                                                    |          |
 | `gdw`           | 0                                                                                     |          |

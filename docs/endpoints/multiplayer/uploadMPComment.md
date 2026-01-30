@@ -12,7 +12,7 @@ Uploads a comment (chat message?) to a multiplayer lobby. This endpoint is hoste
 | `gjp2`                          | The commenter's [GJP2](/topics/gjp.md)                   | Yes      |
 | `extra`                         | 10 random characters from `[A-Za-z0-9]`                  | Yes      |
 | `comment`                       | The comment, with some delimiter characters stripped out | Yes      |
-| `secret`                        | Wmfv3899gc9                                              | Yes      |
+| `secret`                        | [Account Secret](/reference/secrets): `Wmfv3899gc9`      | Yes      |
 | `gameID`                        | The ID of the multiplayer lobby                          | Yes      |
 | [`chk`](/topics/encryption/chk) | `accountID` + `comment` + `gameID` + `extra`             | Yes      |
 | `gameVersion`                   | 22                                                       |          |

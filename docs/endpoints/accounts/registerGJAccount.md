@@ -7,12 +7,12 @@ This endpoint is used to register an account. In 2.2, this was replaced with [re
 
 ## Parameters
 
-| Parameter  | Explanation                           | Required |
-| ---------- | ------------------------------------- | -------- |
-| `userName` | The username of the account to create | True     |
-| `password` | The password of the account to create | True     |
-| `email`    | The email of the account to create    | True     |
-| `secret`   | Account Secret: `Wmfv3899gc9`         | True     |
+| Parameter  | Explanation                                         | Required |
+| ---------- | --------------------------------------------------- | -------- |
+| `userName` | The username of the account to create               | Yes      |
+| `password` | The password of the account to create               | Yes      |
+| `email`    | The email of the account to create                  | Yes      |
+| `secret`   | [Account Secret](/reference/secrets): `Wmfv3899gc9` | Yes      |
 
 ## Response
 

@@ -10,7 +10,7 @@ Updates the description of a level
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the level's author                                            | Yes      |
 | `levelID`       | The ID of the level                                                                         | Yes      |
 | `levelDesc`     | The new description of the level, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
-| `secret`        | The common secret: `Wmfd2893gb7`                                                            | Yes      |
+| `secret`        | [Common Secret]((/reference/secrets)): `Wmfd2893gb7`                                        | Yes      |
 | `gameVersion`   | 22                                                                                          |          |
 | `binaryVersion` | 42                                                                                          |          |
 | `gdw`           | 0                                                                                           |          |

@@ -6,7 +6,7 @@ Likes a level, comment, etc.
 
 | Parameter       | Explanation                                                                                | Required |
 | --------------- | ------------------------------------------------------------------------------------------ | -------- |
-| `secret`        | Wmfd2893gb7                                                                                | Yes      |
+| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                         | Yes      |
 | `itemID`        | The ID of the level, comment, or account comment                                           | Yes      |
 | `type`          | 1 for level, 2 for level comment, 3 for account comment, 4 for list                        | Yes      |
 | `gameVersion`   | 22                                                                                         |          |
