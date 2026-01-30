@@ -210,3 +210,7 @@ GLM_22 is a dictionary of all your favorited lists
 | Key     | description                                      |
 | ------- | ------------------------------------------------ |
 | kCEK 12 | [level data](/resources/client/gamesave/list.md) |
+
+## GLM_23
+
+GLM_23 is the current Event ID
