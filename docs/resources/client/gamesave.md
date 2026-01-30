@@ -164,7 +164,7 @@ These keys were used in old versions of the game but are now obsolete.
 | Key     | Value                                                |
 | ------- | ---------------------------------------------------- |
 | GJA_001 | Username                                             |
-| GJA_002 | Password (in plaintext) (2.1 and below)              |
+| GJA_002 | Plaintext password (2.1 and below)                   |
 | GJA_003 | AccountID                                            |
 | GJA_004 | Session ID (unused)                                  |
 | GJA_005 | Your password with [GJP2](/topics/gjp.md) Encryption |
