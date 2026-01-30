@@ -14,7 +14,7 @@ A typical user server response is structured with a `key:value:key:value` pairin
 ```
 <!-- tabs:end -->
 
-Each `key` is tied to a component within the client and the `value` sets data for the specific component. A list of all known keys can be found in the table below. Keys indicated with an asterisk (*) are only returned from the [getGJUserInfo20](/endpoints/users/getGJUserInfo20) endpoint.
+Each `key` is tied to a component within the client and the `value` sets data for the specific component. A list of all known keys can be found in the table below.
 
 | Key | Name/Value          | Type        | Description                                                                                                                                                                                                 |
 | --- | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,6 +71,8 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 59* | instagram           | **String**  | The player's Instagram username                                                                                                                                                                             |
 | 60* | tiktok              | **String**  | The player's TikTok handle                                                                                                                                                                                  |
 | 61* | custom              | **String**  | The player's custom one-time authentication token                                                                                                                                                           |
+
+Keys indicated with an asterisk (*) are only returned from the [getGJUserInfo20](/endpoints/users/getGJUserInfo20) endpoint. Conversely, keys 6, 9, 14, & 15 are only returned by user search endpoints ([getGJUsers20](/endpoints/users/getGJUsers20), [getGJScores20](/endpoints/users/getGJScores20)).
 
 ### Trivia
 
