@@ -314,3 +314,24 @@ GS_29 is unknown but is related to trying to fix some path bug. Contary to most 
 | Structure           |
 | ------------------- |
 | `<k>GS_29</k><t />` |
+
+## GS_30
+
+GS_30 contains the Secret Room (Wraith) chests you have opened
+
+| Structure                          |
+| ----------------------------------- |
+
+## GS_31
+
+GS_31 contains the info about event level reward chests
+
+| Key               | Description                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------- |
+| `d{eventID}`       | Event Level Chest                                                                     |
+| `k_{number}`       | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
+| `kCEK`             | The [encoder keys](/resources/client/gamesave/kCEK#kcek-8-and-9-structure)            |
+
+## GS_32
+
+GS_32 will contain the user's unlocked gauntlets, currently unused

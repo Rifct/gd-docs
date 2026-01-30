@@ -34,13 +34,15 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | playerIconType                                           | [Icon](/resources/client/level-components/enumerations.md) | The Index of the player's IconType                                                  |
 | playerGlow                                               | Bool                                                       | if Glow is enabled or not                                                           |
 | secretNumber                                             | Integer                                                    | the answer to `cod3breaker` in the vault of secrets                                 |
-| hasRP                                                    | Bool                                                       | If the player is a moderator                                                        |
+| hasRP                                                    | Integer                                                    | The player's moderator status, presumably 1 for mod and 2 for elder mod             |
+| hasDRP                                                   | Bool                                                       | If the player has demon rating privileges (leaderboard mods)                        |
 | [valueKeeper](/resources/client/gamesave/valueKeeper.md) | Dictionary                                                 | Dictionary filled with GV values you have enabled                                   |
 | unlockValueKeeper                                        | Dictionary                                                 | Dictionary of Unlockable GV values                                                  |
 | customObjectDict                                         | Dictionary                                                 | Dictionary of object data of custom objects saved                                   |
 | reportedAchievements                                     | Dictionary                                                 | contains a dictonary of all reported achievements on your account                   |
 | showSongMarkers                                          | Bool                                                       | if showSongMarkers is enabled                                                       |
 | showProgressBar                                          | Bool                                                       | if showProgressBar is enabled                                                       |
+| performanceMode                                          | Bool                                                       | If the global Low Detail Mode in settings is enabled                                |
 | clickedGarage                                            | Bool                                                       | if Garage has been clicked                                                          |
 | clickedEditor                                            | Bool                                                       | if Editor has been clicked                                                          |
 | clickedPractice                                          | Bool                                                       | if Practice mode button has been clicked                                            |
@@ -54,13 +56,19 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | texQuality                                               | integer                                                    | how high the text quality is (0 for Auto, 1 for Low, 2 for Medium and 3 for High)   |
 | timeOffset                                               | integer                                                    | music offset in milliseconds                                                        |
 | customFPSTarget                                          | float                                                      | the FPS target value                                                                |
+| customMenuSongID                                         | integer                                                    | The song ID chosen as the menu music                                                |
+| customPracticeSongID                                     | integer                                                    | The song ID chosen as the practice music                                            |
 | dpad01                                                   | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI configuration #1                                                      |
 | dpad02                                                   | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI configuration #2                                                      |
 | dpad03                                                   | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI configuration #3                                                      |
 | dpad04                                                   | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI configuration #4, however it's missing the last 5 options             |
 | dpad05                                                   | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI configuration #5, however it's missing the last 5 options             |
-| dpadLayout01                                             | [Platformer UI](/resources/client/gamesave/dpad.md)        | Default UI?                                                                         |
+| dpadLayout01                                             | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI save #1                                                               |
+| dpadLayout02                                             | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI save #2                                                               |
+| dpadLayout03                                             | [Platformer UI](/resources/client/gamesave/dpad.md)        | Platformer UI save #3                                                               |
 | dpadLayoutDual01                                         | [Platformer UI](/resources/client/gamesave/dpad.md)        | 2 platformer UIs separated by `;`, then 2 gamepad placements, also separated by `;` |
+| dpadLayoutDual02                                         | [Platformer UI](/resources/client/gamesave/dpad.md)        | 2 platformer UIs separated by `;`, then 2 gamepad placements, also separated by `;` |
+| dpadLayoutDual03                                         | [Platformer UI](/resources/client/gamesave/dpad.md)        | 2 platformer UIs separated by `;`, then 2 gamepad placements, also separated by `;` |
 | practiceOpacity                                          | float                                                      | The opacity of the practice UI, from 0 to 1                                         |
 | practicePosX                                             | float                                                      | The X position of the practice UI                                                   |
 | practicePosY                                             | float                                                      | The Y position of the practice UI                                                   |
@@ -83,8 +91,8 @@ These keys were used in old versions of the game but are now obsolete.
 | showBPMMarkers       | Bool    | if BPM markers are shown                                                                                                                                                                                                              |
 | autoRetryLevel       | Bool    | If the level automatically restarts after death. Moved to valueKeeper::[gv_0026](/resources/client/gamesave/gv.md)                                                                                                                    |
 | recordGameplay       | Bool    | Presumably whether to record gameplay with Everyplay                                                                                                                                                                                  |
-| showedRateDiffDialog | Bool    | Unknown (showedRateStarDialog does the same thing?)                                                                                                                                                                                   |
-| commentSortRecent    | Bool    | unknown (there was no option to sort comments by most liked at the time)                                                                                                                                                              |
+| showedRateDiffDialog | Bool    | Whether the Rate Difficulty explanation was shown (separate from the current Rate Stars button; there used to be a separate button for rating difficulty from rating stars)                                                           |
+| commentSortRecent    | Bool    | unknown (there was no option to change the comment sorting at the time)                                                                                                                                                              |
 | kEnableTutorial      | Bool    | unknown                                                                                                                                                                                                                               |
 | showedFirstTutorial  | Bool    | unknown                                                                                                                                                                                                                               |
 
@@ -111,6 +119,9 @@ These keys were used in old versions of the game but are now obsolete.
 | [GLM_18](/resources/client/gamesave/GLM.md#GLM_18) | Folder                                              | The Folder Names for saved levels                                                                       |
 | [GLM_19](/resources/client/gamesave/GLM.md#GLM_19) | Folder                                              | The Folder names for Local Levels                                                                       |
 | [GLM_20](/resources/client/gamesave/GLM.md#GLM_20) | [Templates](/resources/client/gamesave/template.md) | Your Smart Templates                                                                                    |
+| [GLM_21](/resources/client/gamesave/GLM.md#GLM_21) | [Lists](/resources/client/gamesave/list.md)         | Saved lists, only existed briefly in 2.200                                                              |
+| [GLM_22](/resources/client/gamesave/GLM.md#GLM_22) | [Lists](/resources/client/gamesave/list.md)         | Your favourited lists                                                                                   |
+| [GLM_23](/resources/client/gamesave/GLM.md#GLM_23) | Integer                                             | Current Event ID                                                                                        |
 
 ## GS
 
@@ -143,14 +154,17 @@ These keys were used in old versions of the game but are now obsolete.
 | [GS_26](/resources/client/gamesave/GS_Value#GS_26)                 | Your active path                                                                     |
 | [GS_27](/resources/client/gamesave/GS_Value#GS_27)                 | All the list rewards                                                                 |
 | [GS_28](/resources/client/gamesave/GS_Value#GS_28)                 | Your enabled items (animations)                                                      |
-| [GS_29](/resources/client/gamesave/GS_Value#GS_29)                 | Unknown (boolean)                                                                    |
+| [GS_29](/resources/client/gamesave/GS_Value#GS_29)                 | Some path bug fix (boolean)                                                          |
+| [GS_30](/resources/client/gamesave/GS_Value#GS_30)                 | All rewards gained from Secret Room (Wraith) chests                                  |
+| [GS_31](/resources/client/gamesave/GS_Value#GS_31)                 | All rewards gained from Event Level chests                                           |
+| [GS_32](/resources/client/gamesave/GS_Value#GS_32)                 | All unlocked gauntlets (currently unused)                                            |
 
 ## GJA
 
 | Key     | Value                                                |
 | ------- | ---------------------------------------------------- |
 | GJA_001 | Username                                             |
-| GJA_002 | Password (in plaintext) (2.1 and below)              |
+| GJA_002 | Plaintext password (2.1 and below)                   |
 | GJA_003 | AccountID                                            |
 | GJA_004 | Session ID (unused)                                  |
 | GJA_005 | Your password with [GJP2](/topics/gjp.md) Encryption |

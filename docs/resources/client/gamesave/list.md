@@ -10,8 +10,8 @@ A level list is a list of levels - playable objects in Geometry Dash, namely com
 
 | Key  | Name/Value      | Type           | Description                                                                     |
 | ---- | --------------- | -------------- | ------------------------------------------------------------------------------- |
-| k1   | Level ID        | **integer**    | the id of the list                                                              |
-| k2   | Level Name      | **string**     | the name of the list                                                            |
+| k1   | List ID         | **integer**    | the id of the list                                                              |
+| k2   | List Name       | **string**     | the name of the list                                                            |
 | k3   | Description     | **string**     | the list description, encoded in [base64](https://en.wikipedia.org/wiki/Base64) |
 | k5   | Creator         | **string**     | the name of the level creator                                                   |
 | k7   | list difficulty | **integer**    | the difficulty the list has                                                     |
