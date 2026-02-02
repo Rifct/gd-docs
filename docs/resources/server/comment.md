@@ -12,8 +12,8 @@ A Comment is a message that the player can create inside of Geometry Dash. There
 
 A comment object is split into two sections: a `Comment String` and an `Author String`. these two strings are divided by a `:`
 
-> - The `Comment String` contains all the data regarding the comment itself<br/><br/>
-> - The `User String` contains all the data regarding the user who is commenting
+> - The `Comment String` contains [comment](#comment-structure) object regarding the comment itself<br/><br/>
+> - The `User String` contains [user](user) object regarding the user who is commenting
 
 The `Comment String` and `User String` are both structured with a `key~value~key~value` pairing. Here is some examples of raw responses from the server
 
@@ -22,7 +22,7 @@ The `Comment String` and `User String` are both structured with a `key~value~key
 
 ### Level Comment Example
 ```md
-2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~14~3~15~2~16~9276649       
+2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~51~38~14~3~15~2~16~9276649
 ```
 
 ### Account Comment Example
@@ -41,18 +41,18 @@ A list of all known keys can be found in the table below
 
 | Key | Name/Value          | Type        | Description                                                                                                       |
 | --- | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| 1   | levelID             | **Integer** | The levelID linked to the comment. This ID is negative if the comment is on a list                                |
+| 1*  | levelID             | **Integer** | The levelID linked to the comment. This ID is negative if the comment is on a list. Only returned by [getGJCommentHistory](/endpoints/comments/getGJCommentHistory) |
 | 2   | comment             | **String**  | The comment left by the user, encoded in [base64](/topics/encryption/base64.md)                                   |
-| 3   | authorPlayerID      | **Integer** | The player ID of the comment author                                                                               |
+| 3*  | authorPlayerID      | **Integer** | The player ID of the comment author                                                                               |
 | 4   | likes               | **Integer** | The amount of likes the comment has                                                                               |
 | 5   | dislikes            | **Integer** | The amount of dislikes the comment has -> unused                                                                  |
 | 6   | messageID           | **Integer** | The message ID. Account comments have different IDs than level comments                                           |
-| 7   | spam                | **Bool**    | If a comment has been flagged as spam                                                                             |
-| 8   | authorAccountID     | **Integer** | The accountID of the comment author                                                                               |
+| 7*  | spam                | **Bool**    | If a comment has been flagged as spam. Only returned by [getGJComments21](/endpoints/comments/getGJComments21)    |
+| 8   | authorAccountID     | **Integer** | Unused; the accountID of the comment author                                                                       |
 | 9   | age                 | **String**  | How long ago the comment was posted (e.g. "2 months")                                                             |
-| 10  | percent*            | **Integer** | The percent the player put in their comment. Also doesn't apply to List Comments                                  |
-| 11  | modBadge*           | **Integer** | The Mod Badge of a moderator commenting                                                                           |
-| 12  | moderatorChatColor* | **String**  | Comma separated list of the RGB values of the moderator's chat color - only appears if the players `modBadge > 0` |
+| 10* | percent             | **Integer** | The percent the player put in their comment. Also doesn't apply to List Comments                                  |
+| 11* | modBadge            | **Integer** | The Mod Badge of a moderator commenting; only present if author is a moderator. 1 = Normal Mod, 2 = Elder Mod     |
+| 12* | moderatorChatColor  | **String**  | Comma separated list of the RGB values of the moderator's chat color; only present if author is a moderator       |
 
 ### User Structure
   
@@ -67,6 +67,7 @@ A list of all known keys can be found in the table below
 | 14  | iconType     | **Integer** | Author's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`             |
 | 15  | glow         | **Integer** | 0 = no glow, 2 = glow                                                                            |
 | 16  | accountID    | **Integer** | Author's account ID. **This is different than the player ID**                                    |
+| 51  | color3       | **Integer** | The author's glow color
 
 ## Comment Bans
 
