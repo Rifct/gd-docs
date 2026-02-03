@@ -92,9 +92,12 @@ These keys were used in old versions of the game but are now obsolete.
 | autoRetryLevel | Bool | If the level automatically restarts after death. Moved to valueKeeper::[gv_0026](/resources/client/gamesave/gv.md) |
 | recordGameplay | Bool | Presumably whether to record gameplay with Everyplay |
 | showedRateDiffDialog | Bool | Whether the Rate Difficulty explanation was shown (separate from the current Rate Stars button; there used to be a separate button for rating difficulty from rating stars) |
+| timeCounter | Integer | An anti-cheat measure that existed in 1.7 and 1.8 that was meant to stop save editing for stars and demons. The value was calculated like this: `floor((stars + demons) * 0.5346)`. If, when loading the game, the number didn't match, stars and demons would be set to 0 |
 | commentSortRecent | Bool | unknown (there was no option to change the comment sorting at the time) |
 | kEnableTutorial | Bool | unknown |
 | showedFirstTutorial | Bool | unknown |
+| firstSetup | Bool | unknown, possibly whether the save is being created for the first time |
+| playerScoreValid | Bool | unknown |
 
 ## GLM
 
