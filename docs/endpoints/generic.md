@@ -1,7 +1,5 @@
 # Sending Requests
 
-When interacting with Geometry Dash's Private API, there is a set of rules which you must follow. Failure to do that will result in the error `-1`.
-
 ## Requirements
 
 To make a successful request to the Geometry Dash servers, there are a couple factors to consider:
@@ -16,10 +14,10 @@ The Geometry Dash servers are protected using a service called [Cloudflare](http
 - send the request to the `www.` subdomain,
 - send the request with an empty user-agent.
 
-If you don't follow these steps, cloudflare will block the request and you will recieve an HTTP error code: `1020`
+If you don't follow these steps, cloudflare will block the request and you will recieve [error 1020](https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1020/).
 
 ### Request Type
-In 99% of cases, Geometry Dash requires you to send a `POST` request. The request parameters require the following header: `Content-Type: application/x-www-form-urlencoded`.
+In 99% of cases, Geometry Dash requires you to send an HTTP `POST` request. The request parameters require the following header: `Content-Type: application/x-www-form-urlencoded`.
 
 ### Rate Limits
 Sending too many requests at a given time will result in you becoming rate limited and not being able to send any more requests for a certain duration. As the number of requests required to start a rate limit changes, we are unable to provide exact numbers, but as of November 3rd, 2023, they are roughly:
@@ -27,13 +25,18 @@ Sending too many requests at a given time will result in you becoming rate limit
 
 However, there are some longer-term limits applied on top of that as well.
 
-<!-- This ipv6 address no longer works! -->
-## Alternative method
-As of May 31st, 2023, an alternative method is using IPv6 to interact with the servers:
+## Common Parameters
+Several POST params are common across many or almost all requests. Here's a list of them:
 
-```cmd
-curl http://[2600:3c03::f03c:91ff:fe69:863b]/database/getGJLevels21.php -X POST -d secret=Wmfd2893gb7
-```
-```py
-1:6508283:2:ReTraY:5:3:6:4993756:8:10:9:10:10:71657392:12:0:13:21:14:6541047:17::43:3:25::18:2:19:7730:42:0:45:20000:3:VGhhbmtzIGZvciBwbGF5aW5nIEdlb21ldHJ5IERhc2g=:15:3:30:0:31:0:37:3:38:1:39:2:46:1:47:2:35:557117|...
-```
+| Param         | Type    | Description |
+| ------------- | ------- | ----------- |
+| secret        | string  | A constant string that is required for a request to go through. See [list of secrets](/reference/secrets.md) |
+| gameVersion   | integer | A number representing the game's version. The current value is `22` for 2.2 |
+| binaryVersion | integer | A number representing the game's small version. The current value is `48` for 2.2081 on PC and `47` for 2.208 on mobile |
+| [uuid](/topics/encryption/id#uuid) | integer | In modern versions, this is sent as the player's user ID |
+| [udid](/topics/encryption/id#udid) | string  | The player's UDID (Unique Device Identifier). Used to identify unregistered users |
+| accountID     | integer | The player's account ID (not to be confused with user ID). Used for authorization |
+| [gjp2](/topics/gjp) | string  | The player's account password, encoded with [GJP2](/topics/gjp.md). Used for authorization |
+| dvs           | integer | A number added in 2.208 representing the device the player is using. Corresponds to the [Cocos2d `CC_TARGET_PLATFORM` macro](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/dd/d96/_c_c_platform_config_8h.html): 1 for iOS, 2 for Android, 3 for Windows, 8 for macOS |
+| gdw           | boolean | Whether the request is coming from GD World. This used to block some requests if set to `1`, and used to be sent as `0` in full GD 2.1, but is no longer sent at all outside of GDW |
+| gdl           | boolean | Whether the request is coming from GD Lite |
