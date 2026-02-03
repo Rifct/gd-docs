@@ -156,7 +156,6 @@ You can access the old table of object properties (with all 2.1 properties and a
 | 120 | Time Mod                             | **float**                                       | The time modifier in the Time Warp trigger                                         |
 | 121 | No Touch                             | **bool**                                        | Whether the object has no hitbox                                                   |
 | 128 | Scale X                              | **float**                                       | The X Scale of the object                                                          |
-| 128 | Scale X                              | **float**                                       | The X Scale of the object                                                          |
 | 131 | Warp Y angle                         | **float**                                       | The Y angle warp value of the object                                               |
 | 132 | Warp X angle                         | **float**                                       | The X angle warp value of the object                                               |
 
