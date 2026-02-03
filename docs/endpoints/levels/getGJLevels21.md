@@ -15,7 +15,7 @@
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on [types 5 and 10](#type)       |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
-| `gjp`             | The [GJP](/topics/gjp.md) for the `accountID`. Not present in 2.2                                             |                                       |
+| `gjp2`            | The [GJP2](/topics/gjp#generating-gjp2) for the `accountID`. Not present in 2.2                                             |                                       |
 | `gjp2`            | The [GJP2](/topics/gjp.md) for the `accountID`. 2.2+                                                          |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |

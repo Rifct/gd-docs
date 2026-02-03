@@ -13,7 +13,7 @@ Likes a level, comment, etc.
 | `binaryVersion` | 42                                                                                         |          |
 | `gdw`           | 0                                                                                          |          |
 | `accountID`     | The liking/disliking person's account ID                                                   |          |
-| `gjp`           | The liking/disliking person's [GJP](/topics/gjp.md)                                        |          |
+| `gjp2`          | The liking/disliking person's [GJP2](/topics/gjp#generating-gjp2)                                        |          |
 | `udid`          | The liking/disliking person's [udid](/topics/encryption/id#udid)                           |          |
 | `uuid`          | The liking/disliking person's [uuid](/topics/encryption/id#uuid)                           |          |
 | `like`          | 0 is dislike, 1 is like. Not sure what it defaults to if left out, but it can be left out. |          |

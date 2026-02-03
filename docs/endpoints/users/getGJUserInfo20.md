@@ -12,7 +12,7 @@ Gets info about a user
 | `binaryVersion`   | 35                                                 |          |
 | `gdw`             | 0                                                  |          |
 | `accountID`       | Your accountID                                     |          |
-| `gjp2`            | Your [GJP](/topics/gjp.md)                         |          |
+| `gjp2`            | Your [GJP2](/topics/gjp#generating-gjp2)                         |          |
 
 ## Response
 
