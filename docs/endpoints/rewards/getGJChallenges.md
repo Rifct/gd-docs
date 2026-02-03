@@ -10,7 +10,7 @@ Gets a user's quests.
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                               | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [daily challenges](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                               |          |
-| `binaryVersion` | 42                                                                                                               |          |
+| `binaryVersion` | 48                                                                                                               |          |
 | `gdw`           | 0                                                                                                                |          |
 | `accountID`     | Account ID of the user                                                                                           |          |
 | `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                |          |

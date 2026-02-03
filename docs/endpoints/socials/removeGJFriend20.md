@@ -10,8 +10,8 @@ Removes someone from a user's friend list
 | `gjp2`            | The [GJP2](/topics/gjp#generating-gjp2) of the user removing the friend | Yes      |
 | `targetAccountID` | The accountID of the user being removed                   | Yes      |
 | `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`        | Yes      |
-| `gameVersion`     | 21                                                        |          |
-| `binaryVersion`   | 35                                                        |          |
+| `gameVersion`     | 22                                                        |          |
+| `binaryVersion`   | 48                                                        |          |
 | `gdw`             | 0                                                         |          |
 
 ## Response

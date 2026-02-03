@@ -7,7 +7,7 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 | Parameter       | Explanation                                                                                        | Required |
 | --------------- | -------------------------------------------------------------------------------------------------- | -------- |
 | `gameVersion`   | 22                                                                                                 | Yes      |
-| `binaryVersion` | 42                                                                                                 | Yes      |
+| `binaryVersion` | 48                                                                                                 | Yes      |
 | `secret`        | [Moderator Secret](/reference/secrets.md): `Wmfp3879gc3`                                                | Yes      |
 | `accountID`     | The accountID of the user who's rating the demon's difficulty                                      | Yes      |
 | `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who's rating the demon's difficulty                          | Yes      |
@@ -61,8 +61,8 @@ headers = {
 }
 
 data = {
-    "gameVersion": 21,
-    "binaryVersion": 35
+    "gameVersion": 22,
+    "binaryVersion": 48
     "accountID": 71,
     "gjp2": *********, #the GJP of the moderator
     "secret": "Wmfp3897gc3",

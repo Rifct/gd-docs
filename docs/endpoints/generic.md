@@ -28,15 +28,15 @@ However, there are some longer-term limits applied on top of that as well.
 ## Common Parameters
 Several POST params are common across many or almost all requests. Here's a list of them:
 
-| Param         | Type    | Description |
-| ------------- | ------- | ----------- |
-| secret        | string  | A constant string that is required for a request to go through. See [list of secrets](/reference/secrets.md) |
-| gameVersion   | integer | A number representing the game's version. The current value is `22` for 2.2 |
-| binaryVersion | integer | A number representing the game's small version. The current value is `48` for 2.2081 on PC and `47` for 2.208 on mobile |
-| [uuid](/topics/encryption/id#uuid) | integer | In modern versions, this is sent as the player's user ID |
-| [udid](/topics/encryption/id#udid) | string  | The player's UDID (Unique Device Identifier). Used to identify unregistered users |
-| accountID     | integer | The player's account ID (not to be confused with user ID). Used for authorization |
-| [gjp2](/topics/gjp) | string  | The player's account password, encoded with [GJP2](/topics/gjp.md). Used for authorization |
-| dvs           | integer | A number added in 2.208 representing the device the player is using. Corresponds to the [Cocos2d `CC_TARGET_PLATFORM` macro](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/dd/d96/_c_c_platform_config_8h.html): 1 for iOS, 2 for Android, 3 for Windows, 8 for macOS |
-| gdw           | boolean | Whether the request is coming from GD World. This used to block some requests if set to `1`, and used to be sent as `0` in full GD 2.1, but is no longer sent at all outside of GDW |
-| gdl           | boolean | Whether the request is coming from GD Lite |
+| Param                                | Type    | Description                                                                                                                                                                                                                                                               |
+| ------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `secret`                             | string  | A constant string that is required for a request to go through. See [list of secrets](/reference/secrets.md)                                                                                                                                                              |
+| `gameVersion`                        | integer | A number representing the game's version. The current value is `22` for 2.2                                                                                                                                                                                               |
+| `binaryVersion`                      | integer | A number representing the game's small version. The current value is `48` for 2.2081 on PC and `47` for 2.208 on mobile                                                                                                                                                   |
+| [`uuid`](/topics/encryption/id#uuid) | integer | In modern versions, this is sent as the player's user ID                                                                                                                                                                                                                  |
+| [`udid`](/topics/encryption/id#udid) | string  | The player's UDID (Unique Device Identifier). Used to identify unregistered users                                                                                                                                                                                         |
+| `accountID`                          | integer | The player's account ID (not to be confused with user ID). Used for authorization                                                                                                                                                                                         |
+| [`gjp2`](/topics/gjp)                | string  | The player's account password, encoded with [GJP2](/topics/gjp.md). Used for authorization                                                                                                                                                                                |
+| `dvs`                                | integer | A number added in 2.208 representing the device the player is using. Corresponds to the [Cocos2d `CC_TARGET_PLATFORM` macro](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/dd/d96/_c_c_platform_config_8h.html): 1 for iOS, 2 for Android, 3 for Windows, 8 for macOS |
+| `gdw`                                | boolean | Whether the request is coming from GD World. This used to block some requests if set to `1`, and used to be sent as `0` in full GD 2.1, but is no longer sent at all outside of GDW                                                                                       |
+| `gdl`                                | boolean | Whether the request is coming from GD Lite                                                                                                                                                                                                                                |

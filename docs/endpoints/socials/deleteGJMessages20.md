@@ -12,7 +12,7 @@ Deletes a message between two users.
 | `isSender`      | 1 if the user who deleted the message is the sender, otherwise this parameter isn't sent | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                       | Yes      |
 | `gameVersion`   | 22                                                                                       |          |
-| `binaryVersion` | 42                                                                                       |          |
+| `binaryVersion` | 48                                                                                       |          |
 | `gdw`           | 0                                                                                        |          |
 
 ## Response

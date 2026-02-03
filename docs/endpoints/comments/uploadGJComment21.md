@@ -15,7 +15,7 @@ Uploads a comment to a user level.
 | `percent`                       | The level percentage shown on the comment                                             | Yes      |
 | [`chk`](/topics/encryption/chk) | `userName` + `comment` + `levelID` + `percent`                                        | Yes      |
 | `gameVersion`                   | 22                                                                                    |          |
-| `binaryVersion`                 | 42                                                                                    |          |
+| `binaryVersion`                 | 48                                                                                    |          |
 | `gdw`                           | 0                                                                                     |          |
 
 ## Response

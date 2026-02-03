@@ -10,7 +10,7 @@ Gets either your friend list or your blocked list
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                              | Yes      |
 | `gameVersion`   | 22                                                                              |          |
-| `binaryVersion` | 42                                                                              |          |
+| `binaryVersion` | 48                                                                              |          |
 | `gdw`           | 0                                                                               |          |
 | `type`          | 0 for friends, 1 for blocklist. Defaults to 0 if left out                       |          |
 

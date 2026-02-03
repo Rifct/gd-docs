@@ -9,7 +9,7 @@ Gets info about a user
 | `targetAccountID` | The account ID of the person you want the info of  | Yes      |
 | `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
 | `gameVersion`     | 22                                                 |          |
-| `binaryVersion`   | 35                                                 |          |
+| `binaryVersion`   | 48                                                 |          |
 | `gdw`             | 0                                                  |          |
 | `accountID`       | Your accountID                                     |          |
 | `gjp2`            | Your [GJP2](/topics/gjp#generating-gjp2)                         |          |

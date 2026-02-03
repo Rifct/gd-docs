@@ -14,7 +14,7 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 | `gameID`        | The ID of the multiplayer lobby                                          | Yes      |
 | `lastCommentID` | Your last multiplayer comment ID. It's unknown what the initial value is | Yes      |
 | `gameVersion`   | 22                                                                       |          |
-| `binaryVersion` | 42                                                                       |          |
+| `binaryVersion` | 48                                                                       |          |
 | `gdw`           | 0                                                                        |          |
 
 ## Response

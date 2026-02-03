@@ -11,7 +11,7 @@ Download a message.
 | `messageID`     | The ID of the message to read                      | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
 | `gameVersion`   | 22                                                 |          |
-| `binaryVersion` | 42                                                 |          |
+| `binaryVersion` | 48                                                 |          |
 | `gdw`           | 0                                                  |          |
 
 ## Response

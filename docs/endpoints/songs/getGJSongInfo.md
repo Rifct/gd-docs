@@ -10,7 +10,7 @@ Gets info about a newgrounds song.
 | `songID`        | The newgrounds ID of the song you want information about | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`       | Yes      |
 | `accountID`     |                                                          |          |
-| `binaryVersion` | 45                                                       |          |
+| `binaryVersion` | 48                                                       |          |
 | `gameVersion`   | 22                                                       |          |
 | `gjp2`          |                                                          |          |
 | `secret`        |                                                          |          |

@@ -11,8 +11,8 @@ Deletes a level comment.
 | `commentID`     | ID of the comment                                                 | Yes      |
 | `levelID`       | ID of the level the comment is on                                 | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                | Yes      |
-| `gameVersion`   | 21                                                                |          |
-| `binaryVersion` | 35                                                                |          |
+| `gameVersion`   | 22                                                                |          |
+| `binaryVersion` | 48                                                                |          |
 | `gdw`           | 0                                                                 |          |
 
 ## Response

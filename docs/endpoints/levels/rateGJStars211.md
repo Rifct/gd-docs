@@ -16,7 +16,7 @@ Sends a star suggestion for a level
 | `uuid`          | Your player ID (different from account ID)           | Yes      |
 | `chk`           | [See here](/topics/encryption/chk.md#rate)           | Yes      |
 | `gameVersion`   | 22                                                   |          |
-| `binaryVersion` | 42                                                   |          |
+| `binaryVersion` | 48                                                   |          |
 | `gdw`           | 0                                                    |          |
 
 ## Response

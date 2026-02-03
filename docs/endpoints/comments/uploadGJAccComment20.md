@@ -11,7 +11,7 @@ Posts an account comment
 | `comment`                               | The comment's text, converted to [URL-safe base64](/topics/encryption/base64). | Yes      |
 | `secret`                                | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                             | Yes      |
 | `gameVersion`                           | 22                                                                             |          |
-| `binaryVersion`                         | 42                                                                             |          |
+| `binaryVersion`                         | 48                                                                             |          |
 | `gdw`                                   | 0                                                                              |          |
 | `cType`                                 | The comment type, 0 for level, 1 for user                                      |          |
 | [`chk`](/topics/encryption/chk#comment) | Unsure                                                                         |          |

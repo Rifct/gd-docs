@@ -13,7 +13,7 @@ Deletes a list from the server.
 | `listID`        | The ID of the level being deleted                 | Yes      |
 | `secret`        | [Level Secret](/reference/secrets.md): `Wmfv2898gc9` | Yes      |
 | `gameVersion`   | 22                                                |          |
-| `binaryVersion` | 42                                                |          |
+| `binaryVersion` | 48                                                |          |
 
 ## Response
 

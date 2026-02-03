@@ -8,7 +8,7 @@ Gets RobTop's handpicked top artists.
 | --------------- | ----------------------------------------------------------------------------------------------- | -------- |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                              | Yes      |
 | `gameVersion`   | 22                                                                                              |          |
-| `binaryVersion` | 42                                                                                              |          |
+| `binaryVersion` | 48                                                                                              |          |
 | `gdw`           | 0                                                                                               |          |
 | `page`          | Which page of the artists you want to see                                                       |          |
 | `total`         | Current use is unknown, defaults to the amount of artists there are, but leaving it as 0 works. |          |

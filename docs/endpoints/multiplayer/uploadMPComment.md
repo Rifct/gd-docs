@@ -16,7 +16,7 @@ Uploads a comment (chat message?) to a multiplayer lobby. This endpoint is hoste
 | `gameID`                        | The ID of the multiplayer lobby                          | Yes      |
 | [`chk`](/topics/encryption/chk) | `accountID` + `comment` + `gameID` + `extra`             | Yes      |
 | `gameVersion`                   | 22                                                       |          |
-| `binaryVersion`                 | 42                                                       |          |
+| `binaryVersion`                 | 48                                                       |          |
 | `gdw`                           | 0                                                        |          |
 
 ## Response

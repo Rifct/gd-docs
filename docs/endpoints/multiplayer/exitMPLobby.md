@@ -13,7 +13,7 @@ Exits from a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, n
 | `secret`        | [Account Secret](/reference/secrets.md): `Wmfv3899gc9` | Yes      |
 | `gameID`        | The ID of the multiplayer lobby                     | Yes      |
 | `gameVersion`   | 22                                                  |          |
-| `binaryVersion` | 42                                                  |          |
+| `binaryVersion` | 48                                                  |          |
 | `gdw`           | 0                                                   |          |
 
 ## Response

@@ -13,7 +13,7 @@ Sends a message to a user
 | `body`          | The body of the message, converted to [URL-safe base64](/topics/encryption/base64)    | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                    | Yes      |
 | `gameVersion`   | 22                                                                                    |          |
-| `binaryVersion` | 42                                                                                    |          |
+| `binaryVersion` | 48                                                                                    |          |
 | `gdw`           | 0                                                                                     |          |
 
 ## Response
@@ -30,8 +30,8 @@ Sends a message to a user
 import requests
 
 data = {
-    "gameVersion": 21,
-    "binaryVersion": 35,
+    "gameVersion": 22,
+    "binaryVersion": 48,
     "gdw": 0,
 	"accountID": 173831, # This is DevExit's account ID
 	"gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption

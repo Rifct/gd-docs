@@ -10,7 +10,7 @@ Likes a level, comment, etc.
 | `itemID`        | The ID of the level, comment, or account comment                                           | Yes      |
 | `type`          | 1 for level, 2 for level comment, 3 for account comment, 4 for list                        | Yes      |
 | `gameVersion`   | 22                                                                                         |          |
-| `binaryVersion` | 42                                                                                         |          |
+| `binaryVersion` | 48                                                                                         |          |
 | `gdw`           | 0                                                                                          |          |
 | `accountID`     | The liking/disliking person's account ID                                                   |          |
 | `gjp2`          | The liking/disliking person's [GJP2](/topics/gjp#generating-gjp2)                                        |          |

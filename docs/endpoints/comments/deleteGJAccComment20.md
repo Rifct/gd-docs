@@ -10,8 +10,8 @@
 | `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user deleting the comment                                                            | Yes      |
 | `commentID`     | The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)) | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                    | Yes      |
-| `gameVersion`   | 21                                                                                                                    |          |
-| `binaryVersion` | 35                                                                                                                    |          |
+| `gameVersion`   | 22                                                                                                                    |          |
+| `binaryVersion` | 48                                                                                                                    |          |
 | `gdw`           | 0                                                                                                                     |          |
 
 ## Response

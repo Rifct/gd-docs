@@ -10,7 +10,7 @@ Gets a user's DMs.
 | `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                  | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                 | Yes      |
 | `gameVersion`   | 22                                                                                                 |          |
-| `binaryVersion` | 42                                                                                                 |          |
+| `binaryVersion` | 48                                                                                                 |          |
 | `gdw`           | 0                                                                                                  |          |
 | `page`          | Which page of messages you want, starting at 0. Defaults to the first if left out.                 |          |
 | `total`         | Current use is unknown, defaults to the amount of message the user has, but leaving it as 0 works. |          |

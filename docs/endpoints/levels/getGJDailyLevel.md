@@ -8,7 +8,7 @@ Gets which daily level we're on and gets how much time is left.
 | --------------------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
 | `secret`                    | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                            | Yes      |
 | `gameVersion`               | 22                                                                                                            |          |
-| `binaryVersion`             | 47                                                                                                            |          |
+| `binaryVersion`             | 48                                                                                                            |          |
 | `dvs`                       | 3                                                                                                             |          |
 | `accountID`                 | The user's account ID                                                                                         |          |
 | `gjp2`                      | The user's [GJP2](/topics/gjp.md)                                                                             |          |
