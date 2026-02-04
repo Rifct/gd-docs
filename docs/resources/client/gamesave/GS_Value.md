@@ -94,7 +94,7 @@ GS_4 contains info about all levels you have collected verified coins for
 
 ## GS_5
 
-GS_5 contains info about all the MapPacks you have beaten
+GS_5 contains info about the amount of stars each map pack rewards
 
 | Structure |
 |-----------|
