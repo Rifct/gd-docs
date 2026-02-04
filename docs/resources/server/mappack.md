@@ -19,16 +19,16 @@ A list of all known keys can be found in the table below
 
 ### Map Pack Structure
 
-| Key | Name/Value                                      | Type        | Description                                       |
-| --- | ----------------------------------------------- | ----------- | ------------------------------------------------- |
-| `1` | packID                                          | **Integer** | the ID for the specified Map Pack                 |
-| `2` | packName                                        | **String**  | Name of the map pack                              |
-| `3` | levels                                          | **String**  | List of level IDs separated by a `,`              |
-| `4` | stars                                           | **Integer** | How many stars the map pack should give           |
-| `5` | coins                                           | **Integer** | How many coins the map pack should give           |
-| `6` | [difficulty](/resources/client/enumerations.md) | **Integer** | Difficulty ranging from `0->10`                   |
-| `7` | textColor                                       | **String**  | RGB color for the title text separated by `,`     |
-| `8` | barColor                                        | **String**  | RGB color for the completion bar separated by `,` |
+| Key | Name/Value                                                 | Type        | Description                                       |
+| --- | ---------------------------------------------------------- | ----------- | ------------------------------------------------- |
+| `1` | packID                                                     | **Integer** | the ID for the specified Map Pack                 |
+| `2` | packName                                                   | **String**  | Name of the map pack                              |
+| `3` | levels                                                     | **String**  | List of level IDs separated by a `,`              |
+| `4` | stars                                                      | **Integer** | How many stars the map pack should give           |
+| `5` | coins                                                      | **Integer** | How many coins the map pack should give           |
+| `6` | [Difficulty](/resources/client/enumerations.md#difficulty) | **Integer** | Difficulty ranging from `0->10`                   |
+| `7` | textColor                                                  | **String**  | RGB color for the title text separated by `,`     |
+| `8` | barColor                                                   | **String**  | RGB color for the completion bar separated by `,` |
 
 
 ### Trivia
@@ -36,20 +36,4 @@ A list of all known keys can be found in the table below
 - Map packs use the same response parser as gauntlets
 
 - Although Map Packs only show a hard demon in-game, they can actually display each demon difficulty by using a specific value in key `6`
-
-#### Difficulty possible values
-
-| Value | Difficulty    |
-| ----- | ------------- |
-| `0`   | auto          |
-| `1`   | easy          |
-| `2`   | normal        |
-| `3`   | hard          |
-| `4`   | harder        |
-| `5`   | insane        |
-| `6`   | hard demon    |
-| `7`   | easy demon    |
-| `8`   | medium demon  |
-| `9`   | insane demon  |
-| `10`  | extreme demon |
 

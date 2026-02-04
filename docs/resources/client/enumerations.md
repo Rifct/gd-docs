@@ -12,12 +12,12 @@ Here you will find a list of all enumerations that can be found in the client.
 
 This enum represents the quality of the game's textures.
 
-| Value | Name   |
-| ----- | ------ |
-| `0`     | Auto   |
-| `1`     | Low    |
-| `2`     | Medium |
-| `3`     | High   |
+| Value | Quality |
+| ----- | ------- |
+| `0`   | Auto    |
+| `1`   | Low     |
+| `2`   | Medium  |
+| `3`   | High    |
 
 ## Resolution
 
@@ -25,46 +25,46 @@ This enum represents the game window's resolution.
 
 | Value | Width | Height | Aspect Ratio |
 | ----- | ----- | ------ | ------------ |
-| `1`     | 640   | 480    | 4:3          |
-| `2`     | 720   | 480    | 3:2          |
-| `3`     | 720   | 576    | 5:4          |
-| `4`     | 800   | 600    | 4:3          |
-| `5`     | 1024  | 768    | 4:3          |
-| `6`     | 1152  | 864    | 4:3          |
-| `7`     | 1176  | 664    | 147:83       |
-| `8`     | 1280  | 720    | 16:9         |
-| `9`     | 1280  | 768    | 5:3          |
-| `10`    | 1280  | 800    | 16:10        |
-| `11`    | 1280  | 960    | 4:3          |
-| `12`    | 1280  | 1024   | 5:4          |
-| `13`    | 1360  | 768    | 85:48        |
-| `14`    | 1366  | 768    | 683:384      |
-| `15`    | 1440  | 900    | 16:10        |
-| `16`    | 1600  | 900    | 16:9         |
-| `17`    | 1600  | 1024   | 25:16        |
-| `18`    | 1600  | 1200   | 4:3          |
-| `19`    | 1680  | 1050   | 16:10        |
-| `20`    | 1768  | 992    | 221:124      |
-| `21`    | 1920  | 1080   | 16:9         |
-| `22`    | 1920  | 1200   | 16:10        |
-| `23`    | 1920  | 1440   | 4:3          |
-| `24`    | 2048  | 1536   | 4:3          |
-| `25`    | 2560  | 1440   | 16:9         |
-| `26`    | 2560  | 1600   | 16:10        |
-| `27`    | 3840  | 2160   | 16:9         |
+| `1`   | 640   | 480    | 4:3          |
+| `2`   | 720   | 480    | 3:2          |
+| `3`   | 720   | 576    | 5:4          |
+| `4`   | 800   | 600    | 4:3          |
+| `5`   | 1024  | 768    | 4:3          |
+| `6`   | 1152  | 864    | 4:3          |
+| `7`   | 1176  | 664    | 147:83       |
+| `8`   | 1280  | 720    | 16:9         |
+| `9`   | 1280  | 768    | 5:3          |
+| `10`  | 1280  | 800    | 16:10        |
+| `11`  | 1280  | 960    | 4:3          |
+| `12`  | 1280  | 1024   | 5:4          |
+| `13`  | 1360  | 768    | 85:48        |
+| `14`  | 1366  | 768    | 683:384      |
+| `15`  | 1440  | 900    | 16:10        |
+| `16`  | 1600  | 900    | 16:9         |
+| `17`  | 1600  | 1024   | 25:16        |
+| `18`  | 1600  | 1200   | 4:3          |
+| `19`  | 1680  | 1050   | 16:10        |
+| `20`  | 1768  | 992    | 221:124      |
+| `21`  | 1920  | 1080   | 16:9         |
+| `22`  | 1920  | 1200   | 16:10        |
+| `23`  | 1920  | 1440   | 4:3          |
+| `24`  | 2048  | 1536   | 4:3          |
+| `25`  | 2560  | 1440   | 16:9         |
+| `26`  | 2560  | 1600   | 16:10        |
+| `27`  | 3840  | 2160   | 16:9         |
 
 ## Gamemode
 
-| Key | Name   |
-| --- | ------ |
-| `0` | Icon   |
-| `1` | Ship   |
-| `2` | Ball   |
-| `3` | UFO    |
-| `4` | Wave   |
-| `5` | Robot  |
-| `6` | Spider |
-| `7` | Swing  |
+| Key | Gamemode |
+| --- | -------- |
+| `0` | Icon     |
+| `1` | Ship     |
+| `2` | Ball     |
+| `3` | UFO      |
+| `4` | Wave     |
+| `5` | Robot    |
+| `6` | Spider   |
+| `7` | Swing    |
 
 ## Speed
 
@@ -78,7 +78,7 @@ This enum represents the game window's resolution.
 
 ## Easing
 
-| Key  | Name               |
+| Key  | Mode               |
 | ---- | ------------------ |
 | `0`  | None               |
 | `1`  | Ease In Out        |
@@ -102,21 +102,21 @@ This enum represents the game window's resolution.
 
 ## Pulse Mode
 
-| Key | Name  |
+| Key | Mode  |
 | --- | ----- |
 | `0` | Color |
 | `1` | HSV   |
 
 ## Pulse Target Type
 
-| Key | Name    |
+| Key | Type    |
 | --- | ------- |
 | `0` | Channel |
 | `1` | Group   |
 
 ## Touch Toggle Mode
 
-| Key | Name       |
+| Key | Mode       |
 | --- | ---------- |
 | `0` | None       |
 | `1` | Toggle On  |
@@ -124,15 +124,15 @@ This enum represents the game window's resolution.
 
 ## Instant Count Comparison
 
-| Key | Name    |
-| --- | ------- |
-| `0` | Equals  |
-| `1` | Larger  |
-| `2` | Smaller |
+| Key | Comparison |
+| --- | ---------- |
+| `0` | Equals     |
+| `1` | Larger     |
+| `2` | Smaller    |
 
 ## X/Y Only
 
-| Key | Name    |
+| Key | Status  |
 | --- | ------- |
 | `0` | Neither |
 | `1` | X Only  |
@@ -140,7 +140,7 @@ This enum represents the game window's resolution.
 
 ## Main/Secondary Color
 
-| Key | Name                     |
+| Key | Color                    |
 | --- | ------------------------ |
 | `0` | Default                  |
 | `1` | Main (Base) Color        |
@@ -148,88 +148,88 @@ This enum represents the game window's resolution.
 
 ## Player Color
 
-| Key | Name |
-| --- | ---- |
+| Key | Color |
+| --- | ----- |
 
 ## Player Icon
 
-| Key | Name |
+| Key | Icon |
 | --- | ---- |
 
 ## Player Ship
 
-| Key | Name |
+| Key | Ship |
 | --- | ---- |
 
 ## Player Ball
 
-| Key | Name |
+| Key | Ball |
 | --- | ---- |
 
 ## Player UFO
 
-| Key | Name |
-| --- | ---- |
+| Key | UFO |
+| --- | --- |
 
 ## Player Wave
 
-| Key | Name |
+| Key | Wave |
 | --- | ---- |
 
 ## Player Robot
 
-| Key | Name |
-| --- | ---- |
+| Key | Robot |
+| --- | ----- |
 
 ## Player Spider
 
-| Key | Name |
-| --- | ---- |
+| Key | Spider |
+| --- | ------ |
 
 ## Player Swing
 
-| Key | Name |
-| --- | ---- |
+| Key | Swing |
+| --- | ----- |
 
 ## Primary Player Color
 
-| Key | Name |
-| --- | ---- |
+| Key | Color |
+| --- | ----- |
 
 ## Secondary Player Color
 
-| Key | Name |
-| --- | ---- |
+| Key | Color |
+| --- | ----- |
 
 ## Glow Player Color
 
-| Key  | Name                                                      |
+| Key  | Color                                                     |
 | ---- | --------------------------------------------------------- |
 | `-1` | Same as [Secondary Player Color](#secondary-player-color) |
 
 ## Player Trail
 
-| Key | Name |
-| --- | ---- |
+| Key | Trail |
+| --- | ----- |
 
 ## Player Streak
 
-| Key | Name |
-| --- | ---- |
+| Key | Streak |
+| --- | ------ |
 
 ## Player Death Effect
 
-| Key | Name |
-| --- | ---- |
+| Key | Effect |
+| --- | ------ |
 
 ## Player Jetpack
 
-| Key | Name |
-| --- | ---- |
+| Key | Jetpack |
+| --- | ------- |
 
 ## Player Icon Type
 
-| Key | Name                       |
+| Key | Type                       |
 | --- | -------------------------- |
 | `0` | [Icon](#player-icon)       |
 | `1` | [Ship](#player-ship)       |
@@ -240,3 +240,35 @@ This enum represents the game window's resolution.
 | `6` | [Spider](#player-spider)   |
 | `7` | [Swing](#player-swing)     |
 | `8` | [Jetpack](#player-jetpack) |
+
+## Quest Type
+
+| Key | Type  |
+| --- | ----- |
+| `1` | Orbs  |
+| `2` | Coins |
+| `3` | Stars |
+
+## Quest Position
+
+| Key | Position |
+| --- | -------- |
+| `1` | Top      |
+| `2` | Middle   |
+| `3` | Bottom   |
+
+## Difficulty
+
+| Key  | Difficulty    |
+| ---- | ------------- |
+| `0`  | Auto          |
+| `1`  | Easy          |
+| `2`  | Normal        |
+| `3`  | Hard          |
+| `4`  | Harder        |
+| `5`  | Insane        |
+| `6`  | Hard Demon    |
+| `7`  | Easy Demon    |
+| `8`  | Medium Demon  |
+| `9`  | Insane Demon  |
+| `10` | Extreme Demon |
