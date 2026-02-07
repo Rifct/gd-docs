@@ -58,7 +58,7 @@ levelString = "H4sIAAAAAAAAC6WQwQ3DIAxFF3IlfxsIUU6ZIQP8AbJChy_GPSZqpF7-A4yfDOfhX
 data = {
     "gameVersion": 21,
     "accountID": 173831, # This is DevExit's account ID
-    "gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "userName": "devexit",
     "levelID": 0,
     "levelName": "Test", # The level name is Test

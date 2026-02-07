@@ -30,7 +30,7 @@ import requests
 
 data = {
     "accountID": 18178627, # shikoshib's account ID
-    "gjp": "********", # This would be shikoshib's password encoded with GJP encryption
+    "gjp2": "********", # This would be shikoshib's password encoded with GJP2 encryption
     "levelID": 85555028,
     "levelDesc": "V2l0aCBsb3ZlIGZyb20gR0QgRG9jcyE=", # With love from GD Docs!
     "secret": "Wmfd2893gb7",

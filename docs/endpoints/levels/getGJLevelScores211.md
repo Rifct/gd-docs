@@ -55,7 +55,7 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "levelID": 46763581,
 	"type": 1, # Leaving this out would only show friends. This shows global.
     "secret": "Wmfd2893gb7"

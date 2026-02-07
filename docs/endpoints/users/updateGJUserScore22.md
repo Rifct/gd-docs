@@ -62,7 +62,7 @@ import requests
 
 data = {
     "accountID": 5317656, # PasswordFinders' Account ID
-    "gjp": "********", # This would be PasswordFinders' password encoded with GJP encryption
+    "gjp2": "********", # This would be PasswordFinders' password encoded with GJP2 encryption
     "userName": "PasswordFinders",
     "stars": 6969,
     "moons": 696,

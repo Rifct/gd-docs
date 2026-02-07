@@ -7,7 +7,7 @@
 | Parameter       | Explanation                                                                                                           | Required |
 | --------------- | --------------------------------------------------------------------------------------------------------------------- | -------- |
 | `accountID`     | Account ID of the user deleting the comment                                                                           | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user deleting the comment                                                            | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user deleting the comment                                                            | Yes      |
 | `commentID`     | The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)) | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                    | Yes      |
 | `gameVersion`   | 21                                                                                                                    |          |
@@ -31,7 +31,7 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "commentID": 1772717,
     "secret": "Wmfd2893gb7"
 }

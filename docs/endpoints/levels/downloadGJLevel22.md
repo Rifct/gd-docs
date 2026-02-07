@@ -12,7 +12,7 @@ Downloads a user level and info so it can be played.
 | `binaryVersion` | 47                                                                                                         |          |
 | `dvs`           | 3                                                                                                          |          |
 | `accountID`     | The account ID of the user who is downloading the level                                                    |          |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user who is downloading the level                                         |          |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who is downloading the level                                         |          |
 | `udid`          | The [udid](/topics/encryption/id#udid) of the user who is downloading the level                            |          |
 | `uuid`          | The [uuid](/topics/encryption/id#uuid) of the user who is downloading the level                            |          |
 | `inc`           | Whether the amount of downloads should be incremented on the level (requires proper authentication)        |          |

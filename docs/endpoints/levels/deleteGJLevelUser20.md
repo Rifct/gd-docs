@@ -7,7 +7,7 @@ Deletes a level from the server.
 | Parameter   | Explanation                                       | Required |
 | ----------- | ------------------------------------------------- | -------- |
 | `accountID` | The level author's account ID                     | Yes      |
-| `gjp`       | The level author's [GJP](/topics/gjp.md)          | Yes      |
+| `gjp2`      | The level author's [GJP2](/topics/gjp#generating-gjp2)          | Yes      |
 | `levelID`   | The ID of the level being deleted                 | Yes      |
 | `secret`    | [Level Secret](/reference/secrets.md): `Wmfv2898gc9` | Yes      |
 
@@ -28,7 +28,7 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "levelID": 62689548,
         "secret": "Wmfv2898gc9"
 }

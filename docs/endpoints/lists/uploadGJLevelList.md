@@ -43,7 +43,7 @@ seed = ("").join(random.choices(possible_letters, k=5))
 data = {
     "gameVersion": 22,
     "accountID": 173831, # This is DevExit's account ID
-    "gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "listLevels": "128,132,133,134,136", # These are the IDs of the levels in the list
     "listID": 0,
     "listName": "First Levels", # This is the list name

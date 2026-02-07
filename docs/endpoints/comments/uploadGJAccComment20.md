@@ -31,7 +31,7 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "comment": base64.b64encode(b"This comment was uploaded for the GD Docs!").decode(),
     "secret": "Wmfd2893gb7",
 }

@@ -7,7 +7,7 @@ Deletes a level comment.
 | Parameter       | Explanation                                                       | Required |
 | --------------- | ----------------------------------------------------------------- | -------- |
 | `accountID`     | The account ID of the user who is deleting the comment            | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user who is deleting the comment | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who is deleting the comment | Yes      |
 | `commentID`     | ID of the comment                                                 | Yes      |
 | `levelID`       | ID of the level the comment is on                                 | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                | Yes      |
@@ -32,7 +32,7 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "commentID": 31415926,
         "levelID": 54953085,
         "secret": "Wmfd2893gb7"

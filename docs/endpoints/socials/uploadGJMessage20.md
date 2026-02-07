@@ -34,7 +34,7 @@ data = {
     "binaryVersion": 35,
     "gdw": 0,
 	"accountID": 173831, # This is DevExit's account ID
-	"gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+	"gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "toAccountID": 173831, # Yes! You can send messages to yourself
     "subject": base64.b64encode(b"You're dumb lol").decode(),
     "body": base64.b64encode(b"Mhm yep you're p dumb lmao").decode(),

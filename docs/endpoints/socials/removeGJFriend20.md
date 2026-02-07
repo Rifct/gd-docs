@@ -7,7 +7,7 @@ Removes someone from a user's friend list
 | Parameter         | Explanation                                               | Required |
 | ----------------- | --------------------------------------------------------- | -------- |
 | `accountID`       | The accountID of the user removing the friend             | Yes      |
-| `gjp`             | The [GJP](/topics/gjp.md) of the user removing the friend | Yes      |
+| `gjp2`            | The [GJP2](/topics/gjp#generating-gjp2) of the user removing the friend | Yes      |
 | `targetAccountID` | The accountID of the user being removed                   | Yes      |
 | `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`        | Yes      |
 | `gameVersion`     | 21                                                        |          |
@@ -29,7 +29,7 @@ import requests
 
 data = {
     'accountID': 173831, # DevExit's account ID
-    'gjp': "********", # This would be DevExit's password encoded with GJP encryption
+    'gjp': "********", # This would be DevExit's password encoded with GJP2 encryption
     'targetAccountID': 5317656,
     'secret': 'Wmfd2893gb7'
 }

@@ -7,7 +7,7 @@ Endpoint used by moderators to send levels to RobTop
 | Parameter       | Explanation                                                               | Required |
 | --------------- | ------------------------------------------------------------------------- | -------- |
 | `accountID`     | accountID of the user                                                     | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user                                     | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user                                     | Yes      |
 | `levelID`       | The ID of the level                                                       | Yes      |
 | `stars`         | How many stars that are requested                                         | Yes      |
 | `secret`        | [Moderator Secret](/reference/secrets.md): `Wmfp3879gc3`                     | Yes      |
@@ -32,7 +32,7 @@ data = {
         "gameVersion": 21,
         "binaryVersion":35
         "accountID": 71, # a moderators accountID
-        "gjp": "********", # This would be the mods password encoded with GJP encryption
+        "gjp2": "********", # This would be the mods password encoded with GJP2 encryption
         "levelID": 128,
         "stars": 3,
         "feature": 0,
