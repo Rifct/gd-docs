@@ -29,7 +29,7 @@ Endpoint used by moderators to send levels to RobTop
 import requests
 
 data = {
-        "gameVersion": 21,
+        "gameVersion": 22,
         "binaryVersion":35
         "accountID": 71, # a moderators accountID
         "gjp2": "********", # This would be the mods password encoded with GJP2 encryption

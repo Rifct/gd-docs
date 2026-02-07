@@ -10,13 +10,13 @@ Smart Templates are user-made templates used for the Auto Build feature. They ar
 
 | Key | Value               | Type    |
 | --- | ------------------- | ------- |
-| 1   | Smart Template ID   | integer |
-| 2   | Name                | string  |
-| 3   | Template Variations | dict    |
-| 4   | Unknown             | integer |
-| 5   | Unknown             | integer |
-| 6   | Unknown             | integer |
-| 7   | Unknown             | integer |
+| `1` | Smart Template ID   | integer |
+| `2` | Name                | string  |
+| `3` | Template Variations | dict    |
+| `4` | Unknown             | integer |
+| `5` | Unknown             | integer |
+| `6` | Unknown             | integer |
+| `7` | Unknown             | integer |
 
 ## kCEK 11
 
@@ -46,11 +46,11 @@ The keys of the dictionary are 9-bit bitfields (binary numbers) representing the
 
 | Bit | Position      |
 | --- | ------------- |
-| 2   | Top Middle    |
-| 3   | Bottom Middle |
-| 4   | Center Left   |
-| 5   | Center Right  |
-| 6   | Top Left      |
-| 7   | Top Right     |
-| 8   | Bottom Left   |
-| 9   | Bottom Right  |
+| `2` | Top Middle    |
+| `3` | Bottom Middle |
+| `4` | Center Left   |
+| `5` | Center Right  |
+| `6` | Top Left      |
+| `7` | Top Right     |
+| `8` | Bottom Left   |
+| `9` | Bottom Right  |

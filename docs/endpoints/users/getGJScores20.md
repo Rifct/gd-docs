@@ -9,7 +9,7 @@ Gets the leaderboard scores.
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                            | Yes      |
 | `gameVersion`   | 22                                                                                                                                                            |          |
-| `binaryVersion` | 42                                                                                                                                                            |          |
+| `binaryVersion` | 48                                                                                                                                                            |          |
 | `gdw`           | 0                                                                                                                                                             |          |
 | `udid`          | The player's user ID / UDID                                                                                                                                   |          |
 | `accountID`     | The account ID of the user viewing the leaderboards                                                                                                           |          |
@@ -22,7 +22,8 @@ Gets the leaderboard scores.
 
 Returns a list of [user objects](/resources/server/user.md) in order based on which leaderboard you're viewing and which statistic you chose, separated by pipe `|` characters.
 
-Note that for unknown reasons, omitting the UDID parameter will make creator leaderboards replace the user `azuhb` (user ID `166153445`) with the user you have selected via accountID. If accountID is also missing, uses the green user doshik5595 (user ID `150933385`) instead.
+> [!NOTE]
+> For unknown reasons, omitting the UDID parameter will make creator leaderboards replace the user `azuhb` (user ID `166153445`) with the user you have selected via accountID. If accountID is also missing, uses the green user doshik5595 (user ID `150933385`) instead.
 
 ## Example
 

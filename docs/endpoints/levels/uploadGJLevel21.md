@@ -34,7 +34,7 @@ Uploads a created level to the servers.
 | `seed`           | A random string                                                                                                               |          |
 | `extraString`    | A list of underscore seperated numbers. apparently used for rendering levels                                                  |          |
 | `levelInfo`      | A random gzip compressed string                                                                                               |          |
-| `binaryVersion`  | 42                                                                                                                            |          |
+| `binaryVersion`  | 48                                                                                                                            |          |
 | `gdw`            | 0                                                                                                                             |          |
 
 ## Response
@@ -56,7 +56,7 @@ import requests
 levelString = "H4sIAAAAAAAAC6WQwQ3DIAxFF3IlfxsIUU6ZIQP8AbJChy_GPSZqpF7-A4yfDOfhXcCiNMIqnVYrgYQl8rDwBTZCVbkQRI3oVHbiDU6F2jMF_lesl4q4kw2PJMbovxLBQxTpM3-I6q0oHmXjzx7N0240cu5w0UBNtESRkble8uSLHjh8nTubmYJZ2MvMrEITEN0gEJMxlLiMZ28frmj"
 
 data = {
-    "gameVersion": 21,
+    "gameVersion": 22,
     "accountID": 173831, # This is DevExit's account ID
     "gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "userName": "devexit",

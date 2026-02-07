@@ -8,7 +8,7 @@ Gets the map packs.
 | --------------- | --------------------------------------------------------------------- | -------- |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                    | Yes      |
 | `gameVersion`   | 22                                                                    |          |
-| `binaryVersion` | 42                                                                    |          |
+| `binaryVersion` | 48                                                                    |          |
 | `gdw`           | 0                                                                     |          |
 | `page`          | Denotes which page of map packs you want to retrieve, starting with 0 |          |
 

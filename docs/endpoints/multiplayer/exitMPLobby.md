@@ -1,6 +1,7 @@
 # exitMPLobby.php
 
-> Note: everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
+> [!CAUTION]
+> Everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
 
 Exits from a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `boomlings.com`.
 
@@ -13,7 +14,7 @@ Exits from a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, n
 | `secret`        | [Account Secret](/reference/secrets.md): `Wmfv3899gc9` | Yes      |
 | `gameID`        | The ID of the multiplayer lobby                     | Yes      |
 | `gameVersion`   | 22                                                  |          |
-| `binaryVersion` | 42                                                  |          |
+| `binaryVersion` | 48                                                  |          |
 | `gdw`           | 0                                                   |          |
 
 ## Response

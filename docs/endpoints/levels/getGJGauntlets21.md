@@ -8,7 +8,7 @@ Gets the gauntlet levels.
 | --------------- | ---------------------------------------------------------- | -------- |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`         | Yes      |
 | `gameVersion`   | 22                                                         |          |
-| `binaryVersion` | 47                                                         |          |
+| `binaryVersion` | 48                                                         |          |
 | `gdw`           | 0                                                          |          |
 | `special`       | 1 (fetches the 2.2 gauntlets)                              |          |
 | `vkey`          | equal to binaryVersion (starting with 46, which is 2.2080) |          |

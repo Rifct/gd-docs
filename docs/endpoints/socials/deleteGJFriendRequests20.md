@@ -16,7 +16,8 @@
 | `accounts`        | Account IDs seperated by `,` for users the player is declining friend requests from |          |
 | `isSender`        | If the player is the sender of this friend request                                  |          |
 
-**Note:** `isSender` must be set to `1` if you are deleting a request you have sent
+> [!NOTE]
+> `isSender` must be set to `1` if you are deleting a request you have sent
 
 ## Response
 

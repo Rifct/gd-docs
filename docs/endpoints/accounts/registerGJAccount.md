@@ -2,7 +2,7 @@
 
 This endpoint is used to register an account. In 2.2, this was replaced with [register.php](/topics/account_management#register-php).
 
-> [!NOTE]
+> [!IMPORTANT]
 > This page is under the `database/accounts` directory.
 
 ## Parameters

@@ -11,7 +11,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 | `levelID`       | The ID of the level                                                                                                                                                                | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                                                 | Yes      |
 | `gameVersion`   | 22                                                                                                                                                                                 |          |
-| `binaryVersion` | 42                                                                                                                                                                                 |          |
+| `binaryVersion` | 48                                                                                                                                                                                 |          |
 | `gdw`           | 0                                                                                                                                                                                  |          |
 | `time`          | Your time in milliseconds                                                                                                                                                          |          |
 | `points`        | Your points                                                                                                                                                                        |          |
@@ -29,7 +29,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 | `s8`            | Attempt Count                                                                                                                                                                      |          |
 | `s9`            | The amount of coins the user got + 5819                                                                                                                                            |          |
 | `s10`           | Timely ID -> for dailies and weeklies                                                                                                                                              |          |
-| `chk`           | [See here](/topics/encryption/chk#level-leaderboard)                                                                                                                               |          |
+| `chk`           | [See Here](/topics/encryption/chk.md#level-leaderboard)                                                                                                                               |          |
 
 ## levelSeed
 the levelSeed can be generated like this:

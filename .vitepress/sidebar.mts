@@ -366,6 +366,10 @@ export default [
         "text": "Client",
         "items": [
           {
+            "text": "Enumerations",
+            "link": "/resources/client/enumerations"
+          },
+          {
             "text": "Gamesave",
             "items": [
               {
@@ -375,10 +379,6 @@ export default [
               {
                 "text": "Platformer UI",
                 "link": "/resources/client/gamesave/dpad"
-              },
-              {
-                "text": "Enumerations",
-                "link": "/resources/client/gamesave/enums"
               },
               {
                 "text": "GLM",
@@ -425,10 +425,6 @@ export default [
               {
                 "text": "Color String",
                 "link": "/resources/client/level-components/color-string"
-              },
-              {
-                "text": "Enumerations",
-                "link": "/resources/client/level-components/enumerations"
               },
               {
                 "text": "Guideline String",

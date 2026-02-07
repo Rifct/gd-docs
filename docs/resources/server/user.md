@@ -16,63 +16,64 @@ A typical user server response is structured with a `key:value:key:value` pairin
 
 Each `key` is tied to a component within the client and the `value` sets data for the specific component. A list of all known keys can be found in the table below.
 
-| Key | Name/Value | Type | Description |
-| --- | ---------- | ---- | ----------- |
-| 1 | userName | **String** | The player's display name |
-| 2 | userID | **Integer** | The player's User ID |
-| 3 | stars | **Integer** | The player's star count |
-| 4 | demonCount | **Integer** | The number of demons the player has completed |
-| 6 | ranking | **Integer** | The player's ranking on the global leaderboard |
-| 7 | accountHighlight | **Integer** | The player's account ID. Used for highlighting the player on the leaderboards (only returned by [getGJScores20](/endpoints/users/getGJScores20) when viewing yourself on a leaderboard) |
-| 8 | creatorpoints | **Integer** | The number of creator points the player has |
-| 9 | iconID | **Integer** | The ID of the player's display icon (see iconType) |
-| 10 | color | **Integer** | The player's primary icon color |
-| 11 | color2 | **Integer** | The player's secondary icon color |
-| 12 | shipID | **Integer** | Deprecated key; the player's ship ID in 1.4 and 1.5. Was 0 if a cube was selected instead of a ship |
-| 13 | secretCoins | **Integer** | The number of secret coins the player has |
-| 14 | iconType | **Integer** | The icon displayed on leaderboards, comments, etc. (see the [Gamemode](/resources/client/level-components/enumerations#gamemode) enum) |
-| 15 | special | **Integer** | Mirrors accGlow for non-[getGJUserInfo20](/endpoints/users/getGJUserInfo20) requests. 0 = Glow Disabled, 2 = Enabled. Was the ID of the player's trail prior to 2.0 |
-| 16 | accountID | **Integer** | The player's account ID |
-| 17 | userCoins | **Integer** | The number of user coins the player has |
-| 18* | messageState | **Integer** | Who can send the player messages. 0 = All, 1 = Friends only, 2 = None |
-| 19* | friendsState | **Integer** | Who can send the player friend requests. 0 = All, 1 = None |
-| 20* | youTube | **String** | The player's YouTube channel |
-| 21* | accIcon | **Integer** | The ID of the player's cube |
-| 22* | accShip | **Integer** | The ID of the player's ship |
-| 23* | accBall | **Integer** | The ID of the player's ball |
-| 24* | accBird | **Integer** | The ID of the player's UFO |
-| 25* | accDart | **Integer** | The ID of the player's wave |
-| 26* | accRobot | **Integer** | The ID of the player's robot |
-| 27 | accStreak | **Integer** | The ID of the player's trail. Is not sent, see [trivia](#trivia) |
-| 28* | accGlow | **Bool** | If the player has glow enabled |
-| 29* | isRegistered | **Bool** | If the player is registered |
-| 30* | globalRank | **Integer** | The global rank of the player |
-| 31* | friendState | **Integer** | Friendship status. 0 = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
-| 38* | messages | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile) | <!-- there are a bunch of keys before here but they are exclusive to friend requests so i didnt add them here -->
-| 39* | friendRequests | **Integer** | The number of new friend requests you have |
-| 40* | newFriends | **Integer** | The number of new friends you have |
-| 41 | newFriendRequest | **Bool** | If the friend request is new (only returned by [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20)) |
-| 42* | age | **String** | The time since you submitted a levelScore (only returned by [getGJLevelScores211](/endpoints/levels/getGJLevelScores211 )) |
-| 43* | accSpider | **Integer** | The ID of the player's spider |
-| 44* | twitter | **String** | The player's Twitter handle |
-| 45* | twitch | **String** | The player's Twitch channel |
-| 46 | diamonds | **Integer** | The number of diamonds the player has |
-| 48* | accExplosion | **Integer** | The ID of the player's explosion effect |
-| 49* | mod | **Integer** | The mod level of the player. 0 = None, 1 = Normal Mod (Yellow), 2 = Elder Mod (Orange) |
-| 50* | commentHistoryState | **Integer** | Who can view the player's comment history. 0 = All, 1 = Friends only, 2 = None |
-| 51 | color3 | **Integer** | The player's glow color |
-| 52 | moons | **Integer** | The player's moon count |
-| 53* | accSwing | **Integer** | The ID of the player's swing |
-| 54* | accJetpack | **Integer** | The ID of the player's jetpack |
-| 55* | demons | **String** | Breakdown of the player's demons, in the format `{easy},{medium},{hard}.{insane},{extreme},{easyPlatformer},{mediumPlatformer},{hardPlatformer},{insanePlatformer},{extremePlatformer},{weekly},{gauntlet}` |
-| 56* | classicLevels | **String** | Breakdown of the player's classic mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane},{daily},{gauntlet}` |
-| 57* | platformerLevels | **String** | Breakdown of the player's platformer mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane},{the map}` |
-| 58* | discord | **String** | The player's Discord handle |
-| 59* | instagram | **String** | The player's Instagram username |
-| 60* | tiktok | **String** | The player's TikTok handle |
-| 61* | custom | **String** | The player's custom one-time authentication token |
+| Key   | Name/Value          | Type        | Description                                                                                                                                                                                                 |
+| ----- | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `1`   | userName            | **String**  | The player's display name                                                                                                                                                                                   |
+| `2`   | userID              | **Integer** | The player's User ID                                                                                                                                                                                        |
+| `3`   | stars               | **Integer** | The player's star count                                                                                                                                                                                     |
+| `4`   | demonCount          | **Integer** | The number of demons the player has completed                                                                                                                                                               |
+| `6`   | ranking             | **Integer** | The player's ranking on the global leaderboard                                                                                                                                                              |
+| `7`   | accountHighlight    | **Integer** | The player's account ID. Used for highlighting the player on the leaderboards (only returned by [getGJScores20](/endpoints/users/getGJScores20) when viewing yourself on a leaderboard)                     |
+| `8`   | creatorpoints       | **Integer** | The number of creator points the player has                                                                                                                                                                 |
+| `9`   | iconID              | **Integer** | The ID of the player's display icon (see iconType)                                                                                                                                                          |
+| `10`  | color               | **Integer** | The player's primary icon color                                                                                                                                                                             |
+| `11`  | color2              | **Integer** | The player's secondary icon color                                                                                                                                                                           |
+| `12`  | shipID              | **Integer** | Deprecated key; the player's ship ID in 1.4 and 1.5. Was 0 if a cube was selected instead of a ship                                                                                                         |
+| `13`  | secretCoins         | **Integer** | The number of secret coins the player has                                                                                                                                                                   |
+| `14`  | iconType            | **Integer** | The icon displayed on leaderboards, comments, etc. (see the [Gamemode](/resources/client/enumerations.md#gamemode) enum)                                                                                       |
+| `15`  | special             | **Integer** | Mirrors accGlow for non-[getGJUserInfo20](/endpoints/users/getGJUserInfo20) requests. 0 = Glow Disabled, 2 = Enabled. Was the ID of the player's trail prior to 2.0                                         |
+| `16`  | accountID           | **Integer** | The player's account ID                                                                                                                                                                                     |
+| `17`  | userCoins           | **Integer** | The number of user coins the player has                                                                                                                                                                     |
+| `18*` | messageState        | **Integer** | Who can send the player messages. 0 = All, 1 = Friends only, 2 = None                                                                                                                                       |
+| `19*` | friendsState        | **Integer** | Who can send the player friend requests. 0 = All, 1 = None                                                                                                                                                  |
+| `20*` | youTube             | **String**  | The player's YouTube channel                                                                                                                                                                                |
+| `21*` | accIcon             | **Integer** | The ID of the player's cube                                                                                                                                                                                 |
+| `22*` | accShip             | **Integer** | The ID of the player's ship                                                                                                                                                                                 |
+| `23*` | accBall             | **Integer** | The ID of the player's ball                                                                                                                                                                                 |
+| `24*` | accBird             | **Integer** | The ID of the player's UFO                                                                                                                                                                                  |
+| `25*` | accDart             | **Integer** | The ID of the player's wave                                                                                                                                                                                 |
+| `26*` | accRobot            | **Integer** | The ID of the player's robot                                                                                                                                                                                |
+| `27`  | accStreak           | **Integer** | The ID of the player's trail. Is not sent, see [trivia](#trivia)                                                                                                                                            |
+| `28*` | accGlow             | **Bool**    | If the player has glow enabled                                                                                                                                                                              |
+| `29*` | isRegistered        | **Bool**    | If the player is registered                                                                                                                                                                                 |
+| `30*` | globalRank          | **Integer** | The global rank of the player                                                                                                                                                                               |
+| `31*` | friendState         | **Integer** | Friendship status. 0 = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player                                                                         |
+| `38*` | messages            | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile)                                                                                                                  | <!-- there are a bunch of keys before here but they are exclusive to friend requests so i didnt add them here -->
+| `39*` | friendRequests      | **Integer** | The number of new friend requests you have                                                                                                                                                                  |
+| `40*` | newFriends          | **Integer** | The number of new friends you have                                                                                                                                                                          |
+| `41`  | newFriendRequest    | **Bool**    | If the friend request is new (only returned by [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20))                                                                                           |
+| `42*` | age                 | **String**  | The time since you submitted a levelScore (only returned by [getGJLevelScores211](/endpoints/levels/getGJLevelScores211 ))                                                                                  |
+| `43*` | accSpider           | **Integer** | The ID of the player's spider                                                                                                                                                                               |
+| `44*` | twitter             | **String**  | The player's Twitter handle                                                                                                                                                                                 |
+| `45*` | twitch              | **String**  | The player's Twitch channel                                                                                                                                                                                 |
+| `46`  | diamonds            | **Integer** | The number of diamonds the player has                                                                                                                                                                       |
+| `48*` | accExplosion        | **Integer** | The ID of the player's explosion effect                                                                                                                                                                     |
+| `49*` | mod                 | **Integer** | The mod level of the player. 0 = None, 1 = Normal Mod (Yellow), 2 = Elder Mod (Orange)                                                                                                                      |
+| `50*` | commentHistoryState | **Integer** | Who can view the player's comment history. 0 = All, 1 = Friends only, 2 = None                                                                                                                              |
+| `51`  | color3              | **Integer** | The player's glow color                                                                                                                                                                                     |
+| `52`  | moons               | **Integer** | The player's moon count                                                                                                                                                                                     |
+| `53*` | accSwing            | **Integer** | The ID of the player's swing                                                                                                                                                                                |
+| `54*` | accJetpack          | **Integer** | The ID of the player's jetpack                                                                                                                                                                              |
+| `55*` | demons              | **String**  | Breakdown of the player's demons, in the format `{easy},{medium},{hard}.{insane},{extreme},{easyPlatformer},{mediumPlatformer},{hardPlatformer},{insanePlatformer},{extremePlatformer},{weekly},{gauntlet}` |
+| `56*` | classicLevels       | **String**  | Breakdown of the player's classic mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane},{daily},{gauntlet}`                                                                       |
+| `57*` | platformerLevels    | **String**  | Breakdown of the player's platformer mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane},{the map}`                                                                             |
+| `58*` | discord             | **String**  | The player's Discord handle                                                                                                                                                                                 |
+| `59*` | instagram           | **String**  | The player's Instagram username                                                                                                                                                                             |
+| `60*` | tiktok              | **String**  | The player's TikTok handle                                                                                                                                                                                  |
+| `61*` | custom              | **String**  | The player's custom one-time authentication token                                                                                                                                                           |
 
-Keys indicated with an asterisk (*) are only returned from the [getGJUserInfo20](/endpoints/users/getGJUserInfo20) endpoint. Conversely, keys 6, 9, 14, & 15 are only returned by user search endpoints ([getGJUsers20](/endpoints/users/getGJUsers20), [getGJScores20](/endpoints/users/getGJScores20))
+> [!NOTE]
+> Keys indicated with an asterisk (*) are only returned from the [getGJUserInfo20](/endpoints/users/getGJUserInfo20) endpoint. Conversely, keys 6, 9, 14, & 15 are only returned by user search endpoints ([getGJUsers20](/endpoints/users/getGJUsers20), [getGJScores20](/endpoints/users/getGJScores20))
 
 ### Trivia
 

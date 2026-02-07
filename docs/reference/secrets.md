@@ -154,7 +154,8 @@ Currently, the Admin Secret no longer works as RobTop became aware of it.
 
 A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x`. From analysing the available secrets that we have access too, we have a general idea of what each component may represent.
 
-> **Note:** *The following is based on analysis using the endpoints the secret is used by as well as the status in the community one is required to have in order to access them. **<u>None of the information below has been proven</u>***
+> [!CAUTION]
+> The following is based on analysis using the endpoints the secret is used by as well as the status in the community one is required to have in order to access them. **<u>None of the information below has been proven</u>**
 
 - The first component of a Secret is always a `W`.
 

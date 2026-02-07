@@ -11,7 +11,7 @@ Unblocks a user.
 | `targetAccountID` | The account ID of the person getting unblocked     | Yes      |
 | `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
 | `gameVersion`     | 22                                                 |          |
-| `binaryVersion`   | 42                                                 |          |
+| `binaryVersion`   | 48                                                 |          |
 | `gdw`             | 0                                                  |          |
 
 ## Response

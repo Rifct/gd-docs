@@ -4,17 +4,17 @@ Gets which daily level we're on and gets how much time is left.
 
 ## Parameters
 
-| Parameter                   | Explanation                                                                                                   | Required |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
-| `secret`                    | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                            | Yes      |
-| `gameVersion`               | 22                                                                                                            |          |
-| `binaryVersion`             | 47                                                                                                            |          |
-| `dvs`                       | 3                                                                                                             |          |
-| `accountID`                 | The user's account ID                                                                                         |          |
-| `gjp2`                      | The user's [GJP2](/topics/gjp.md)                                                                             |          |
-| `type`                      | 0 for daily, 1 for weekly, 2 for event level.                                                                 |          |
-| `chk` (required for type 2) | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key |          |
-| `weekly`                    | 0 for daily, 1 for weekly. Defaults to 0 if not sent. This parameter is outdated since 2.207                  |          |
+| Parameter       | Explanation                                                                                                   | Required        |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | --------------- |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                         | Yes             |
+| `gameVersion`   | 22                                                                                                            |                 |
+| `binaryVersion` | 48                                                                                                            |                 |
+| `dvs`           | 3                                                                                                             |                 |
+| `accountID`     | The user's account ID                                                                                         |                 |
+| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                             |                 |
+| `type`          | 0 for daily, 1 for weekly, 2 for event level.                                                                 |                 |
+| `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | When `type` = 2 |
+| `weekly`        | 0 for daily, 1 for weekly. Defaults to 0 if not sent. This parameter is outdated since 2.207                  |                 |
 
 ## Response
 

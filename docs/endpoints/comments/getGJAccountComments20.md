@@ -10,7 +10,7 @@ Gets a user's account comments.
 | `page`          | Which page of comments you want to see                                                              | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                  | Yes      |
 | `gameVersion`   | 22                                                                                                  |          |
-| `binaryVersion` | 47                                                                                                  |          |
+| `binaryVersion` | 48                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
 | `dvs`           | 3                                                                                                   |          |
 | `total`         | Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works. |          |

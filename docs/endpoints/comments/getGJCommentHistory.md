@@ -9,8 +9,8 @@ Gets a user's comment history.
 | `userID`        | The player ID of the user. **This is different from the account ID.**                               | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                  | Yes      |
-| `gameVersion`   | 21                                                                                                  |          |
-| `binaryVersion` | 35                                                                                                  |          |
+| `gameVersion`   | 22                                                                                                  |          |
+| `binaryVersion` | 48                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
 | `mode`          | Set to 0 for most recent, and 1 for most liked                                                      |          |
 | `total`         | Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works. |          |

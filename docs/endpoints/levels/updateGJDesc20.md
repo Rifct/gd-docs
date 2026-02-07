@@ -12,7 +12,7 @@ Updates the description of a level
 | `levelDesc`     | The new description of the level, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                        | Yes      |
 | `gameVersion`   | 22                                                                                          |          |
-| `binaryVersion` | 42                                                                                          |          |
+| `binaryVersion` | 48                                                                                          |          |
 | `gdw`           | 0                                                                                           |          |
 
 ## Response

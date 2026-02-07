@@ -10,7 +10,7 @@ Requests moderator access.
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user requesting mod access | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`           | Yes      |
 | `gameVersion`   | 22                                                           |          |
-| `binaryVersion` | 42                                                           |          |
+| `binaryVersion` | 48                                                           |          |
 | `gdw`           | 0                                                            |          |
 
 ## Response
