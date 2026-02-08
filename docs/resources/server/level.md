@@ -5,17 +5,15 @@
 A level is a playable object in Geometry Dash, namely coming with data that explains on what it is, and the string that the client interprets, known as a [level string](/topics/levelstring_encoding_decoding).
 
 A typical level server response is structured with a `key:value:key:value` pairing and is then split with a `|`
-
-*keep in mind that the value for key `4` will be replaced with `{levelString}` as it is too big to show*
 <!-- tabs:start -->
 
-#### **Level Example Response**
-```md
+### **Level Example Response**
+```
 1:6508283:2:ReTraY:3:VGhhbmtzIGZvciBwbGF5aW5nIEdlb21ldHJ5IERhc2g=:4:{levelString}:5:3:6:4993756:8:10:9:10:10:39431612:12:0:13:21:14:4125578:17::43:3:25::18:2:19:7730:42:0:45:20000:15:3:30:0:31:0:28:5 years:29:1 year:35:557117:36:0_733_0_0_0_0_574_716_0_0_352_78_729_0_42_0_833_68_0_347_0_38_240_205_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:37:3:38:1:39:2:46:7729:47:13773:40:0:27:AwMABAYDBw==#eb541c03f8355c0709f8007a1d9a595ae5bedc5d#291568b26b08d70a198fca10a87c736a2823be0c
 ```
 <!-- tabs:end -->
 
-Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.
 A list of all known keys can be found in the table below
 
 ### Level Object
@@ -59,7 +57,7 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 40* | lowDetailMode | **Bool** | If the level has a low detail checkbox 
 | 41* | dailyNumber | **Integer** | Daily/weekly levels only. Returns which daily/weekly the level was (e.g. the 500th daily level). Subtract 100,000 if the level is weekly
 | 42  | epic | **Integer** | The epic rating for the level. 0 = none, 1 = epic, 2 = legendary, 3 = mythic. 
-| 43  | demon Difficulty | **Integer** | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
+| 43  | demonDifficulty | **Integer** | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
 | 44  | isGauntlet | **Bool** | if the level is in a gauntlet |
 | 45  | objects | **Integer** | The amount of objects in the level, used to determine if the level is considered "large". It caps at 65535   
 | 46  | editorTime | **Integer** | the total number of seconds spend on the current copy of a level
