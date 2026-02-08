@@ -31,67 +31,64 @@ A list of all known keys can be found in the table below
 
 Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
 
-<!-- table made with a json to mdtable script so it looks ugky :/-->
-Note: Bolded gauntlet names are the ones that are added in-game, and the rest are yet to be added
-
 | ID | Name |
 |----|------|
-| 1  | **Fire** |
-| 2  | **Ice** |
-| 3  | **Poison** |
-| 4  | **Shadow** |
-| 5  | **Lava** |
-| 6  | **Bonus** |
-| 7  | **Chaos** |
-| 8  | **Demon** |
-| 9  | **Time** |
-| 10 | **Crystal** |
-| 11 | **Magic** |
-| 12 | **Spike**|
-| 13 | **Monster** |
-| 14 | **Doom** |
-| 15 | **Death** |
-| 16 | **Forest** |
+| 1  | Fire |
+| 2  | Ice |
+| 3  | Poison |
+| 4  | Shadow |
+| 5  | Lava |
+| 6  | Bonus |
+| 7  | Chaos |
+| 8  | Demon |
+| 9  | Time |
+| 10 | Crystal |
+| 11 | Magic |
+| 12 | Spike|
+| 13 | Monster |
+| 14 | Doom |
+| 15 | Death |
+| 16 | Forest |
 | 17 | Rune |
-| 18 | **Force** |
-| 19 | **Spooky** |
+| 18 | Force |
+| 19 | Spooky |
 | 20 | Dragon |
-| 21 | **Water** |
-| 22 | **Haunted** |
+| 21 | Water |
+| 22 | Haunted |
 | 23 | Acid |
 | 24 | Witch |
-| 25 | **Power** |
+| 25 | Power |
 | 26 | Potion |
 | 27 | Snake |
 | 28 | Toxic |
-| 29 | **Halloween** |
-| 30 | **Treasure** |
+| 29 | Halloween |
+| 30 | Treasure |
 | 31 | Ghost |
 | 32 | Spider |
-| 33 | **Gem** |
-| 34 | **Inferno** |
-| 35 | **Portal** |
-| 36 | **Strange** |
-| 37 | **Fantasy** |
-| 38 | **Christmas** |
+| 33 | Gem |
+| 34 | Inferno |
+| 35 | Portal |
+| 36 | Strange |
+| 37 | Fantasy |
+| 38 | Christmas |
 | 39 | Surprise |
-| 40 | **Mystery** |
-| 41 | **Cursed** |
-| 42 | **Cyborg** |
-| 43 | **Castle** |
+| 40 | Mystery |
+| 41 | Cursed |
+| 42 | Cyborg |
+| 43 | Castle |
 | 44 | Grave |
 | 45 | Temple |
-| 46 | **World** |
-| 47 | **Galaxy** |
-| 48 | **Universe** |
-| 49 | **Discord** |
-| 50 | **Split** |
-| 51 | **NCS I** |
-| 52 | **NCS II** |
-| 53 | **Space** |
-| 54 | **Cosmos** |
-| 55 | **Random** |
-| 56 | **Chance** |
+| 46 | World |
+| 47 | Galaxy |
+| 48 | Universe |
+| 49 | Discord |
+| 50 | Split |
+| 51 | NCS I |
+| 52 | NCS II |
+| 53 | Space |
+| 54 | Cosmos |
+| 55 | Random |
+| 56 | Chance |
 | 57 | Future |
 | 58 | Utopia |
 | 59 | Cinema |
