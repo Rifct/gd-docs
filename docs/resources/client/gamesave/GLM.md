@@ -74,7 +74,7 @@ GLM_08 are the states of search filters
 | Len2 | Medium |
 | Len3 | Long |
 | Len4 | XL |
-| demon_filter | [Demon ID](/resources/server/level#level-structure) |
+| demon_filter | [Demon difficulty](/resources/server/level#demon-difficulty) |
 | uncompleted_filter | bool |
 | completed_filter | bool |
 | featured_filter | bool |
@@ -109,7 +109,7 @@ GLM_09 shows all search filters available
 | Len2 | Medium |
 | Len3 | Long |
 | Len4 | XL |
-| demon_filter | [Demon ID](/resources/server/level#level-structure) |
+| demon_filter | [Demon difficulty](/resources/server/level#demon-difficulty) |
 | uncompleted_filter | bool |
 | completed_filter | bool |
 | featured_filter | bool |
