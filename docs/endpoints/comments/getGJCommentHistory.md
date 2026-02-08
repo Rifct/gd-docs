@@ -6,9 +6,9 @@ Gets a user's comment history.
 
 | Parameter       | Explanation                                                                                         | Required |
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
-| `userID`        | The player ID of the user. **This is different from the account ID.**                               | Yes      |
+| `userID`        | The user ID of the user. **This is different from the account ID.**                                 | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                  | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                               | Yes      |
 | `gameVersion`   | 21                                                                                                  |          |
 | `binaryVersion` | 35                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
