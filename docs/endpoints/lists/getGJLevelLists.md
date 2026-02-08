@@ -15,7 +15,7 @@
 | `gjp2`          | The [GJP2](/topics/gjp.md) for the `accountID`.                                                               |                                 |
 | `accountID`     | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                 |
 | `diff`          | Difficulty filter, [see values](#diff)                                                                        |                                 |
-| `demonFilter`   | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                 |
+| `demonFilter`   | Selects which demon difficulty to search, [see values](#demon-filter). If not sent will search all demon types |                                 |
 | `star`          | Rated filter, either 0 or 1                                                                                   |                                 |
 | `followed`      | Comma separated list of the followed user IDs                                                                 | Only on [type 12](#type)        |
 | `udid`          | Your [UDID](/topics/encryption/id.md)                                                                         |                                 |
@@ -56,7 +56,7 @@
 
 </details>
 
-<details open id="demonFilter">
+<details open id="demon-filter">
 <summary><code>demonFilter</code></summary>
 
 | demonFilter | Description   |
