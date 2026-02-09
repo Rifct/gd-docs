@@ -26,7 +26,7 @@ There are 4 *publicly* known secrets:
 
 ::: details Endpoints
 
-| <center>Endpoints</center> | Endpoint Type |
+| <center>Endpoint</center> | Endpoint Type |
 | -------------------------- | ------------- |
 | [https://www.boomlings.com/database/deleteGJAccComment20.php](/endpoints/comments/deleteGJAccComment20) | Comments |
 | [https://www.boomlings.com/database/deleteGJComment20.php](/endpoints/comments/deleteGJComment20) | Comments |
