@@ -57,7 +57,7 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 40* | lowDetailMode | **Bool** | If the level has a low detail checkbox 
 | 41* | dailyNumber | **Integer** | Daily/weekly levels only. Returns which daily/weekly the level was (e.g. the 500th daily level). Subtract 100,000 if the level is weekly
 | 42  | epic | **Integer** | The epic rating for the level. 0 = none, 1 = epic, 2 = legendary, 3 = mythic. 
-| 43  | <span id="demon-difficulty">demonDifficulty</span> | **Integer** | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
+| 43  | demonDifficulty {#demon-difficulty} | **Integer** | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
 | 44  | isGauntlet | **Bool** | if the level is in a gauntlet |
 | 45  | objects | **Integer** | The amount of objects in the level, used to determine if the level is considered "large". It caps at 65535   
 | 46  | editorTime | **Integer** | the total number of seconds spend on the current copy of a level
