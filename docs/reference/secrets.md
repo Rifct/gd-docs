@@ -23,8 +23,8 @@ There are 4 *publicly* known secrets:
 ### Common Secret
 
 > There are <u>47</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
-<details close>
-<summary><u>Endpoints</u></summary>
+
+::: details Endpoints
 
 | <center>Endpoints</center> | Endpoint Type |
 | -------------------------- | ------------- |
@@ -76,14 +76,13 @@ There are 4 *publicly* known secrets:
 | [https://www.boomlings.com/database/getGJUsers20.php](/endpoints/users/getGJUsers20) | Users |
 | [https://www.boomlings.com/database/updateGJUserScore22.php](/endpoints/users/updateGJUserScore22) | Users |
 
-</details>
+:::
 
 ### Account Secret
 
 > There are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, but this is subject to change. Below is a table of each endpoint which uses the Account Secret.
 
-<details close>
-<summary><u>Endpoints</u></summary>
+::: details Endpoints
 
 | <center>Endpoint</center> | Endpoint Type |
 | ------------------------- | ------------- |
@@ -93,10 +92,9 @@ There are 4 *publicly* known secrets:
 | [https://www.robtopgames.org/database/accounts/syncGJAccountNew.php](/endpoints/accounts/syncGJAccountNew) | Accounts |
 | [https://www.boomlings.com/database/updateGJAccSettings20.php](/endpoints/accounts/updateGJAccSettings20) | Accounts |
 
-</details>
+:::
 
-<details close>
-<summary><u>Known Multiplayer Endpoints</u></summary>
+::: details Known Multiplayer Endpoints
 
 | <center>Endpoint</center> | Endpoint Type |
 | ------------------------- | ------------- |
@@ -104,35 +102,33 @@ There are 4 *publicly* known secrets:
 | [https://www.boomlings.com/database/joinMPLobby.php](/endpoints/multiplayer/joinMPLobby) | Multiplayer |
 | [https://www.boomlings.com/database/uploadMPComment.php](/endpoints/multiplayer/uploadMPComment) | Multiplayer |
 
-</details>
+:::
 
 ### Level Secret
 
 > There are only 2 endpoints that use the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the 2 endpoints which use the Level Secret
 
-<details close>
-<summary><u>Endpoints</u></summary>
+::: details Endpoints
 
 | <center>Endpoint</center> | Endpoint Type |
 | ------------------------- | ------------- |
 | [https://www.boomlings.com/database/deleteGJLevelUser20.php](/endpoints/levels/deleteGJLevelUser20) | Levels |
 | [https://www.boomlings.com/database/deleteGJLevelList.php](/endpoints/lists/deleteGJLevelList) | Lists |
 
-</details>
+:::
 
 ### Moderator Secret
 
 > There are only 2 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
 
-<details close>
-<summary><u>Endpoints</u></summary>
+::: details Endpoints
 
 | <center>Endpoint</center> | Endpoint Type |
 | ------------------------- | ------------- |
 | [https://www.boomlings.com/database/rateGJDemon21.php](/endpoints/levels/rateGJDemon21) | Levels |
 | [https://www.boomlings.com/database/suggestGJStars20.php](/endpoints/levels/suggestGJStars20) | Levels |
 
-</details>
+:::
 
 ### Admin Secret
 

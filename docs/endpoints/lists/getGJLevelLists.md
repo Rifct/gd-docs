@@ -21,8 +21,7 @@
 | `udid`          | Your [UDID](/topics/encryption/id.md)                                                                         |                                 |
 | `uuid`          | Your [UUID](/topics/encryption/id.md)                                                                         |                                 |
 
-<details open id="type">
-<summary><code>type</code></summary>
+::: details `type` {#type open}
 
 | Type | Description                                    |
 | ---- | ---------------------------------------------- |
@@ -39,10 +38,9 @@
 | `13` | Friends (login required)                       |
 | `27` | Sent lists                                     |
 
-</details>
+:::
 
-<details open id="diff">
-<summary><code>diff</code></summary>
+::: details `diff` {#diff open}
 
 | diff | Description                                                |
 | ---- | ---------------------------------------------------------- |
@@ -54,10 +52,9 @@
 | `4`  | Harder                                                     |
 | `5`  | Insane                                                     |
 
-</details>
+:::
 
-<details open id="demon-filter">
-<summary><code>demonFilter</code></summary>
+::: details `demonFilter` {#demon-filter open}
 
 | demonFilter | Description   |
 | ----------- | ------------- |
@@ -67,10 +64,9 @@
 | `4`         | Insane demon  |
 | `5`         | Extreme demon |
 
-</details>
+:::
 
-<details open id="len">
-<summary><code>len</code></summary>
+::: details `len` {#len open}
 
 | len | Value      |
 | --- | ---------- |
@@ -81,7 +77,7 @@
 | `4` | XL         |
 | `5` | Platformer |
 
-</details>
+:::
 
 ## Response
 
