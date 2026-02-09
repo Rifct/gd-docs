@@ -142,8 +142,6 @@ Currently, the Admin Secret no longer works as RobTop became aware of it.
 
 <!-- todo: clean-up + explain reasoning clearer-->
 
-<!-- TODO: Put these into tables! We love tables :3 -->
-
 ## Secret Structure
 
 <!-- TODO: A more accurate description would be W|xxx|xxxx|g|x|x -->
@@ -173,8 +171,6 @@ A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x
 - The fourth component denotes the purpose of the secret.
     - `gb` is general use.
     - `gc` is specialised use - managing accounts, sending levels, deleting levels.
-
-<!-- TODO: Due to the 5th component being a char array, there's a chance that it could be longer -->
 
 - The fifth component is overall power the endpoints have:
     - `3` being able to submit data that can greatly affect in-game levels,

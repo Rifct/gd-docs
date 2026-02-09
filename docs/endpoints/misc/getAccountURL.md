@@ -12,7 +12,6 @@ Gets the URL for the data server.
 
 ## Response
 
-<!-- TODO: This is no longer the case! https://www.robtopgames.org is now the only returned URL (30/Jan/2026) -->
 Usually [https://www.robtopgames.org](https://www.robtopgames.org). However, without a valid accountID and at type 2, [https://www.robtopgames.net](https://www.robtopgames.net) is returned instead
 
 ## Example

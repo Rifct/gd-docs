@@ -76,7 +76,7 @@ All Geometry Dash endpoints that can be found in the binary or inside another en
 | [`https://www.boomlings.com/database/getGJScores20.php`](/endpoints/users/getGJScores20.md)                         | Users           |
 | [`https://www.boomlings.com/database/getGJUserInfo20.php`](/endpoints/users/getGJUserInfo20.md)                     | Users           |
 | [`https://www.boomlings.com/database/getGJUsers20.php`](/endpoints/users/getGJUsers20.md)                           | Users           |
-| `https://www.boomlings.com/database/submitGJUserInfo.php`                                                           | Users           | <!-- TODO: add this endpoint! uses params `udid, accountID, secret=Wmfd2893gb7, levelsInfo`-->
+| `https://www.boomlings.com/database/submitGJUserInfo.php`                                                           | Users           |
 | [`https://www.boomlings.com/database/updateGJUserScore22.php`](/endpoints/users/updateGJUserScore22.md)             | Users           |
 | &ZeroWidthSpace;                                                                                                    |                 |
 | `https://www.boomlings.com/database/accounts/accountManagement.php`                                                 | Account Manager |

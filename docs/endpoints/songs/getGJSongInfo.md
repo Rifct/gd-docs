@@ -4,7 +4,6 @@ Gets info about a newgrounds song.
 
 ## Parameters
 
-<!-- TODO: fill out explanations -->
 | Parameter       | Explanation                                              | Required |
 | --------------- | -------------------------------------------------------- | -------- |
 | `songID`        | The newgrounds ID of the song you want information about | Yes      |
