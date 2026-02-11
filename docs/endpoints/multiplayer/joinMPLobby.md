@@ -1,6 +1,7 @@
 # joinMPLobby.php
 
-> Note: everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
+> [!WARNING]
+> Everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
 
 Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `boomlings.com`.
 

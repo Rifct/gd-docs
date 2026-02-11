@@ -1,5 +1,6 @@
 # testSong.php
 
+> [!NOTE]
 > This endpoint no longer exists. This page is kept for historical reasons.
 
 Gets whitelist/artist info about a song. **THIS IS A GET REQUEST.**

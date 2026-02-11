@@ -5,8 +5,8 @@ aside: true
 
 Comments are public messages players can leave on levels, lists, and profiles. There are **two** types of comments: `Level Comments` and `Account Comments`
 
-> - `Level Comments` can be found by clicking the `i` button on the right of a level or list menu; you can also view a specific player's comments by clicking the comment icon on their profile. `Level Comments` can be up to **100 characters** in length without external tools
-> - `Account Comments` can be found on player profiles. `Account Comments` can be up to **140 characters** in length without external tools
+- `Level Comments` can be found by clicking the `i` button on the right of a level or list menu; you can also view a specific player's comments by clicking the comment icon on their profile. `Level Comments` can be up to **100 characters** in length without external tools
+- `Account Comments` can be found on player profiles. `Account Comments` can be up to **140 characters** in length without external tools
 
 
 ## Comment Object
@@ -70,9 +70,9 @@ Keys indicated with an asterisk `*` are absent in `Account Comments`
 ## Comment Bans
 
 If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can be banned from posting comments.
-> As of Geometry Dash version 2.11, there are 2 different types of bans:
-> - Permanent Bans - Only way to recieve one is from RobTop directly. The server response to trigger this is `-10`
-> - Temporary Bans - Elder Moderators and RobTop can enforce these onto players. The server response to trigger temporary bans is split into 3 components `temp_{length}_{reason}`
+As of Geometry Dash version 2.11, there are 2 different types of bans:
+- Permanent Bans - Only way to recieve one is from RobTop directly. The server response to trigger this is `-10`
+- Temporary Bans - Elder Moderators and RobTop can enforce these onto players. The server response to trigger temporary bans is split into 3 components `temp_{length}_{reason}`
 
 ### Temporary Ban Structure
 

@@ -7,7 +7,8 @@
 A typical Gauntlet Server response is structured with a `key:value:key:value` pairing.
 *Official Levels behave a bit differently as you will find out further into his page.*
 
-> Due to lack of resources about RestoreGJItems, most information has been lost to time.<br/>The only remaining archived response that we know about can be found [here](https://imgur.com/a/pPUu933)
+> [!NOTE]
+> Due to lack of resources about RestoreGJItems, most information has been lost to time. The only remaining archived response that we know about can be found [here](https://imgur.com/a/pPUu933)
 
 ### Restore Items Structure
 
@@ -24,9 +25,9 @@ A typical Gauntlet Server response is structured with a `key:value:key:value` pa
 
 There are three sections in regards to the `Official Level State` from the restore endpoint. The data is sent as `{NormalCompleted},{PracticeComepleted},{SecretCoins}`
 
-> - `{NormalCompleted}` is a `Bool` which denotes if you have completed the level in normal Mode<br/><br/>
-> - `{PracticeComepleted}` is a `Bool` which denotes if you have completed the level in practice Mode<br/><br/>
-> - `{SecretCoins}` is an `Integer` which includes the ammount of Secret Coins you collected during the completion of the official level
+- `{NormalCompleted}` is a `Bool` which denotes if you have completed the level in normal Mode
+- `{PracticeComepleted}` is a `Bool` which denotes if you have completed the level in practice Mode
+- `{SecretCoins}` is an `Integer` which includes the ammount of Secret Coins you collected during the completion of the official level
 
-**<h4/>This structure is then iterated for each official level in the update and is split with a `;`**
+This structure is then iterated for each official level in the update and is split with a `;`
 

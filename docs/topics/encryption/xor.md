@@ -1,16 +1,16 @@
 # XOR
 
-> XOR is a bitwise operation used by Geometry Dash to encrypt data. It is commonly denoted as a `^` in many programming languages
+XOR is a bitwise operation used by Geometry Dash to encrypt data. It is commonly denoted as a `^` in many programming languages
 
-- **Geometry Dash has 2 methods to encrypting data using XOR**
-  - Using a singular key
-  - Cycling through a 5 digit key
+Geometry Dash has 2 methods to encrypting data using XOR:
+- Using a singular key
+- Cycling through a 5 digit key
 
 When needed, Geometry Dash iterates through every byte of the data and applies the XOR operation using its key
 
 ## Examples
 
-<b>Below are pseudocode examples of the algorithms used</b>
+Below are pseudocode examples of the algorithms used
 
 <!-- tabs:start -->
 

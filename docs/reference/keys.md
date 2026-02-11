@@ -1,6 +1,6 @@
 # Keys
 
-> Geometry Dash uses [XOR Cipher](/topics/encryption/xor.md) combined with [base64 encoding](/topics/encryption/base64.md) to protect various strings within the client. Multiple Keys are used to protect different aspects of the game
+Geometry Dash uses [XOR Cipher](/topics/encryption/xor.md) combined with [base64 encoding](/topics/encryption/base64.md) to protect various strings within the client. Multiple Keys are used to protect different aspects of the game
 
 ## XOR Keys
 
@@ -24,9 +24,8 @@
 
 ## XOR Types
 
-> there are **two** ways Geometry Dash applies [XOR Cipher](/topics/encryption/xor.md) to strings - **Static** and **Cycled**
->
-> - Static Ciphers apply the key as is without any changes applying to the key itself.
-> - Cycled Ciphers iterate through each value on the key one by one and then loops back once it reaches the end.
+There are **two** ways Geometry Dash applies [XOR Cipher](/topics/encryption/xor.md) to strings - **Static** and **Cycled**
+- Static Ciphers apply the key as is without any changes applying to the key itself.
+- Cycled Ciphers iterate through each value on the key one by one and then loops back once it reaches the end.
 
 

@@ -4,9 +4,8 @@
 
 Messages are a feature in Geometry dash where you can send messages to other players online if they have their messages open. There are two fields you can control within a message: `Subject` and `Message`
 
-> `Subject` can be viewed in a list in the messages menu - without any external tools, the `Subject` field only supports 35 characters
-
-> `Message` can be viewed only if you download the message by clicking on the `view` button in the messages menu - without any external tools, the `Messages` field only supports 200 characters
+- `Subject` can be viewed in a list in the messages menu - without any external tools, the `Subject` field only supports 35 characters
+- `Message` can be viewed only if you download the message by clicking on the `view` button in the messages menu - without any external tools, the `Messages` field only supports 200 characters
 
 A typical message server response is structured with a `key:value:key:value` pairing and is then split with a `|`
 <!-- tabs:start -->

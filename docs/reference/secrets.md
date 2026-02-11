@@ -22,7 +22,7 @@ There are 4 *publicly* known secrets:
 
 ### Common Secret
 
-> There are <u>47</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
+There are <u>47</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
 
 ::: details Endpoints
 
@@ -80,7 +80,7 @@ There are 4 *publicly* known secrets:
 
 ### Account Secret
 
-> There are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, but this is subject to change. Below is a table of each endpoint which uses the Account Secret.
+There are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, but this is subject to change. Below is a table of each endpoint which uses the Account Secret.
 
 ::: details Endpoints
 
@@ -106,7 +106,7 @@ There are 4 *publicly* known secrets:
 
 ### Level Secret
 
-> There are only 2 endpoints that use the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the 2 endpoints which use the Level Secret
+There are only 2 endpoints that use the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the 2 endpoints which use the Level Secret
 
 ::: details Endpoints
 
@@ -119,7 +119,7 @@ There are 4 *publicly* known secrets:
 
 ### Moderator Secret
 
-> There are only 2 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
+There are only 2 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
 
 ::: details Endpoints
 
@@ -132,7 +132,7 @@ There are 4 *publicly* known secrets:
 
 ### Admin Secret
 
-> In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for `Admin Endpoints` inside of a function. Admin Endpoints are only accessible for game admins and they make direct changes in-game that affect everyone.
+In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for `Admin Endpoints` inside of a function. Admin Endpoints are only accessible for game admins and they make direct changes in-game that affect everyone.
 
 Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to obfuscate it.
 

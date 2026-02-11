@@ -1,6 +1,6 @@
 # uploadFriendRequest20.php
 
-> This endpoint is used to send a friend request to other players
+This endpoint is used to send a friend request to other players
 
 ## Parameters
 

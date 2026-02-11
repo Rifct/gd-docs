@@ -1,6 +1,6 @@
 # Salts
 
-> Salts are small strings of random characters appended onto the end of strings. In the context of Geometry Dash, salts are used within request validation to make it a bit more difficult for a 3rd parties to interact with the private API
+Salts are small strings of random characters appended onto the end of strings. In the context of Geometry Dash, salts are used within request validation to make it a bit more difficult for a 3rd parties to interact with the private API
 
 ## List of known Salts
 
@@ -18,7 +18,7 @@
 
 ## How Salts are used
 
-- Salts are appended onto the end of a string of data. What happens to the salted string depends on what its used for.
+Salts are appended onto the end of a string of data. What happens to the salted string depends on what its used for.
 
 Below is an example of a salt being implemented within **Vault Codes**
 

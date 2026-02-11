@@ -1,6 +1,6 @@
 # readGJFriendRequest20.php
 
-> This endpoint is used to read friend requests recieved from other players
+This endpoint is used to read friend requests recieved from other players
 
 ## Parameters
 

@@ -3,13 +3,13 @@
 ## Leaderboard Score
 
 Leaderboards are the in-game ranking system for Geometry Dash. There are `7` types of leaderboards that are used as of version `2.11` 
-> - `Star Top 100` - The top 100 best star grinders
-> - `Star Friends` - The relative leaderboards between the user and his friends
-> - `Relative Star` - The players position on the global leaderboards along with 100 other players that have a rank relative to the player
-> - `Creator Top 100` - The top 100 creator point grinders
-> - `Global Level Scores` - The fastest victors to a specific level since the level was uploaded to the servers
-> - `Global Weekly Level Scores` - The fastest victors to a specific level since the last `604800` seconds
-> - `Friend Level Scores` - The fastest victors to a specific level between the user and his friends since the level was uploaded to the servers
+- `Star Top 100` - The top 100 best star grinders
+- `Star Friends` - The relative leaderboards between the user and his friends
+- `Relative Star` - The players position on the global leaderboards along with 100 other players that have a rank relative to the player
+- `Creator Top 100` - The top 100 creator point grinders
+- `Global Level Scores` - The fastest victors to a specific level since the level was uploaded to the servers
+- `Global Weekly Level Scores` - The fastest victors to a specific level since the last `604800` seconds
+- `Friend Level Scores` - The fastest victors to a specific level between the user and his friends since the level was uploaded to the servers
 
 A typical leaderboard server response is structured with a `key:value:key:value` pairing and is then split with a `|`
 

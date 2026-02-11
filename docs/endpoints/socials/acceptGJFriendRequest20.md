@@ -1,6 +1,6 @@
 # acceptGJFriendRequest20.php
 
-> This endpoint is used to accept friend requests recieved from other users
+This endpoint is used to accept friend requests recieved from other users
 
 ## Parameters
 
