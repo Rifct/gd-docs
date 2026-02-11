@@ -23,8 +23,8 @@ Salts are appended onto the end of a string of data. What happens to the salted 
 Below is an example of a salt being implemented within **Vault Codes**
 
 ```js
-    function generate_vault_code(str /*brainpower*/)
-    {
+function generate_vault_code(str /*brainpower*/)
+{
     const SALT = "ask2fpcaqCQ2";
     const URL_SAFE  = true;
 
@@ -32,7 +32,7 @@ Below is an example of a salt being implemented within **Vault Codes**
     let xor_str = xor_cycle_cipher(raw_str, "19283");
 
     return base64_encode(xor_str, URL_SAFE).toString();
-    }
+}
 ```
 
 Please refer to the Encryption Section for more information about the implementation
