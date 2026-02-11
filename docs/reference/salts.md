@@ -20,7 +20,7 @@ Salts are small strings of random characters appended onto the end of strings. I
 
 Salts are appended onto the end of a string of data. What happens to the salted string depends on what its used for.
 
-Below is an example of a salt being implemented within **Vault Codes**
+Below is an example of a salt being implemented within **[Vault Codes](/topics/vault_codes)**
 
 ```js
 function generate_vault_code(str /*brainpower*/)
@@ -34,5 +34,3 @@ function generate_vault_code(str /*brainpower*/)
     return base64_encode(xor_str, URL_SAFE).toString();
 }
 ```
-
-Please refer to the Encryption Section for more information about the implementation
