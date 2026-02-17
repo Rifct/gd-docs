@@ -23,7 +23,7 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 3 | stars | **Integer** | The player's star count |
 | 4 | demonCount | **Integer** | The number of demons the player has completed |
 | 6 | ranking | **Integer** | The player's ranking on the global leaderboard |
-| 7 | accountHighlight | **Integer** | The player's account ID. Used for highlighting the player on the leaderboards (only returned by [getGJScores20](/endpoints/users/getGJScores20) when viewing yourself on a leaderboard) |
+| 7 | accountHighlight | **Integer** | The player's account ID. Used for highlighting the player on the leaderboards<br/>*(only returned by [getGJScores20](/endpoints/users/getGJScores20) when viewing yourself on a leaderboard)* |
 | 8 | creatorpoints | **Integer** | The number of creator points the player has |
 | 9 | iconID | **Integer** | The ID of the player's display icon (see iconType) |
 | 10 | color | **Integer** | The player's primary icon color |
@@ -48,14 +48,14 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 29* | isRegistered | **Bool** | If the player is registered |
 | 30* | globalRank | **Integer** | The global rank of the player |
 | 31* | friendState | **Integer** | Friendship status. Empty = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
-| 32* | friendRequestID | **Integer** | An ID unique to each friend request (only returned if player sent you a friend request) |
-| 35* | friendRequestMessage | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md) (only returned if player sent you a friend request) |
-| 37* | friendRequestAge | **Integer** | How long ago the friend request was sent (e.g. "2 months") (only returned if player sent you a friend request) |
-| 38* | messages | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile) |
+| 32* | friendRequestID | **Integer** | An ID unique to each friend request<br/>*(only returned if player sent you a friend request)* |
+| 35* | friendRequestMessage | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md)<br/>*(only returned if player sent you a friend request)* |
+| 37* | friendRequestAge | **Integer** | How long ago the friend request was sent (e.g. "2 months")<br/>*(only returned if player sent you a friend request)* |
+| 38* | messages | **Integer** | The number of new messages you have<br/>*(only returned when logged in and viewing own profile)* |
 | 39* | friendRequests | **Integer** | The number of new friend requests you have |
 | 40* | newFriends | **Integer** | The number of new friends you have |
-| 41 | newFriendRequest | **Bool** | If the friend request is new (only returned by [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20)) |
-| 42* | age | **String** | The time since you submitted a levelScore (only returned by [getGJLevelScores211](/endpoints/levels/getGJLevelScores211 )) |
+| 41 | newFriendRequest | **Bool** | If the friend request is new<br/>*(only returned by [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20))* |
+| 42* | age | **String** | The time since you submitted a levelScore<br/>*(only returned by [getGJLevelScores211](/endpoints/levels/getGJLevelScores211 ))* |
 | 43* | accSpider | **Integer** | The ID of the player's spider |
 | 44* | twitter | **String** | The player's Twitter handle |
 | 45* | twitch | **String** | The player's Twitch channel |
