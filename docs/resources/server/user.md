@@ -49,7 +49,7 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 30* | globalRank | **Integer** | The global rank of the player |
 | 31* | friendState | **Integer** | Friendship status. Empty = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
 | 32* | friendRequestID | **Integer** | An ID unique to each friend request (only returned if player sent you a friend request) |
-| 35* | friendRequestComment | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md) (only returned if player sent you a friend request) |
+| 35* | friendRequestMessage | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md) (only returned if player sent you a friend request) |
 | 37* | friendRequestAge | **Integer** | How long ago the friend request was sent (e.g. "2 months") (only returned if player sent you a friend request) |
 | 38* | messages | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile) |
 | 39* | friendRequests | **Integer** | The number of new friend requests you have |
