@@ -48,10 +48,10 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 29* | isRegistered | **Bool** | If the player is registered |
 | 30* | globalRank | **Integer** | The global rank of the player |
 | 31* | friendState | **Integer** | Friendship status. Empty = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
-| 32* | friendRequestID | **Integer** | Friend request ID (only returned if player sent you a friend request) |
-| 35* | friendRequestComment | **String** | Friend request comment (only returned if player sent you a friend request) |
-| 37* | friendRequestAge | **Integer** | Time when player sent you a friend request (only returned if player sent you a friend request) |
-| 38* | messages | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile) | <!-- there are a bunch of keys before here but they are exclusive to friend requests so i didnt add them here -->
+| 32* | friendRequestID | **Integer** | An ID unique to each friend request (only returned if player sent you a friend request) |
+| 35* | friendRequestComment | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md) (only returned if player sent you a friend request) |
+| 37* | friendRequestAge | **Integer** | How long ago the friend request was sent (e.g. "2 months") (only returned if player sent you a friend request) |
+| 38* | messages | **Integer** | The number of new messages you have (only returned when logged in and viewing own profile) |
 | 39* | friendRequests | **Integer** | The number of new friend requests you have |
 | 40* | newFriends | **Integer** | The number of new friends you have |
 | 41 | newFriendRequest | **Bool** | If the friend request is new (only returned by [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20)) |
