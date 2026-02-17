@@ -31,7 +31,7 @@ A list of all known keys can be found in the table below
 | 14  | iconType | **Integer** | The other user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
 | 15  | glow | **Integer** | Either 0 or 2, might be related to glow
 | 16  | accountID | **Integer** | The other user's account ID. **This is different than the player ID**
-| 32  | friendRequestID | **Integer** | An ID unique to each friend request. (I'm not 100% certain on this)
+| 32  | friendRequestID | **Integer** | An ID unique to each friend request
 | 35  | message | **String** | The friend request's message, encoded in [base64](/topics/encryption/base64.md)
 | 37  | age | **String** | How long ago the friend request was sent (e.g. "2 months")
 | 41  | NewFriendRequest | **Bool** | if the friend request is new
