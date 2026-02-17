@@ -47,7 +47,7 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 28* | accGlow | **Bool** | If the player has glow enabled |
 | 29* | isRegistered | **Bool** | If the player is registered |
 | 30* | globalRank | **Integer** | The global rank of the player |
-| 31* | friendState | **Integer** | Friendship status. 0 = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
+| 31* | friendState | **Integer** | Friendship status. Empty = Unfriended, 1 = Friended, 3 = Friend request sent to the player, 4 = Friend request received from the player |
 | 32* | friendRequestID | **Integer** | Friend request ID (only returned if player sent you a friend request) |
 | 35* | friendRequestComment | **String** | Friend request comment (only returned if player sent you a friend request) |
 | 37* | friendRequestAge | **Integer** | Time when player sent you a friend request (only returned if player sent you a friend request) |
