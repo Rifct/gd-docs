@@ -49,6 +49,7 @@ A list of all known keys can be found in the table below
 | 9   | Icon | **Integer** | Which icon the user is using, starting with 1 as the first icon
 | 10  | playerColor | **Integer** | The user's primary player color, presumably ordered cronologically from left to right per update
 | 11  | playerColor2 | **Integer** | The user's secondary player color, presumably ordered cronologically from left to right per update
+| 12  | shipID | **Integer** | Deprecated key; the player's ship ID in 1.4 and 1.5. Was 0 if a cube was selected instead of a ship |
 | 13  | coins | **Integer** | Number of usercoins you get on a level
 | 14  | iconType | **Integer** | The user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider, swing, jetpack`
 | 15  | special | **Integer** | functions the same as glow however it returns a 2 rather than a 1
