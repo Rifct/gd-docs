@@ -616,5 +616,20 @@ export default [
       }
     ],
     "collapsed": false
+  },
+
+
+  {
+    "text": "Player physics",
+    "items": [
+      {
+        "text": "Hitboxes",
+        "link": "/player physics/hitboxes"
+      },
+	  {
+        "text": "Gamemodes",
+        "link": "/player physics/gamemodes"
+      }
+    ]
   }
 ];
