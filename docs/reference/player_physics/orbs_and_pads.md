@@ -24,7 +24,7 @@ Dash orbs can be somewhat compared to slopes. The y-velocity is always displayed
 ## Pads
 
 | Gamemode    | Yellow Pad                                             | Pink Pad           | Red Pad             | Blue Pad                                 |
-|-------------|--------------------------------------------------------|--------------------|---------------------|------------------------------------------|
+| ----------- | ------------------------------------------------------ | ------------------ | ------------------- | ---------------------------------------- |
 | Cube        | Sets yvel to 16G                                       | Sets yvel to 10.4G | Sets yvel to 20G    | Sets yvel to 6.4G, then toggles gravity  |
 | Ship        | Sets yvel to 16G, then sets it to 8G on following tick | Sets yvel to 5.6G  | Sets yvel to 10.08G | Sets yvel to 6.4G, then toggles gravity  |
 | Ball        | Sets yvel to 9.6G                                      | Sets yvel to 6.72G | Sets yvel to 12G    | Sets yvel to 3.84G, then toggles gravity |
