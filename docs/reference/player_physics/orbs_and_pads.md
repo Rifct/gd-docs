@@ -8,7 +8,7 @@
 | Ship | Sets yvel to 8G | Cube yellow orb but multiplied by 0.37 | Same as cube yellow orb | Cube yellow orb but multiplied by 0.4, then toggles gravity | Cube yellow orb but multiplied by -0.7, then toggles gravity | Sets yvel to -14G, slows down the velocity back to the max velocity (-6.4G) at a rate of ship >= 1.916 click velocity acceleration (what??) |
 | Ball | Cube yellow orb but multiplied by 0.7 | Ball yellow orb but multiplied by 0.77 | Ball yellow orb but multiplied by 1.34 | Ball yellow orb but multiplied by 0.4, then toggles gravity | Ball yellow orb but multiplied by -1, then toggles gravity | Sets yvel to -15G |
 | Ufo | Sets yvel to 8G | Cube yellow orb but multiplied by 0.42 | Cube yellow orb but multiplied by 1.02 | Cube yellow orb but multiplied by 0.4, then toggles gravity | Sets yvel to -8G, then toggles the gravity | Sets yvel to -11.2G, does not stop accelerating |
-| Wave | N/A | N/A | N/A | Toggles gravity | Toggles gravity | N/A |
+| Wave | -   | -   | -   | Toggles gravity | Toggles gravity | -   |
 | Robot | Cube yellow orb but multiplied by 0.9 | Cube yellow orb but multiplied by 0.72 | Cube yellow orb but multiplied by 1.28 | Cube yellow orb but multiplied by 0.4, then toggles gravity | Cube yellow orb but multiplied by -1, then toggles gravity | Sets yvel to -15G |
 | Spider | Cube yellow orb but multiplied by 0.7 | Spider yellow orb but multiplied by 0.77 | Spider yellow orb but multiplied by 1.34 | Spider yellow orb but multiplied by 0.4, then toggles gravity | Spider yellow orb but multiplied by -1, then toggles gravity | Sets yvel to -15G |
 | Swingcopter | Cube yellow orb but multiplied by 0.6 | Swingcopter yellow orb but multiplied by 0.72 | Swingcopter yellow orb but multiplied by 1.38 | Swingcopter yellow orb but multiplied by 0.4, then toggles gravity | Spider yellow orb but multiplied by -1, then toggles gravity | Sets yvel to -14G, does not stop accelerating |
@@ -29,7 +29,7 @@ Dash orbs can be somewhat compared to slopes. The y-velocity is always displayed
 | Ship        | Sets yvel to 16G, then sets it to 8G on following tick | Sets yvel to 5.6G  | Sets yvel to 10.08G | Sets yvel to 6.4G, then toggles gravity  |
 | Ball        | Sets yvel to 9.6G                                      | Sets yvel to 6.72G | Sets yvel to 12G    | Sets yvel to 3.84G, then toggles gravity |
 | Ufo         | Sets yvel to 16G, then sets it to 8G on following tick | Sets yvel to 6.4G  | Sets yvel to 9.6G   | Sets yvel to 6.4G, then toggles gravity  |
-| Wave        | N/A                                                    | N/A                | N/A                 | Toggles gravity                          |
+| Wave        | -                                                      | -                  | -                   | Toggles gravity                          |
 | Robot       | Sets yvel to 16G                                       | Sets yvel to 10.4G | Sets yvel to 20G    | Sets yvel to 6.4G, then toggles gravity  |
 | Spider      | Sets yvel to 9.6G                                      | Sets yvel to 6.72G | Sets yvel to 12G    | Sets yvel to 3.84G, then toggles gravity |
 | Swingcopter | Sets yvel to 9.6G                                      | Sets yvel to 6.24G | Sets yvel to 12G    | Sets yvel to 3.84G, then toggles gravity |

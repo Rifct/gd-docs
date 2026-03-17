@@ -33,66 +33,66 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets the y-velocity to 10.62G                             | continuously checks if the player is on the ground to process another jump* | N/A                          |
-| Ship        | N/A                                                       | skipped for now                                              | skipped for now                             |
-| Ball        | Sets the y-velocity to 3.186G then toggles the gravity    | N/A                                                          | N/A                                         |
-| Ufo         | Sets the y-velocity to 7G                                 | N/A                                                          | N/A                                         |
-| Wave        | N/A                                                       | Sets the y-velocity to 4.186G                                | Sets the velocity to -4.186G                |
-| Robot       | N/A                                                       | Sets the y-velocity to 5.31G                                 | Decelerates according to the tps and speed* |
-| Spider      | See section "Spider" below                                | N/A                                                          | N/A                                         |
-| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | N/A                                                          | N/A                                         |
+| Cube        | Sets the y-velocity to 10.62G                             | continuously checks if the player is on the ground to process another jump* | -                            |
+| Ship        | -                                                         | skipped for now                                              | skipped for now                             |
+| Ball        | Sets the y-velocity to 3.186G then toggles the gravity    | -                                                            | -                                           |
+| Ufo         | Sets the y-velocity to 7G                                 | -                                                            | -                                           |
+| Wave        | -                                                         | Sets the y-velocity to 4.186G                                | Sets the velocity to -4.186G                |
+| Robot       | -                                                         | Sets the y-velocity to 5.31G                                 | Decelerates according to the tps and speed* |
+| Spider      | See section "Spider" below                                | -                                                            | -                                           |
+| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | -                                                            | -                                           |
 
 ## 1x Speed Portal
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets the y-velocity to 11.18G                             | continuously checks if the player is on the ground to process another jump* | N/A                          |
-| Ship        | N/A                                                       | skipped for now                                              | skipped for now                             |
-| Ball        | Sets the y-velocity to 3.354G then toggles the gravity    | N/A                                                          | N/A                                         |
-| Ufo         | Sets the y-velocity to 7G                                 | N/A                                                          | N/A                                         |
-| Wave        | N/A                                                       | Sets the y-velocity to 5.193G                                | Sets the velocity to -5.193G                |
-| Robot       | N/A                                                       | Sets the y-velocity to 5.59G                                 | Decelerates according to the tps and speed* |
-| Spider      | See section "Spider" below                                | N/A                                                          | N/A                                         |
-| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | N/A                                                          | N/A                                         |
+| Cube        | Sets the y-velocity to 11.18G                             | continuously checks if the player is on the ground to process another jump* | -                            |
+| Ship        | -                                                         | skipped for now                                              | skipped for now                             |
+| Ball        | Sets the y-velocity to 3.354G then toggles the gravity    | -                                                            | -                                           |
+| Ufo         | Sets the y-velocity to 7G                                 | -                                                            | -                                           |
+| Wave        | -                                                         | Sets the y-velocity to 5.193G                                | Sets the velocity to -5.193G                |
+| Robot       | -                                                         | Sets the y-velocity to 5.59G                                 | Decelerates according to the tps and speed* |
+| Spider      | See section "Spider" below                                | -                                                            | -                                           |
+| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | -                                                            | -                                           |
 
 ## 2x Speed Portal
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets the y-velocity to 11.42G                             | continuously checks if the player is on the ground to process another jump* | N/A                          |
-| Ship        | N/A                                                       | skipped for now                                              | skipped for now                             |
-| Ball        | Sets the y-velocity to 3.426G then toggles the gravity    | N/A                                                          | N/A                                         |
-| Ufo         | Sets the y-velocity to 7G                                 | N/A                                                          | N/A                                         |
-| Wave        | N/A                                                       | Sets the y-velocity to 6.457G                                | Sets the velocity to -6.457G                |
-| Robot       | N/A                                                       | Sets the y-velocity to 5.71G                                 | Decelerates according to the tps and speed* |
-| Spider      | See section "Spider" below                                | N/A                                                          | N/A                                         |
-| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | N/A                                                          | N/A                                         |
+| Cube        | Sets the y-velocity to 11.42G                             | continuously checks if the player is on the ground to process another jump* | -                            |
+| Ship        | -                                                         | skipped for now                                              | skipped for now                             |
+| Ball        | Sets the y-velocity to 3.426G then toggles the gravity    | -                                                            | -                                           |
+| Ufo         | Sets the y-velocity to 7G                                 | -                                                            | -                                           |
+| Wave        | -                                                         | Sets the y-velocity to 6.457G                                | Sets the velocity to -6.457G                |
+| Robot       | -                                                         | Sets the y-velocity to 5.71G                                 | Decelerates according to the tps and speed* |
+| Spider      | See section "Spider" below                                | -                                                            | -                                           |
+| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | -                                                            | -                                           |
 
 ## 3x Speed Portal
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets the y-velocity to 11.23G                             | continuously checks if the player is on the ground to process another jump* | N/A                          |
-| Ship        | N/A                                                       | skipped for now                                              | skipped for now                             |
-| Ball        | Sets the y-velocity to 3.369G then toggles the gravity    | N/A                                                          | N/A                                         |
-| Ufo         | Sets the y-velocity to 7G                                 | N/A                                                          | N/A                                         |
-| Wave        | N/A                                                       | Sets the y-velocity to 7.8G                                  | Sets the velocity to -7.8G                  |
-| Robot       | N/A                                                       | Sets the y-velocity to 5.615G                                | Decelerates according to the tps and speed* |
-| Spider      | See section "Spider" below                                | N/A                                                          | N/A                                         |
-| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | N/A                                                          | N/A                                         |
+| Cube        | Sets the y-velocity to 11.23G                             | continuously checks if the player is on the ground to process another jump* | -                            |
+| Ship        | -                                                         | skipped for now                                              | skipped for now                             |
+| Ball        | Sets the y-velocity to 3.369G then toggles the gravity    | -                                                            | -                                           |
+| Ufo         | Sets the y-velocity to 7G                                 | -                                                            | -                                           |
+| Wave        | -                                                         | Sets the y-velocity to 7.8G                                  | Sets the velocity to -7.8G                  |
+| Robot       | -                                                         | Sets the y-velocity to 5.615G                                | Decelerates according to the tps and speed* |
+| Spider      | See section "Spider" below                                | -                                                            | -                                           |
+| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | -                                                            | -                                           |
 
 ## 4x Speed Portal
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets the y-velocity to 11.23G                             | continuously checks if the player is on the ground to process another jump* | N/A                          |
-| Ship        | N/A                                                       | skipped for now                                              | skipped for now                             |
-| Ball        | Sets the y-velocity to 3.369G then toggles the gravity    | N/A                                                          | N/A                                         |
-| Ufo         | Sets the y-velocity to 7G                                 | N/A                                                          | N/A                                         |
-| Wave        | N/A                                                       | Sets the y-velocity to 9.6G                                  | Sets the velocity to -9.6G                  |
-| Robot       | N/A                                                       | Sets the y-velocity to 5.615G                                | Decelerates according to the tps and speed* |
-| Spider      | See section "Spider" below                                | N/A                                                          | N/A                                         |
-| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | N/A                                                          | N/A                                         |
+| Cube        | Sets the y-velocity to 11.23G                             | continuously checks if the player is on the ground to process another jump* | -                            |
+| Ship        | -                                                         | skipped for now                                              | skipped for now                             |
+| Ball        | Sets the y-velocity to 3.369G then toggles the gravity    | -                                                            | -                                           |
+| Ufo         | Sets the y-velocity to 7G                                 | -                                                            | -                                           |
+| Wave        | -                                                         | Sets the y-velocity to 9.6G                                  | Sets the velocity to -9.6G                  |
+| Robot       | -                                                         | Sets the y-velocity to 5.615G                                | Decelerates according to the tps and speed* |
+| Spider      | See section "Spider" below                                | -                                                            | -                                           |
+| Swingcopter | Multiplies the y-velocity by 0.8 then toggles the gravity | -                                                            | -                                           |
 
 *Every gamemode is constantly affected by an acceleration similar to the mechanism of real life gravity which is dependent on the speed portal and tps. Robot hold disables that gravity while holding and sets the yvel to 5.31G until release. This "gravity" affects the velocity on a tick by tick basis so that is part of one of the many game loops. for cube click, it first sets the velocity then later on processes gravity in that same tick so it would not be exactly 11.18G on the first tick for 1x speed, but rather it would be 11.18G - acceleration (in the case of 240tps that would be 11.18 - 0.216 or 10.964). However, on the second jump of a hold or a buffer click, the gravity is processed before the buffered jump meaning the player would experience the full jump force on the first tick which is what causes the common effect of the player jumping slightly higher on the second jump. More info on gravity acceleration can be seen on this desmos graph: https://www.desmos.com/calculator/chaw9hqeew (keep in mind that ship is still not fully understood so don't rely on it for ship)
 
