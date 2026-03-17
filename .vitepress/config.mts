@@ -30,6 +30,10 @@ export default defineConfig({
 
   cleanUrls: true,
 
+  markdown: {
+    math: true
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/logo.png",
