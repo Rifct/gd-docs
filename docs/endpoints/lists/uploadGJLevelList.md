@@ -17,9 +17,9 @@ Uploads a created list to the servers.
 | `difficulty`    | The list's difficulty face. -1 is N/A, and then it's 0-10 where 0 is Auto and 10 is Extreme Demon                                                 | Yes      |
 | `unlisted`      | Set to 2 if the list should be unlisted, and to 1 if the list should be unlisted and only viewable by friends                                     | Yes      |
 | `listLevels`    | All level IDs included in the list. Each ID is separated by `,`                                                                                   | Yes      |
-| `seed`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID. | Yes      | <!-- TODO: Write example -->
+| `seed`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID. | Yes      |
 | `seed2`         | 5 randomly generated characters from \[A-Za-z0-9]                                                                                                 | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                                                       | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                | Yes      |
 | `binaryVersion` | Currently 42                                                                                                                                      |          |
 
 ## Response
@@ -43,7 +43,7 @@ seed = ("").join(random.choices(possible_letters, k=5))
 data = {
     "gameVersion": 22,
     "accountID": 173831, # This is DevExit's account ID
-    "gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "listLevels": "128,132,133,134,136", # These are the IDs of the levels in the list
     "listID": 0,
     "listName": "First Levels", # This is the list name

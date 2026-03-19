@@ -7,10 +7,10 @@ Deletes a level comment.
 | Parameter       | Explanation                                                       | Required |
 | --------------- | ----------------------------------------------------------------- | -------- |
 | `accountID`     | The account ID of the user who is deleting the comment            | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user who is deleting the comment | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who is deleting the comment | Yes      |
 | `commentID`     | ID of the comment                                                 | Yes      |
 | `levelID`       | ID of the level the comment is on                                 | Yes      |
-| `secret`        | Wmfd2893gb7                                                       | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                | Yes      |
 | `gameVersion`   | 21                                                                |          |
 | `binaryVersion` | 35                                                                |          |
 | `gdw`           | 0                                                                 |          |
@@ -32,13 +32,13 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "commentID": 31415926,
         "levelID": 54953085,
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJComment20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/deleteGJComment20.php", data=data)
 print(req.text)
 ```
 

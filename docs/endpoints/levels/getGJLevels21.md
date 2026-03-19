@@ -6,20 +6,20 @@
 
 | Parameter         | Description                                                                                                   | Required                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
+| `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                          | Yes                                   |
 | `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
 | `binaryVersion`   | [Binary Version](#), 47 on 2.2081                                                                             |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on [types 5 and 10](#type)       |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
-| `gjp`             | The [GJP](/topics/gjp.md) for the `accountID`. Not present in 2.2                                             |                                       |
+| `gjp2`            | The [GJP2](/topics/gjp#generating-gjp2) for the `accountID`. Not present in 2.2                                             |                                       |
 | `gjp2`            | The [GJP2](/topics/gjp.md) for the `accountID`. 2.2+                                                          |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
 | `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
 | `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
-| `demonFilter`     | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                       |
+| `demonFilter`     | Selects which demon difficulty to search, [see values](#demon-filter). If not sent will search all demon types |                                       |
 | `len`             | Level length, [see values](#len)                                                                              |                                       |
 | `uncompleted`     | Uncompleted filter, either 0 or 1                                                                             |                                       |
 | `onlyCompleted`   | Completed filter, either 0 or 1                                                                               |                                       |
@@ -40,8 +40,7 @@
 | `udid`            | Your [UDID](/topics/encryption/id.md)                                                                         |                                       |
 | `uuid`            | Your [UUID](/topics/encryption/id.md)                                                                         |                                       |
 
-<details open id="type">
-<summary><code>type</code></summary>
+::: details `type` {#type open}
 
 | Type | Description                                                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,16 +64,17 @@
 | 19   | Unknown (same as type 10 but this type has pagination and no star rate filter)                                                  |
 | 21   | Daily history                                                                                                                   |
 | 22   | Weekly history                                                                                                                  |
+| 23   | Event history                                                                                                                   |
+| 24   | Reported levels (Elder Moderator only)                                                                                          |
 | 25   | Level list, uses `str` as the list ID                                                                                           |
 | 26   | Local level list (same as type 19 but can return up to 100 levels)                                                              |
 | 27   | Sent                                                                                                                            |
 | 28   | GD Lite weekly levels                                                                                                           |
 | 29   | GD Lite bonus levels (platformer)                                                                                               |
 
-</details>
+:::
 
-<details open id="diff">
-<summary><code>diff</code></summary>
+::: details `diff` {#diff open}
 
 | diff | Description                                                |
 | ---- | ---------------------------------------------------------- |
@@ -86,10 +86,9 @@
 | 4    | Harder                                                     |
 | 5    | Insane                                                     |
 
-</details>
+:::
 
-<details open id="demonFilter">
-<summary><code>demonFilter</code></summary>
+::: details `demonFilter` {#demon-filter open}
 
 | demonFilter | Description   |
 | ----------- | ------------- |
@@ -99,10 +98,9 @@
 | 4           | Insane demon  |
 | 5           | Extreme demon |
 
-</details>
+:::
 
-<details open id="len">
-<summary><code>len</code></summary>
+::: details `len` {#len open}
 
 | len | Value      |
 | --- | ---------- |
@@ -113,7 +111,7 @@
 | 4   | XL         |
 | 5   | Platformer |
 
-</details>
+:::
 
 ## Response
 
@@ -157,7 +155,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-url = "http://www.boomlings.com/database/getGJLevels21.php"
+url = "https://www.boomlings.com/database/getGJLevels21.php"
 
 req = requests.post(url=url, data=data, headers=headers)
 print(req.text)
@@ -166,7 +164,7 @@ print(req.text)
 ### **curl**
 
 ```plain
-curl http://www.boomlings.com/database/getGJLevels21.php -A "" -d "str=bloodbath&star=1&type=0&secret=Wmfd2893gb7"
+curl https://www.boomlings.com/database/getGJLevels21.php -A "" -d "str=bloodbath&star=1&type=0&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

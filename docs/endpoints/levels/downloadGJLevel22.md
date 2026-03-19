@@ -7,12 +7,12 @@ Downloads a user level and info so it can be played.
 | Parameter       | Explanation                                                                                                | Required |
 | --------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
 | `levelID`       | The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level. | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                         | Yes      |
 | `gameVersion`   | 22                                                                                                         |          |
 | `binaryVersion` | 47                                                                                                         |          |
 | `dvs`           | 3                                                                                                          |          |
 | `accountID`     | The account ID of the user who is downloading the level                                                    |          |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user who is downloading the level                                         |          |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who is downloading the level                                         |          |
 | `udid`          | The [udid](/topics/encryption/id#udid) of the user who is downloading the level                            |          |
 | `uuid`          | The [uuid](/topics/encryption/id#uuid) of the user who is downloading the level                            |          |
 | `inc`           | Whether the amount of downloads should be incremented on the level (requires proper authentication)        |          |
@@ -52,7 +52,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-url = "http://www.boomlings.com/database/downloadGJLevel22.php"
+url = "https://www.boomlings.com/database/downloadGJLevel22.php"
 
 req = requests.post(url=url, data=data, headers=headers)
 print(req.text)
@@ -61,7 +61,7 @@ print(req.text)
 ### **curl**
 
 ```plain
-curl http://www.boomlings.com/database/downloadGJLevel22.php -A "" -d "levelID=128&secret=Wmfd2893gb7"
+curl https://www.boomlings.com/database/downloadGJLevel22.php -A "" -d "levelID=128&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

@@ -2,7 +2,11 @@
 
 Loads account data
 
-**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently http://www.robtopgames.org) 
+> [!NOTE]
+> This page is under the `database/accounts` directory.
+
+> [!NOTE]
+> This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently https://www.robtopgames.org) 
 
 ## Parameters
 
@@ -10,7 +14,7 @@ Loads account data
 | --------------- | ------------------------------------------------------------------------------ | -------- |
 | `accountID`     | The account ID of the account to be added                                      | Yes      |
 | `gjp2`          | The password of the account to be added with [GJP2](/topics/gjp.md) encryption | Yes      |
-| `secret`        | Wmfv3899gc9                                                                    | Yes      |
+| `secret`        | [Account Secret](/reference/secrets.md): `Wmfv3899gc9`                            | Yes      |
 | `gameVersion`   | 22                                                                             |          |
 | `binaryVersion` | 42                                                                             |          |
 | `gdw`           | 0                                                                              |          |
@@ -44,7 +48,7 @@ data = {
     "secret": "Wmfv3899gc9"
 }
 
-req = requests.post("http://www.robtopgames.org/database/accounts/syncGJAccountNew.php", data=data)
+req = requests.post("https://www.robtopgames.org/database/accounts/syncGJAccountNew.php", data=data)
 print(req.text)
 ```
 

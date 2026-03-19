@@ -11,7 +11,7 @@ Sends a message to a user
 | `toAccountID`   | Account ID of the user retrieving the message                                         | Yes      |
 | `subject`       | The subject of the message, converted to [URL-safe base64](/topics/encryption/base64) | Yes      |
 | `body`          | The body of the message, converted to [URL-safe base64](/topics/encryption/base64)    | Yes      |
-| `secret`        | Wmfd2893gb7                                                                           | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                    | Yes      |
 | `gameVersion`   | 22                                                                                    |          |
 | `binaryVersion` | 42                                                                                    |          |
 | `gdw`           | 0                                                                                     |          |
@@ -34,14 +34,14 @@ data = {
     "binaryVersion": 35,
     "gdw": 0,
 	"accountID": 173831, # This is DevExit's account ID
-	"gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+	"gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "toAccountID": 173831, # Yes! You can send messages to yourself
     "subject": base64.b64encode(b"You're dumb lol").decode(),
     "body": base64.b64encode(b"Mhm yep you're p dumb lmao").decode(),
     "secret": "Wmfd2893gb7",
 }
 
-r = requests.post('http://boomlings.com/database/uploadGJMessage20.php', data=data)
+r = requests.post('https://www.boomlings.com/database/uploadGJMessage20.php', data=data)
 print(req.text)
 ```
 

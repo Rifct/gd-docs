@@ -8,7 +8,7 @@ Gets the URL for the data server.
 | ----------- | ----------------------------------------------------------------------------------------------------- | -------- |
 | `accountID` | Any valid account ID                                                                                  | Yes      |
 | `type`      | used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data | Yes      |
-| `secret`    | Wmfd2893gb7                                                                                           | Yes      |
+| `secret`    | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                    | Yes      |
 
 ## Response
 
@@ -29,7 +29,7 @@ data = {
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getAccountURL.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getAccountURL.php", data=data)
 print(req.text)
 ```
 

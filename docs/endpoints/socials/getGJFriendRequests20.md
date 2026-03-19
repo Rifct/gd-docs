@@ -1,6 +1,6 @@
 # getGJFriendRequests20.php
 
-> This endpoint is to fetch friend requests recieved by other users
+This endpoint is to fetch friend requests recieved by other users
 
 ## Parameters
 
@@ -8,7 +8,7 @@
 | --------------- | ------------------------------------------------------ | -------- |
 | `accountID`     | The player's account ID                                | Yes      |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                    | Yes      |
-| `secret`        | The common secret: `Wmfd2893gb7`                       | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`   | Yes      |
 | `gameVersion`   | The Game Version the player is playing on. 22 for 2.2  |          |
 | `binaryVersion` | The current build the player playing on. 42 for 2.206  |          |
 | `gdw`           | If the player is using Geometry Dash World             |          |
@@ -20,7 +20,7 @@
 
 The response for this endpoint is a `key:value` format with `|` being the seperator for each object. a `#` is used to seperate the metadata
 
-> the metadata is split up into 3 segments: `total requests: page number : total requests per page`
+The metadata is split up into 3 segments: `total requests: page number : total requests per page`
 
 **Below is a raw response for a single friend request**
 

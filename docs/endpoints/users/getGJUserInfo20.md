@@ -4,15 +4,15 @@ Gets info about a user
 
 ## Parameters
 
-| Parameter         | Explanation                                       | Required |
-| ----------------- | ------------------------------------------------- | -------- |
-| `targetAccountID` | The account ID of the person you want the info of | Yes      |
-| `secret`          | Wmfd2893gb7                                       | Yes      |
-| `gameVersion`     | 22                                                |          |
-| `binaryVersion`   | 35                                                |          |
-| `gdw`             | 0                                                 |          |
-| `accountID`       | Your accountID                                    |          |
-| `gjp2`            | Your [GJP](/topics/gjp.md)                        |          |
+| Parameter         | Explanation                                        | Required |
+| ----------------- | -------------------------------------------------- | -------- |
+| `targetAccountID` | The account ID of the person you want the info of  | Yes      |
+| `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
+| `gameVersion`     | 22                                                 |          |
+| `binaryVersion`   | 35                                                 |          |
+| `gdw`             | 0                                                  |          |
+| `accountID`       | Your accountID                                     |          |
+| `gjp2`            | Your [GJP2](/topics/gjp#generating-gjp2)                         |          |
 
 ## Response
 
@@ -27,7 +27,7 @@ Returns a [user object](/resources/server/user.md) for the player you want
 ```py
 import requests
 
-url = "http://www.boomlings.com/database/getGJUserInfo20.php"
+url = "https://www.boomlings.com/database/getGJUserInfo20.php"
 data = {
     "secret": "Wmfd2893gb7",
     "targetAccountID": "173831"
@@ -43,7 +43,7 @@ print(response.text)
 
 ### **curl**
 ```plain
-curl -X POST http://www.boomlings.com/database/getGJUserInfo20.php -d "secret=Wmfd2893gb7&targetAccountID=173831" -A ""
+curl -X POST https://www.boomlings.com/database/getGJUserInfo20.php -d "secret=Wmfd2893gb7&targetAccountID=173831" -A ""
 ```
 
 <!-- tabs:end -->

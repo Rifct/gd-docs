@@ -4,12 +4,11 @@
 
 Songs in Geometry Dash are supplied through a partnership with a website called [Newgrounds](https://www.newgrounds.com/audio). To be used in community made levels, a song must pass **3** requirements
 
-> - The Song must be scouted by another artist from newgrounds
-> - The Song must be whitelisted either by Robtop or an Elder Moderator
-> - The artist must enable external API use in their song settings
+- The Song must be scouted by another artist from newgrounds
+- The Song must be whitelisted either by Robtop or an Elder Moderator
+- The artist must enable external API use in their song settings
 
 The songs can be downloaded and used via a private API that only RobTop has access to
-
 
 A typical song server response is structured with a `key~|~value~|~key~|~value` pairing and is then split with a `:`
 

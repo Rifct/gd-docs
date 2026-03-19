@@ -1,10 +1,10 @@
 # Credits
 
-> **The GD Docs Project is maintained by [Rifct](https://github.com/Rifct), [zmx](https://github.com/qimiko), [230V](https://github.com/xparadoxical), [Antimatter](https://github.com/A-Zalt), and [Kiba](https://github.com/itzkiba)**
+The GD Docs Project is maintained by [Rifct](https://github.com/Rifct), [zmx](https://github.com/qimiko), [230V](https://github.com/xparadoxical), [Antimatter](https://github.com/A-Zalt), and [Kiba](https://github.com/itzkiba)
 
 ## Special Thanks
 
-**Special thanks to these people for their help on Wylie's documentation:**
+Special thanks to these people for their help on Wylie's documentation:
 - [Antimatter](https://github.com/A-Zalt)
 - [Andre](https://github.com/AndreNIH)
 - [Cvolton](https://github.com/Cvolton)

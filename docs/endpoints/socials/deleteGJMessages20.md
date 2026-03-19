@@ -10,7 +10,7 @@ Deletes a message between two users.
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user who is deleting the message                       | Yes      |
 | `messageID`     | ID of the message being deleted                                                          | Yes      |
 | `isSender`      | 1 if the user who deleted the message is the sender, otherwise this parameter isn't sent | Yes      |
-| `secret`        | Wmfd2893gb7                                                                              | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                       | Yes      |
 | `gameVersion`   | 22                                                                                       |          |
 | `binaryVersion` | 42                                                                                       |          |
 | `gdw`           | 0                                                                                        |          |
@@ -33,12 +33,12 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "messageID": 3141592,
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJMessages20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/deleteGJMessages20.php", data=data)
 print(req.text)
 
 

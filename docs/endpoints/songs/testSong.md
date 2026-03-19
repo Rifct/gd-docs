@@ -1,8 +1,12 @@
 # testSong.php
 
+> [!NOTE]
 > This endpoint no longer exists. This page is kept for historical reasons.
 
-Gets whitelist/artist info about a song. **THIS IS A GET REQUEST.**
+Gets whitelist/artist info about a song.
+
+> [!IMPORTANT]
+> This endpoint uses the GET method.
 
 ## Parameters
 
@@ -25,7 +29,7 @@ import requests
 
 songID = 787311
 
-req = requests.get(f'http://boomlings.com/database/testSong.php?songID={songID}')
+req = requests.get(f'https://www.boomlings.com/database/testSong.php?songID={songID}')
 print(req.text)
 ```
 

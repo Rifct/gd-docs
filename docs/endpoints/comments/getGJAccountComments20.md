@@ -6,9 +6,9 @@ Gets a user's account comments.
 
 | Parameter       | Explanation                                                                                         | Required |
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
-| `accountID`     | The ID of the account whose comments you're getting                                                 | Yes      |
+| `accountID`     | The account ID of the player whose comments you're getting                                          | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                         | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                               | Yes      |
 | `gameVersion`   | 22                                                                                                  |          |
 | `binaryVersion` | 47                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
@@ -39,7 +39,7 @@ headers = {
     "User-Agent": ""
 }
 
-url = "http://www.boomlings.com/database/getGJAccountComments20.php"
+url = "https://www.boomlings.com/database/getGJAccountComments20.php"
 req = requests.post(url, data=data, headers=headers)
 print(req.text)
 ```
@@ -47,7 +47,7 @@ print(req.text)
 ### **curl**
 
 ```plain
-curl -X POST "http://www.boomlings.com/database/getGJAccountComments20.php" -H "User-Agent: " -d "accountID=173831&page=0&secret=Wmfd2893gb7"
+curl -X POST "https://www.boomlings.com/database/getGJAccountComments20.php" -H "User-Agent: " -d "accountID=173831&page=0&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

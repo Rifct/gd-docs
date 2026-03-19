@@ -127,7 +127,7 @@ export default [
           },
           {
             "text": "suggestGJStars20.php",
-            "link": "/endpoints/levels/suggestGJStars"
+            "link": "/endpoints/levels/suggestGJStars20"
           },
           {
             "text": "updateGJDesc20.php",

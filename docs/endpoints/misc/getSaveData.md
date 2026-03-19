@@ -4,12 +4,12 @@ Unknown
 
 ## Parameters
 
-| Parameter       | Explanation | Required |
-| --------------- | ----------- | -------- |
-| `secret`        | Wmfd2893gb7 | Yes      |
-| `gameVersion`   | 22          |          |
-| `binaryVersion` | 42          |          |
-| `gdw`           | 0           |          |
+| Parameter       | Explanation                                        | Required |
+| --------------- | -------------------------------------------------- | -------- |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
+| `gameVersion`   | 22                                                 |          |
+| `binaryVersion` | 42                                                 |          |
+| `gdw`           | 0                                                  |          |
 
 ## Response
 
@@ -28,7 +28,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-req = requests.post('http://boomlings.com/database/getSaveData.php', data=data)
+req = requests.post('https://www.boomlings.com/database/getSaveData.php', data=data)
 print(req.text)
 ```
 

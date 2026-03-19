@@ -28,11 +28,11 @@ Updates a user's data
 | `accSwing`      | The ID of the user's selected swing.                                                                                                                                                                                                                                                                                                                     | Yes      |
 | `accJetpack`    | The ID of the user's selected jetpack.                                                                                                                                                                                                                                                                                                                   | Yes      |
 | `seed2`         | [See here](/topics/encryption/chk#user-profile)                                                                                                                                                                                                                                                                                                          | Yes      |
-| `sinfo`         | List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}` | Yes      | <!-- TODO: add example below -->
+| `sinfo`         | List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}` | Yes      |
 | `sinfod`        | Amount of completed dailies                                                                                                                                                                                                                                                                                                                              | Yes      |
 | `sinfog`        | Amount of completed gauntlet non-demon levels                                                                                                                                                                                                                                                                                                            | Yes      |
 | `sinfoe`        | Amount of completed event non-demon levels                                                                                                                                                                                                                                                                                                               | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                                                                                                                                                                                                                                                              | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                                                                                                                                                                                                                       | Yes      |
 | `gameVersion`   | 22                                                                                                                                                                                                                                                                                                                                                       |          |
 | `binaryVersion` | 42                                                                                                                                                                                                                                                                                                                                                       |          |
 | `gdw`           | 0                                                                                                                                                                                                                                                                                                                                                        |          |
@@ -62,7 +62,7 @@ import requests
 
 data = {
     "accountID": 5317656, # PasswordFinders' Account ID
-    "gjp": "********", # This would be PasswordFinders' password encoded with GJP encryption
+    "gjp2": "********", # This would be PasswordFinders' password encoded with GJP2 encryption
     "userName": "PasswordFinders",
     "stars": 6969,
     "moons": 696,
@@ -100,7 +100,7 @@ data = {
 }
 data['seed2'] = generate_chk([data['accountID'], data['userCoins'], data['demons'], data['stars'], data['coins'], data['iconType'], data['icon'], data['diamonds'], data['accIcon'], data['accShip'], data['accBall'], data['accBird'], data['accDart'], data['accRobot'], data['accGlow'], data['accSpider'], data['accExplosion'], len(data['dinfo']), data['dinfow'], data['dinfog'], data['sinfo'], data['sinfod'], data['sinfog']], "85271", "xI35fsAapCRg")
 
-r = requests.post('http://boomlings.com/database/updateGJUserScore22.php', data=data)
+r = requests.post('https://www.boomlings.com/database/updateGJUserScore22.php', data=data)
 print(req.text)
 ```
 

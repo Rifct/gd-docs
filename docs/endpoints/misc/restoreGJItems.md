@@ -7,7 +7,7 @@ Restores user's data; defunct as of the new save system
 | Parameter | Explanation                                                              | Required |
 | --------- | ------------------------------------------------------------------------ | -------- |
 | `udid`    | A unique identifier for the user's device, can be replaced with anything | Yes      |
-| `secret`  | Wmfd2893gb7                                                              | Yes      |
+| `secret`  | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                       | Yes      |
 
 ## Response
 
@@ -27,7 +27,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post('http://boomlings.com/database/restoreGJItems.php', data=data)
+req = requests.post('https://www.boomlings.com/database/restoreGJItems.php', data=data)
 print(req.status_code)
 ```
 

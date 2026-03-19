@@ -6,7 +6,7 @@ Sends a star suggestion for a level
 
 | Parameter       | Explanation                                          | Required |
 | --------------- | ---------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                          | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`   | Yes      |
 | `levelID`       | The ID of the level receiving the star suggestion    | Yes      |
 | `stars`         | The amount of stars being suggested                  | Yes      |
 | `rs`            | 10 randomly generated characters from `[A-Za-z0-9]`  | Yes      |
@@ -38,7 +38,7 @@ data = {
     "stars": 3
 }
 
-req = requests.post('http://boomlings.com/database/rateGJStars211.php', data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJStars211.php', data=data)
 print(req.text)
 ```
 

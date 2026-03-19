@@ -28,7 +28,7 @@ Uploads a created level to the servers.
 | `ldm`            | Set to 1 if the level should have a low detail checkbox                                                                       | Yes      |
 | `levelString`    | The actual level data. Must be gzip compressed and then converted to [URL-safe base64](/topics/encryption/base64.md)          | Yes      |
 | `seed2`          | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the **_compressed_** level data  | Yes      |
-| `secret`         | The common secret: `Wmfd2893gb7`                                                                                              | Yes      |
+| `secret`         | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                          | Yes      |
 | `wt`             | The amount of time spent in the editor of a level (local copy)                                                                |          |
 | `wt2`            | The amount of time spent in the editor of a level (previous copies)                                                           |          |
 | `seed`           | A random string                                                                                                               |          |
@@ -58,7 +58,7 @@ levelString = "H4sIAAAAAAAAC6WQwQ3DIAxFF3IlfxsIUU6ZIQP8AbJChy_GPSZqpF7-A4yfDOfhX
 data = {
     "gameVersion": 21,
     "accountID": 173831, # This is DevExit's account ID
-    "gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "*******", # This would be DevExit's password encoded with GJP2 encryption
     "userName": "devexit",
     "levelID": 0,
     "levelName": "Test", # The level name is Test
@@ -85,7 +85,7 @@ headers = {
 	"User-Agent": ""
 }
 
-url = "http://www.boomlings.com/database/uploadGJLevel21.php"
+url = "https://www.boomlings.com/database/uploadGJLevel21.php"
 
 req = requests.post(url=url, data=data, headers=headers)
 print(req.text)

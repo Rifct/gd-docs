@@ -4,12 +4,12 @@ Deletes a level from the server.
 
 ## Parameters
 
-| Parameter   | Explanation                              | Required |
-| ----------- | ---------------------------------------- | -------- |
-| `accountID` | The level author's account ID            | Yes      |
-| `gjp`       | The level author's [GJP](/topics/gjp.md) | Yes      |
-| `levelID`   | The ID of the level being deleted        | Yes      |
-| `secret`    | Wmfv2898gc9                              | Yes      |
+| Parameter   | Explanation                                       | Required |
+| ----------- | ------------------------------------------------- | -------- |
+| `accountID` | The level author's account ID                     | Yes      |
+| `gjp2`      | The level author's [GJP2](/topics/gjp#generating-gjp2)          | Yes      |
+| `levelID`   | The ID of the level being deleted                 | Yes      |
+| `secret`    | [Level Secret](/reference/secrets.md): `Wmfv2898gc9` | Yes      |
 
 ## Response
 
@@ -28,12 +28,12 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "levelID": 62689548,
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelUser20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/deleteGJLevelUser20.php", data=data)
 print(req.text)
 ```
 

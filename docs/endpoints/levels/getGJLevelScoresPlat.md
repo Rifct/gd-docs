@@ -9,7 +9,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 | `accountID`     | The user's account ID                                                                                                                                                              | Yes      |
 | `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                                                                                  | Yes      |
 | `levelID`       | The ID of the level                                                                                                                                                                | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                                                                                        | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                                                 | Yes      |
 | `gameVersion`   | 22                                                                                                                                                                                 |          |
 | `binaryVersion` | 42                                                                                                                                                                                 |          |
 | `gdw`           | 0                                                                                                                                                                                  |          |
@@ -56,13 +56,13 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "levelID": 98170000,
 	  "type": 1, # Leaving this out would only show friends. This shows global.
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJLevelScoresPlat.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJLevelScoresPlat.php", data=data)
 print(req.text)
 ```
 

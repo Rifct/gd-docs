@@ -6,7 +6,7 @@ Searches for a user and returns their info
 
 | Parameter       | Explanation                                                     | Required |
 | --------------- | --------------------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                                     | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`              | Yes      |
 | `gameVersion`   | 21                                                              | Yes      |
 | `binaryVersion` | 35                                                              | Yes      |
 | `gdw`           | 0                                                               |          |
@@ -32,7 +32,7 @@ data = {
     "str": "Foundmyball"
 }
 
-req = requests.post('http://boomlings.com/database/getGJUsers20.php', data=data)
+req = requests.post('https://www.boomlings.com/database/getGJUsers20.php', data=data)
 print(req.text)
 ```
 

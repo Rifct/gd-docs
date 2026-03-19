@@ -7,7 +7,7 @@ Gets the rewards from the chests.
 | Parameter       | Explanation                                                                                                   | Required |
 | --------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
 | `udid`          | A unique identifier for the user's device. You can put anything here                                          | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                   | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                            | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                            |          |
 | `binaryVersion` | 42                                                                                                            |          |
@@ -52,14 +52,14 @@ import requests
 
 data = {
 	"accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "udid": "605BE9FD-300E-49EA-A45C-B272EE64D3E0",
     "secret": "Wmfd2893gb7",
     "chk": f"{''.join(random.choice('1234567890qwertyuiopaqsdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM') for i in range(5))}{base64.b64encode(xor_cipher(str(random.randint(10000, 1000000)), '59182').encode()).decode()}",
     "rewardType": 1
 }
 
-req = requests.post("http://boomlings.com/database/getGJRewards.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJRewards.php", data=data)
 print(req.text)
 
 decoded_text = xor_cipher(base64.urlsafe_b64decode(response_text.split("|")[0][5:].encode()).decode(), '59182')

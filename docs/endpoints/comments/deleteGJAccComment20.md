@@ -7,9 +7,9 @@
 | Parameter       | Explanation                                                                                                           | Required |
 | --------------- | --------------------------------------------------------------------------------------------------------------------- | -------- |
 | `accountID`     | Account ID of the user deleting the comment                                                                           | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user deleting the comment                                                            | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user deleting the comment                                                            | Yes      |
 | `commentID`     | The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)) | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                           | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                    | Yes      |
 | `gameVersion`   | 21                                                                                                                    |          |
 | `binaryVersion` | 35                                                                                                                    |          |
 | `gdw`           | 0                                                                                                                     |          |
@@ -31,12 +31,12 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "commentID": 1772717,
     "secret": "Wmfd2893gb7"
 }
 
-r = requests.post('http://boomlings.com/database/deleteGJAccComment20.php', data=data)
+r = requests.post('https://www.boomlings.com/database/deleteGJAccComment20.php', data=data)
 print(req.text)
 ```
 

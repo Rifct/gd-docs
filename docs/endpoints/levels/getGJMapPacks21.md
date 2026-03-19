@@ -6,7 +6,7 @@ Gets the map packs.
 
 | Parameter       | Explanation                                                           | Required |
 | --------------- | --------------------------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                                           | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                    | Yes      |
 | `gameVersion`   | 22                                                                    |          |
 | `binaryVersion` | 42                                                                    |          |
 | `gdw`           | 0                                                                     |          |
@@ -40,7 +40,7 @@ data = {
     "page": 4
 }
 
-req = requests.post("http://boomlings.com/database/getGJMapPacks21.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJMapPacks21.php", data=data)
 print(req.text)
 ```
 

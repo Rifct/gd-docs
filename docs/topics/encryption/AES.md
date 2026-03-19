@@ -1,16 +1,15 @@
 # AES
 
-> AES (The Advanced Encryption Standard) is an encryption algorithm used for encrypting Geometry Dash Save files on Mac and iOS
+AES (The Advanced Encryption Standard) is an encryption algorithm used for encrypting Geometry Dash Save files on Mac and iOS
 
-- Geometry Dash uses `ECB` mode and a 256-bit key for encrypting and descrypting data
+Geometry Dash uses `ECB` mode and a 256-bit key for encrypting and descrypting data
 
 ## AES Key
 
-- The key used by Geometry Dash is:
-
+The key used by Geometry Dash is:
 
 - **Hexadecimal**
-  ```md
+  ```
   69 70 75 39 54 55 76 35 34 79 76 5d 69 73 46 4d 68 35 40 3b 74 2e 35 77 33 34 45 32 52 79 40 7b
   ```
 
@@ -21,7 +20,7 @@
 
 ## Padding
 
-- The plaintext data sometimes may not perfectly align and therefore, some padding is implemented
+The plaintext data sometimes may not perfectly align and therefore, some padding is implemented
 
 <!-- tabs:start -->
 
@@ -55,7 +54,7 @@ if (total_padding < 16) {
 
 ## Implementation
 
-- Decrypting and Encrypting data with AES is pretty simple
+Decrypting and Encrypting data with AES is pretty simple
 
 <!-- tabs:start -->
 

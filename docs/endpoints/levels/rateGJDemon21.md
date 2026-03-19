@@ -8,9 +8,9 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 | --------------- | -------------------------------------------------------------------------------------------------- | -------- |
 | `gameVersion`   | 22                                                                                                 | Yes      |
 | `binaryVersion` | 42                                                                                                 | Yes      |
-| `secret`        | Wmfp3897gc3                                                                                        | Yes      |
+| `secret`        | [Moderator Secret](/reference/secrets.md): `Wmfp3879gc3`                                                | Yes      |
 | `accountID`     | The accountID of the user who's rating the demon's difficulty                                      | Yes      |
-| `gjp`           | The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty                          | Yes      |
+| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who's rating the demon's difficulty                          | Yes      |
 | `levelID`       | The ID of the demon being rated                                                                    | Yes      |
 | `rating`        | 1 for Easy Demon, 2 for Medium Demon, 3 for Hard Demon, 4 for Insane Demon and 5 for Extreme Demon | Yes      |
 | `gdw`           | 0                                                                                                  |          |
@@ -43,7 +43,7 @@ data = {
     "rating": 5
 }
 
-req = requests.post('http://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
 print(req.text)
 ```
 
@@ -64,13 +64,13 @@ data = {
     "gameVersion": 21,
     "binaryVersion": 35
     "accountID": 71,
-    "gjp": *********, #the GJP of the moderator
+    "gjp2": *********, #the GJP of the moderator
     "secret": "Wmfp3897gc3",
     "levelID": 4284013,
     "rating": 3
 }
 
-req = requests.post('http://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
 print(req.text)
 ```
 

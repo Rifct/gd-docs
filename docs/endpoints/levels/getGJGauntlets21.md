@@ -6,7 +6,7 @@ Gets the gauntlet levels.
 
 | Parameter       | Explanation                                                | Required |
 | --------------- | ---------------------------------------------------------- | -------- |
-| `secret`        | Wmfd2893gb7                                                | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`         | Yes      |
 | `gameVersion`   | 22                                                         |          |
 | `binaryVersion` | 47                                                         |          |
 | `gdw`           | 0                                                          |          |
@@ -24,7 +24,7 @@ A list of [gauntlet objects](/resources/server/gauntlet.md), separated by a pipe
 ```py
 import requests
 
-url = "http://www.boomlings.com/database/getGJGauntlets21.php"
+url = "https://www.boomlings.com/database/getGJGauntlets21.php"
 data = {
     "secret": "Wmfd2893gb7",
     "special": 1
@@ -40,7 +40,7 @@ print(response.text)
 
 ### **curl**
 ```plain
-curl -X POST http://www.boomlings.com/database/getGJGauntlets21.php -d "secret=Wmfd2893gb7&special=1" -A ""
+curl -X POST https://www.boomlings.com/database/getGJGauntlets21.php -d "secret=Wmfd2893gb7&special=1" -A ""
 
 ```
 <!-- tabs:end -->

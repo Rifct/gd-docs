@@ -8,7 +8,7 @@ Gets either your friend list or your blocked list
 | --------------- | ------------------------------------------------------------------------------- | -------- |
 | `accountID`     | The account ID of the user you want to get the friends/blocklist of             | Yes      |
 | `gjp2`          | The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of | Yes      |
-| `secret`        | Wmfd2893gb7                                                                     | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                              | Yes      |
 | `gameVersion`   | 22                                                                              |          |
 | `binaryVersion` | 42                                                                              |          |
 | `gdw`           | 0                                                                               |          |
@@ -33,7 +33,7 @@ data = {
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJUserList20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJUserList20.php", data=data)
 print(req.text)
 ```
 

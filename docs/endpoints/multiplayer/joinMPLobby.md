@@ -1,6 +1,7 @@
 # joinMPLobby.php
 
-> Note: everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
+> [!WARNING]
+> Everything here is based on leaks, unused code and educated guesses. As such, everything you see here is subject to change, and most likely **will** be changed!
 
 Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `boomlings.com`.
 
@@ -10,7 +11,7 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 | --------------- | ------------------------------------------------------------------------ | -------- |
 | `accountID`     | The player's account ID                                                  | Yes      |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                                      | Yes      |
-| `secret`        | Wmfv3899gc9                                                              | Yes      |
+| `secret`        | [Account Secret](/reference/secrets.md): `Wmfv3899gc9`                      | Yes      |
 | `gameID`        | The ID of the multiplayer lobby                                          | Yes      |
 | `lastCommentID` | Your last multiplayer comment ID. It's unknown what the initial value is | Yes      |
 | `gameVersion`   | 22                                                                       |          |

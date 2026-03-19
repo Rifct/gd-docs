@@ -8,7 +8,7 @@ Updates a user's account settings
 | ----------- | --------------------------------------------------------------------------------------------------------- | -------- |
 | `accountID` | The accountID of the user whose account is being updated                                                  | Yes      |
 | `gjp2`      | The [GJP2](/topics/gjp.md) of the user whose account is being updated                                     | Yes      |
-| `secret`    | Wmfv3899gc9                                                                                               | Yes      |
+| `secret`    | [Account Secret](/reference/secrets.md): `Wmfv3899gc9`                                                       | Yes      |
 | `mS`        | Who the user allows messages from: 0 for anyone, 1 for just friends, and 2 for no one                     |          |
 | `frS`       | Who the user allows friend requests from: 0 for anyone, and 1 for no one                                  |          |
 | `cS`        | Who the user allows to view their comments: 0 for anyone, 1 for just friends, and 2 for only themselves   |          |
@@ -35,7 +35,7 @@ import requests
 
 data = {
     "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+    "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
     "secret": "Wmfv3899gc9",
     "mS": 0,
     "frS": 0,

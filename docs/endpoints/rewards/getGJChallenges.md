@@ -7,7 +7,7 @@ Gets a user's quests.
 | Parameter       | Explanation                                                                                                      | Required |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- | -------- |
 | `udid`          | A unique identifier for the user's device, can be replaced with anything                                         | Yes      |
-| `secret`        | Wmfd2893gb7                                                                                                      | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                               | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [daily challenges](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                               |          |
 | `binaryVersion` | 42                                                                                                               |          |
@@ -52,7 +52,7 @@ data = {
     "chk": "funnyBwAMBgc"
 }
 
-req = requests.post("http://boomlings.com/database/getGJChallenges.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJChallenges.php", data=data)
 print(req.text)
 ```
 

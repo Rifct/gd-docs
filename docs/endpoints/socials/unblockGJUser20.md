@@ -4,15 +4,15 @@ Unblocks a user.
 
 ## Parameters
 
-| Parameter         | Explanation                                    | Required |
-| ----------------- | ---------------------------------------------- | -------- |
-| `accountID`       | The unblocking person's account ID             | Yes      |
-| `gjp2`            | The unblocking person's [GJP2](/topics/gjp.md) | Yes      |
-| `targetAccountID` | The account ID of the person getting unblocked | Yes      |
-| `secret`          | Wmfd2893gb7                                    | Yes      |
-| `gameVersion`     | 22                                             |          |
-| `binaryVersion`   | 42                                             |          |
-| `gdw`             | 0                                              |          |
+| Parameter         | Explanation                                        | Required |
+| ----------------- | -------------------------------------------------- | -------- |
+| `accountID`       | The unblocking person's account ID                 | Yes      |
+| `gjp2`            | The unblocking person's [GJP2](/topics/gjp.md)     | Yes      |
+| `targetAccountID` | The account ID of the person getting unblocked     | Yes      |
+| `secret`          | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
+| `gameVersion`     | 22                                                 |          |
+| `binaryVersion`   | 42                                                 |          |
+| `gdw`             | 0                                                  |          |
 
 ## Response
 
@@ -31,12 +31,12 @@ import requests
 
 data = {
         "accountID": 173831, # DevExit's account ID
-        "gjp": "********", # This would be DevExit's password encoded with GJP encryption
+        "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
         "targetAccountID": 71, # Robtop's account ID
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/unblockGJUser20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/unblockGJUser20.php", data=data)
 print(req.text)
 
 ```

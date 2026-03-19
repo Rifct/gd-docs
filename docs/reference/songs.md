@@ -1,11 +1,11 @@
 # Official Songs
 
-> **There are 39 songs used by the game within official levels.**
-
+There are 39 songs used by the game within official levels.
 
 ## Table of Official Songs
 
-> **Note**: *In the tables below, ID refers to the level ID the level would be if uploaded to the servers and the Server ID refers to an ID within the Song Enum.*
+> [!IMPORTANT]
+> In the tables below, ID refers to the level ID the level would be if uploaded to the servers and the Server ID refers to an ID within the Song Enum.
 
 | ID   | Server ID | Track Name               | Track Author |
 | ---- | --------- | ------------------------ | ------------ |
