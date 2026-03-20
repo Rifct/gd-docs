@@ -87,6 +87,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k88 | Level Progress                 | **String**                                                      | Contains a list of high score differences seperated by a `,`                     |
 | k89  | vfDChk | **Bool**                    | used to check for level completion                                               |
 | k90  | Leaderboard percentage         | **integer**                                                      | Contains the percentage for level Leaderboards                      |
+| k94  | Unlisted (Friends Only)        | **bool**                                                         | whether the level is friends-only unlisted         |
 | k95  | Verification Time              | **integer**                                                      | Verification time in physics steps (240 steps per second) |
 | k104 | Song list                      | **string**                                                     | List of song IDs separated by `,` |
 | k105 | SFX list                       | **string**                                                     | List of SFX IDs separated by `,` |
