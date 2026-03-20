@@ -87,16 +87,30 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k88 | Level Progress                 | **String**                                                      | Contains a list of high score differences seperated by a `,`                     |
 | k89  | vfDChk | **Bool**                    | used to check for level completion                                               |
 | k90  | Leaderboard percentage         | **integer**                                                      | Contains the percentage for level Leaderboards                      |
-| k94  | Unlisted (Friends Only)        | **bool**                                                         | whether the level is friends-only unlisted         |
+| k91  | Locked Editor Layers           | **string**                                                       | List of all locked layers in the editor, separated by `,`                      |
+| k93  | Unlimited Objects Enabled      | **bool**                                                         | Whether Unlimited Object Count (>80,000) is enabled |
+| k94  | Unlisted (Friends Only)        | **bool**                                                         | whether the level is friends-only unlisted |
 | k95  | Verification Time              | **integer**                                                      | Verification time in physics steps (240 steps per second) |
+| k101 | Saved Camera Positions         | **string**                                                     | A list of saved camera positions in the editor in the format: `{x},{y},{x},{y}...`. Stores 10 points in total |
+| k102 | Preview Lock X                 | **integer**                                                     | X coordinate of the Preview Lock in the editor |
+| k103 | Preview Lock Y                 | **integer**                                                     | Y coordinate of the Preview Lock in the editor |
 | k104 | Song list                      | **string**                                                     | List of song IDs separated by `,` |
 | k105 | SFX list                       | **string**                                                     | List of SFX IDs separated by `,` |
+| k106 | Song Size                      | **integer**                                                     | Total song size - unused (the server never returns this value) |
 | k107 | Best Time                      | **integer**                                                     | Your best time on the level in milliseconds  |
 | k108 | Best Points                    | **integer**                                                     | Your point highscore on the level |
 | k109 | Local Best Times               | **integer**                                                     | List of your best times on the level in milliseconds, separated by `,` |
 | k110 | Local Best Points              | **integer**                                                     | List of your point highscores on the level, separated by `,` |
 | k111 | Platformer Seed                | **integer**                                                     | Checksum for platformer completions, see below for code  |
 | k112 | No Shake                       | **bool**                                                         | Whether the player has disabled shake for this level |
+| k115 | Ticks (Best Time)              | **integer**                                                      | Amount of 240 TPS ticks on the attempt that had the fastest time |
+| k116 | Ticks (Best Points)            | **integer**                                                      | Amount of 240 TPS ticks on the attempt that had the most points |
+| k117 | Clicks (Best Time)             | **integer**                                                      | Amount of clicks on the attempt that had the fastest time |
+| k118 | Clicks (Best Points)           | **integer**                                                      | Amount of clicks on the attempt that had the most points |
+| k119 | Inputs? (Best Time)            | **string**                                                       | The inputs on the attempt that had the fastest time? - seems to be unused |
+| k120 | Inputs? (Best Points)          | **string**                                                       | The inputs on the attempt that had the most points? - seems to be unused |
+| k121 | Coins Collected (Best Time)    | **integer**                                                      | Amount of coins collected on the attempt that has the fastest time |
+| k122 | Coins Collected (Best Points)  | **integer**                                                      | Amount of coins collected on the attempt that has the most points |
 
 The classic level seed is generated like this (please note you need to add another `1482` when submitting the level score):
 
@@ -147,8 +161,7 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 
 | Key | Type        | Info                                                     |
 | --- | ----------- | -------------------------------------------------------- |
-| k91 | **string** | |
 | k92 | **integer** | |
-| k93 | **Bool** | unlimited Objects? |
-| k101 | **string** | seems to be 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0. Seems to also correlate with k47 |
-| k106 | **integer** | corresponds to key 54 on the servers |
+| k123 | **bool**   | |
+| k124 | **bool**   | |
+| k125 | **integer** | |
