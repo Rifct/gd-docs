@@ -65,7 +65,7 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 48  | settingsString [Unused] | **String** | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage |
 | 52* | songIDs | **Comma-Separated List** | The list of all song IDs in the level, separated by commas
 | 53* | sfxIDs | **Comma-Separated List** | The list of all SFX IDs in the level, separated by commas
-| 54  | unknown | **Integer** | Unknown value, perhaps robtop-only? (corresponds to k106 in the save file) |
+| 54  | songSize | **Integer** | Supposed to be the total song size. Seemingly unused as it is not returned by the server |
 | 57* | verificationTime | **Integer** | How long the level took to verify (in frames, assume 240 FPS)
 
 ### Trivia
