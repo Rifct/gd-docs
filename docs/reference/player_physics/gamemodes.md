@@ -34,7 +34,7 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets `yvel` to 10.62G                             | Continuously checks if the player is on the ground to process another jump* | -                            |
+| Cube        | Sets `yvel` to 10.62G                             | Continuously checks if the player is on the ground to process another jump[*](#:~:text=Every%20gamemode%20is,it%20for%20ship%29.)* | -                            |
 | Ship        | -                                                         | Skipped for now                                              | Skipped for now                             |
 | Ball        | Sets `yvel` to 3.186G then toggles the gravity    | -                                                            | -                                           |
 | Ufo         | Sets `yvel` to 7G                                 | -                                                            | -                                           |
@@ -47,7 +47,7 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets `yvel` to 11.18G                             | Continuously checks if the player is on the ground to process another jump* | -                            |
+| Cube        | Sets `yvel` to 11.18G                             | Continuously checks if the player is on the ground to process another jump[*](#:~:text=Every%20gamemode%20is,it%20for%20ship%29.)* | -                            |
 | Ship        | -                                                         | Skipped for now                                              | Skipped for now                             |
 | Ball        | Sets `yvel` to 3.354G then toggles the gravity    | -                                                            | -                                           |
 | Ufo         | Sets `yvel` to 7G                                 | -                                                            | -                                           |
@@ -60,7 +60,7 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets `yvel` to 11.42G                             | Continuously checks if the player is on the ground to process another jump* | -                            |
+| Cube        | Sets `yvel` to 11.42G                             | Continuously checks if the player is on the ground to process another jump[*](#:~:text=Every%20gamemode%20is,it%20for%20ship%29.)* | -                            |
 | Ship        | -                                                         | Skipped for now                                              | Skipped for now                             |
 | Ball        | Sets `yvel` to 3.426G then toggles the gravity    | -                                                            | -                                           |
 | Ufo         | Sets `yvel` to 7G                                 | -                                                            | -                                           |
@@ -73,7 +73,7 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets `yvel` to 11.23G                             | Continuously checks if the player is on the ground to process another jump* | -                            |
+| Cube        | Sets `yvel` to 11.23G                             | Continuously checks if the player is on the ground to process another jump[*](#:~:text=Every%20gamemode%20is,it%20for%20ship%29.)* | -                            |
 | Ship        | -                                                         | Skipped for now                                              | Skipped for now                             |
 | Ball        | Sets `yvel` to 3.369G then toggles the gravity    | -                                                            | -                                           |
 | Ufo         | Sets `yvel` to 7G                                 | -                                                            | -                                           |
@@ -86,7 +86,7 @@ Robot is also just 1/2 of cube jump velocity and ball is 3/10 of cube jump veloc
 
 | Gamemode    | Click                                                     | Hold                                                         | Release                                     |
 | ----------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Cube        | Sets `yvel` to 11.23G                             | Continuously checks if the player is on the ground to process another jump* | -                            |
+| Cube        | Sets `yvel` to 11.23G                             | Continuously checks if the player is on the ground to process another jump[*](#:~:text=Every%20gamemode%20is,it%20for%20ship%29.)* | -                            |
 | Ship        | -                                                         | Skipped for now                                              | Skipped for now                             |
 | Ball        | Sets `yvel` to 3.369G then toggles the gravity    | -                                                            | -                                           |
 | Ufo         | Sets `yvel` to 7G                                 | -                                                            | -                                           |
