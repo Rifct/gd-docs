@@ -44,8 +44,8 @@ The character's value represents the type of template that will be matched at th
 | 1     | Square                       |
 | 2     | 1x Slope Bottom-Right        |
 | 3     | 1x Slope Bottom-Left         |
-| 4     | 1x Slope Top-Left            |
-| 5     | 1x Slope Top-Right           |
+| 4     | 1x Slope Top-Right           |
+| 5     | 1x Slope Top-Left            |
 | 6     | 2x Slope Center Bottom-Right |
 | 7     | 2x Slope Side Bottom-Right   |
 | 8     | 2x Slope Center Bottom-Left  |
