@@ -8,7 +8,7 @@ Searches for a user and returns their info
 | --------------- | --------------------------------------------------------------- | -------- |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`           | Yes      |
 | `gameVersion`   | 22                                                              |          |
-| `binaryVersion` | 42                                                              |          |
+| `binaryVersion` | 47                                                              |          |
 | `gdw`           | 0                                                               |          |
 | `str`           | The name of the user you want to search for                     |          |
 | `page`          | The page of users you want. Redundant as it only returns 1 user |          |
