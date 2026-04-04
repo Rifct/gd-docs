@@ -162,6 +162,32 @@ export default [
         "text": "Misc",
         "items": [
           {
+            "text": "Web Leaderboards",
+            "items": [
+              {
+                "text": "icon-extras.json",
+                "link": "/endpoints/misc/icon-extras"
+              },
+              {
+                "text": "top-demons.json",
+                "link": "/endpoints/misc/top-demons"
+              },
+              {
+                "text": "top-moons.json",
+                "link": "/endpoints/misc/top-moons"
+              },
+              {
+                "text": "top-stars.json",
+                "link": "/endpoints/misc/top-stars"
+              },
+              {
+                "text": "top-usercoins.json",
+                "link": "/endpoints/misc/top-usercoins"
+              }
+            ],
+            "collapsed": true
+          },
+          {
             "text": "getAccountURL.php",
             "link": "/endpoints/misc/getAccountURL"
           },
@@ -172,10 +198,6 @@ export default [
           {
             "text": "getTop1000.php",
             "link": "/endpoints/misc/getTop1000"
-          },
-          {
-            "text": "icon-extras.json",
-            "link": "/endpoints/misc/icon-extras"
           },
           {
             "text": "likeGJItem211.php",
@@ -192,23 +214,7 @@ export default [
           {
             "text": "top-creators.json",
             "link": "/endpoints/misc/top-creators"
-          },
-          {
-            "text": "top-demons.json",
-            "link": "/endpoints/misc/top-demons"
-          },
-          {
-            "text": "top-moons.json",
-            "link": "/endpoints/misc/top-moons"
-          },
-          {
-            "text": "top-stars.json",
-            "link": "/endpoints/misc/top-stars"
-          },
-          {
-            "text": "top-usercoins.json",
-            "link": "/endpoints/misc/top-usercoins"
-          },
+          }
         ],
         "collapsed": true
       },
