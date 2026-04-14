@@ -29,8 +29,8 @@
 | `twoPlayer`       | Two Player Mode filter, either 0 or 1                                                                         |                                       |
 | `coins`           | Coins filter, either 0 or 1                                                                                   |                                       |
 | `epic`            | Epic filter, either 0 or 1                                                                                    |                                       |
-| `legendary`       | Legendary filter, either 0 or 1.                                                                              |                                       |
-| `mythic`          | Mythic filter, either 0 or 1.                                                                                 |                                       |
+| `legendary`       | Mythic filter, either 0 or 1 (swapped with `legendary`)                                                       |                                       |
+| `mythic`          | Legendary filter, either 0 or 1 (swapped with `mythic`)                                                       |                                       |
 | `noStar`          | Unrated filter, either 0 or 1                                                                                 |                                       |
 | `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
 | `song`            | Official (or custom) song ID, not sent when off                                                               |                                       |
