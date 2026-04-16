@@ -28,6 +28,16 @@ Fetches the leaderboard for a level and submits your level stats to the server
 | `s8`            | Attempt Count                                                                                                                                                                      |          |
 | `s9`            | The amount of coins the user got + 5819                                                                                                                                            |          |
 | `s10`           | Timely ID -> for dailies and weeklies                                                                                                                                              |          |
+| `s11`           | 0 if level has not been completed, otherwise, amount of ticks on the best time attempt + 46533                                                                                     |          |
+| `s12`           | 0 if level has not been completed, 25645 otherwise                                                                                                                                 |          |
+| `s13`           | Unknown value, starts at 1171520                                                                                                                                                   |          |
+| `s14`           | 0 if level has not been completed, otherwise, amount of clicks on the best time attempt + 7684                                                                                     |          |
+| `s15`           | 0 if level has not been completed, 3453 otherwise                                                                                                                                  |          |
+| `s16`           | Seems to always be empty                                                                                                                                                           |          |
+| `s17`           | Seems to always be empty                                                                                                                                                           |          |
+| `s18`           | 0 if level has not been completed, the amount of collected coins on the best time attempt + 6433 otherwise                                                                         |          |
+| `s19`           | 0 if level has not been completed, 6323 otherwise                                                                                                                                  |          |
+| `s20`           | The level version                                                                                                                                                                  |          |
 | `chk`           | [See here](/topics/encryption/chk#level-leaderboard)                                                                                                                               |          |
 
 ## levelSeed
