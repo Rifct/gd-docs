@@ -1,16 +1,16 @@
 # icon-extras.json
 
-Used for the [online leaderboard](https://geometrydash.com/leaderboards) on geometrydash.com. This dynamic file is used to apply additional colors to special icons. If the request fails, the additional icon fill will be solid black instead.
+Used for the [online leaderboard](https://geometrydash.com/leaderboards) on geometrydash.com. This dynamic file defines which icons use the `extra_001` sprite. If the request fails, no `extra` sprites are loaded.
 
-You can fetch the list of special icons by sending a GET request to `https://geometrydash.com/data/icon-extras.json`.
+You can fetch the list of these icons by sending a GET request to `https://geometrydash.com/data/icon-extras.json`.
 
 ## Response
 
-Returns a JSON object with properties following the pattern:
-```
-"{spritename}_{num}":1
-```
-The value will always be 1 since non-special icons are not returned.
+Returns a JSON object with property names following the pattern `{type}_{id}` or `{type}_{id}_{part}`. The value is always 1, since non-special icons are not returned.
+
+`type` can be `player`, `ship`, `player_ball`, `bird`, `dart`, `robot`, `spider`, `swing` or `jetpack`.
+
+`id` and `part` are integers.
 
 ## Example
 
