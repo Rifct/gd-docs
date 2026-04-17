@@ -166,23 +166,23 @@ export default [
             "items": [
               {
                 "text": "icon-extras.json",
-                "link": "/endpoints/misc/icon-extras"
+                "link": "/endpoints/misc/lb/icon-extras"
               },
               {
                 "text": "top-demons.json",
-                "link": "/endpoints/misc/top-demons"
+                "link": "/endpoints/misc/lb/top-demons"
               },
               {
                 "text": "top-moons.json",
-                "link": "/endpoints/misc/top-moons"
+                "link": "/endpoints/misc/lb/top-moons"
               },
               {
                 "text": "top-stars.json",
-                "link": "/endpoints/misc/top-stars"
+                "link": "/endpoints/misc/lb/top-stars"
               },
               {
                 "text": "top-usercoins.json",
-                "link": "/endpoints/misc/top-usercoins"
+                "link": "/endpoints/misc/lb/top-usercoins"
               }
             ],
             "collapsed": true
