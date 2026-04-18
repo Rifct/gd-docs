@@ -29,15 +29,15 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 | `s8`            | Attempt Count                                                                                                                                                                      |          |
 | `s9`            | The amount of coins the user got + 5819                                                                                                                                            |          |
 | `s10`           | Timely ID -> for dailies and weeklies                                                                                                                                              |          |
-| `s11`           | 0 if level has not been completed, otherwise, amount of ticks on the best time attempt + 46533                                                                                     |          |
-| `s12`           | 0 if level has not been completed, 25645 otherwise, and if the level uses points, amount of ticks on the best points attempt + 25645                                              |          |
+| `s11`           | 0 if level has not been completed; otherwise, the number of ticks on the best-time attempt + 46533                                                                                     |          |
+| `s12`           | 0 if level has not been completed; otherwise, 25645 or, if the level uses points, amount of ticks on the best-points attempt + 25645                                              |          |
 | `s13`           | Unknown value, starts at 1171520                                                                                                                                                   |          |
-| `s14`           | 0 if level has not been completed, otherwise, amount of clicks on the best time attempt + 7684                                                                                     |          |
-| `s15`           | 0 if level has not been completed, 3453 otherwise, and if the level uses points, amount of clicks on the best points attempt + 3453                                                |          |
+| `s14`           | 0 if level has not been completed; otherwise, the number of clicks on the best-time attempt + 7684                                                                                     |          |
+| `s15`           | 0 if level has not been completed; otherwise, 3453 or, if the level uses points, amount of clicks on the best-points attempt + 3453                                                |          |
 | `s16`           | Seems to always be empty                                                                                                                                                           |          |
 | `s17`           | Seems to always be empty                                                                                                                                                           |          |
-| `s18`           | 0 if level has not been completed, the amount of collected coins on the best time attempt + 6433 otherwise                                                                         |          |
-| `s19`           | 0 if level has not been completed, 6323 otherwise, and if the level uses points, the amount of collected coins on the best points attempt + 6323                                   |          |
+| `s18`           | 0 if level has not been completed; otherwise, the number of collected coins on the best-time attempt + 6433                                                                         |          |
+| `s19`           | 0 if level has not been completed; otherwise, 6323 or, if the level uses points, the amount of collected coins on the best-points attempt + 6323                                   |          |
 | `s20`           | The level version                                                                                                                                                                  |          |
 | `chk`           | [See here](/topics/encryption/chk#level-leaderboard)                                                                                                                               |          |
 
