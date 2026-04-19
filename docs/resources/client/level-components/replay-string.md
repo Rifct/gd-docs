@@ -27,9 +27,9 @@ All input types other than P1 jump include a `,` after the value and the ID of t
 
 Here are some input examples:
 
-- `460` - P1 jump held 460 half-steps after the previous input
+- `460` - P1 jump pressed down 460 half-steps after the previous input
 - `-120` - P1 jump released 120 half-steps after the previous input
-- `340,7` - P2 left held 340 half-steps after the previous input
+- `340,7` - P2 left pressed down 340 half-steps after the previous input
 - `-60,3` - P1 right released 60 half-steps after the previous input
 
 ## Checkpoint Data
