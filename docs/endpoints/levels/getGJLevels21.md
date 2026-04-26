@@ -34,7 +34,7 @@
 | `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
 | `song`            | Official (or custom) song ID, not sent when off                                                               |                                       |
 | `customSong`      | Newgrounds song, 1 when on and uses `song` as the ID, not sent when off                                       |                                       |
-| `followed`        | Comma separated list of the followed user IDs                                                                 | Only on [type 12](#type)              |
+| `followed`        | Comma separated list of the followed account IDs                                                              | Only on [type 12](#type)              |
 | `local`           | Whether to fetch "My Levels", either 0 or 1                                                                   | Only on [type 5](#type)               |
 | `udid`            | Your [UDID](/topics/encryption/id.md)                                                                         |                                       |
 | `uuid`            | Your [UUID](/topics/encryption/id.md)                                                                         |                                       |
