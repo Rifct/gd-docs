@@ -10,7 +10,7 @@ Searches for a user and returns their info
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
 | `accountID`     | <ParamDesc name="accountID"/> |          | <!--a-->
-| `gjp2`          | <ParamDesc name="accountID"/> |          | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
 | `str`           | The name or user ID of the user you want to search for |          | <!--a-->
 | `page`          | The page of users you want. Redundant as it only returns 1 user |          | <!--a-->
 | `total`         | Probably the cached total number of users, default is `0` |          | <!--a-->
