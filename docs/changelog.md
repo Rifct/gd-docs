@@ -6,8 +6,8 @@ aside: true
 ## Upcoming version
 
 - `binaryVersion`: `49`
-- new level keys [`62` and `63`]() with exact upload/update times, presumably replacing keys `28` and `29`
-- level key [`54`](), which was only present in the game's code, is now sent by the server
+- new level keys [`62` and `63`](/resources/server/level#:~:text=62,was%20last%20updated) with exact upload/update times, presumably replacing keys `28` and `29`
+- level key [`54`](/resources/server/level#:~:text=54,SFX%2C%20in%20bytes), which was only present in the game's code, is now sent by the server
 
 ## 2.2082
 
