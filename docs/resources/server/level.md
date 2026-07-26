@@ -75,7 +75,7 @@ Keys indicated with a dagger (†) were only returned from downloadGJLevel22 whe
 | 48  | settingsString [Unused] | **String** | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage |
 | 52* | songIDs | **Comma-Separated List** | The list of all song IDs in the level, separated by commas
 | 53* | sfxIDs | **Comma-Separated List** | The list of all SFX IDs in the level, separated by commas
-| 54  | songSize | **Integer** | The total song size |
+| 54  | songSize | **Integer** | The total size of the used songs and SFX, in bytes |
 | 57* | verificationTime | **Integer** | How long the level took to verify (in frames, assume 240 FPS)
 | 62   | exactUploadTime | **Integer** | The Unix timestamp of when the level was uploaded
 | 63   | exactUpdateTime | **Integer** | The Unix timestamp of when the level was last updated
