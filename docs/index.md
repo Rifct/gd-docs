@@ -37,6 +37,9 @@ Create Geometry Dash levels (with a SPWN-like syntax) in JavaScript
 - **[Nedit](https://github.com/Boris-Filin/NeditGD) by [Nemo](https://github.com/Boris-Filin)**  
 Lightweight Geometry Dash level scripting tool based on Python
 
+- **[GDasher](https://github.com/giantpreston/gdasher) by [GiantPreston](https://github.com/giantpreston)**
+Lightweight tool for interacting with Geometry Dash online features
+
 ### Client Modifications
 
 - **[Megahack](https://absolllute.com/store/view_mega_hack_pro) by [Absolute](https://github.com/absoIute)**  
