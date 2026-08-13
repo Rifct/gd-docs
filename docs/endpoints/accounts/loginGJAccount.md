@@ -9,7 +9,7 @@ This endpoint is used to log in to a player's Geometry Dash account.
 
 | Parameter  | Explanation | Required |
 | ---------- | ----------- | -------- |
-| `udid`     | <ParamDesc name="udid"/> | No?     | <!--o: sent on android, not on windows-->
+| `udid`     | <ParamDesc name="udid"/> | Yes     | <!--o: sent on android, not on windows-->
 | `userName` | The username of the account the player is trying to log into | Yes      | <!--a-->
 | `gjp2`     | The password of the account the player is trying to log into, encoded with [GJP2](/topics/gjp.md) | Yes      | <!--a-->
 | `secret`   | <ParamDesc name="secret" type="account"/> | Yes      | <!--a-->
