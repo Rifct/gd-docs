@@ -32,13 +32,13 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k20  | Practice Mode Percentage       | **integer**                                                      | the max percentage that has been achieved in practice mode in this level         |
 | k21  | levelType                      | **Integer**                                                         | The Level Type (1 = Official, 2 = Local, 3 = Saved, 4 = Online)                  |
 | k22  | Like Rating                    | **integer**                                                      | the level's like rating (`likes - dislikes`)                                     |
-| k23  | Length                         | **[Length](/resources/client/level-components/enumerations.md)**                                    | the level's length                                                               |
+| k23  | Length                         | **[Length](/resources/client/level-components/enumerations#level-length)**                                    | the level's length                                                               |
 | k24  | Dislikes                       | **integer**                                                      | how many dislikes a level has (unused)                                           |
 | k25  | isDemon                        | **Bool**                                                         | if the level is demon or not                                                     |
 | k26  | Stars                          | **integer**                                                      | the stars the level is worth                                                     |
 | k27  | FeatureScore                   | **integer**                                                      | A featured levels Feature Score                                                  |
 | k33  | Auto                           | **Bool**                                                         | If the level is auto                                                             |
-| k34  | Replay Data                    | **[Gziped String](/topics/encryption/zip.md)**                   | Contains a Gzipped String which contains replay data for levels                  |
+| k34  | Replay Data                    | **[Gzipped String](/topics/encryption/zip.md)**                   | Contains a Gzipped String which contains replay data for levels                  |
 | k35  | isHidden                       | **Bool**                                                        | true if the level is deleted (hidden) from Saved                                 |
 | k36 | Jumps                          | **integer**                                                      | total Jumps on a level                                                           |
 | k37 | required coins                 | **Integer**                                                      | coins required to unlock an official level                                       |
