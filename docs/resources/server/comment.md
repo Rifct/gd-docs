@@ -71,7 +71,7 @@ Keys indicated with an asterisk `*` are absent in `Account Comments`
 
 If a user violates [the commenting rules](https://imgur.com/a/US0Biaj), they can be banned from posting comments.
 As of Geometry Dash version 2.11, there are 2 different types of bans:
-- Permanent Bans - Only way to recieve one is from RobTop directly. The server response to trigger this is `-10`
+- Permanent Bans - Only way to receive one is from RobTop directly. The server response to trigger this is `-10`
 - Temporary Bans - Elder Moderators and RobTop can enforce these onto players. The server response to trigger temporary bans is split into 3 components `temp_{length}_{reason}`
 
 ### Temporary Ban Structure
